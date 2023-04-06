@@ -1,0 +1,3 @@
+[submodule "Assets/XiheFramework"]
+	path = Assets/XiheFramework
+	url = https://github.com/sky-haihai/XiheFramework.git

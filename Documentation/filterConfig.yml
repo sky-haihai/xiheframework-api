@@ -1,0 +1,7 @@
+apiRules:
+- include:
+    uidRegex: ^XiheFramework
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace
