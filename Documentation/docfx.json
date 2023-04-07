@@ -5,7 +5,7 @@
                 {
                     "src": "..",
                     "files": [
-                        "Assets/**/*.cs"
+                        "Assets/XiheFramework/**/*.cs"
                     ],
                     "exclude": [
                         "Assets/Plugins/**"
@@ -13,14 +13,13 @@
                 }
             ],
             "globalNamespaceId": "Global",
-            "filter": "filterConfig.yml",
             "dest": "api"
         }
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "XiheFramework documentation",
-            "_appFooter": "XiheFramework documentation",
+            "_appTitle": "Example Unity documentation",
+            "_appFooter": "Example Unity documentation",
             "_enableSearch": true
         },
         "content": [

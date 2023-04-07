@@ -1,4 +1,4 @@
-- name: Coniunctis nec qui
-  href: coniunctis.md
-- name: Etiam nantemque exul
-  href: etiam.md
+- name: Get Started
+  href: getstarted.md
+- name: Event Module
+  href: eventmodule.md
