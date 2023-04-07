@@ -1,6 +1,6 @@
 apiRules:
 - include:
-    uidRegex: ^XiheFramework
+    uidRegex: ^XiheFramework\.Modules
     type: Namespace
 - exclude:
     uidRegex: .*

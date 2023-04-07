@@ -54,3 +54,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Logs
+Assets/ParadoxNotion
+Assets/ParadoxNotion.meta
+Library
+UserSettings
