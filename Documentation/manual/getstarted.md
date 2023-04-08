@@ -8,24 +8,18 @@
 ## Import XiheFramework via Git Submodule
 
 To import XiheFramework into your Unity project, open a terminal window from the project root directory and run the following command:
-
+```
     git submodule add https://github.com/sky-haihai/XiheFramework.git Assets/XiheFramework
-
+```
     
-## HelloWorld! using XiheFramework 
-
-> Create a MonoBehaviour
+## Framework Setup
 
 
-> pallet, alta melius nostra amborum probant, deam. Iuventae dedimus nitidaque
-> hunc traxisse sermonibus [pectine flecti](http://fulmen-seu.org/illam.aspx) an
-> pateres, hac ore gelidis foret semper. Sithon pelle.
+1. Drag the XiheFramework.prefab into any scene from path Assets/XiheFramework
+2. **[Optional]** Create a empty GameObject named "Custom"(Or any name you want) under XiheFramework. This is the place where you can place your custom [GameModule](/../api/XiheFramework.Modules.Base.GameModule.html) 
 
-Bracchia Hippason videntur fateri hosti: palpitat animo est reliquit anne nam
-confusaque. Interea rex altis munera quem quae quoque rorant, rauco albescere
-scopulo moriensque parvo, pectus illa, quadrupedes.
+![DocFxForUnity documentation scripting API](../resources/createcustomroot.png)
 
-Notavit haec. Vertit pars quem Euryte casu usta iterum! Ablatum pectus
-corripiunt neu humus tamquam; ducens stellarum amore. Pulsisque latet, ad tamen
-victor fulva Tirynthius posco; qui inque in poena quidem
-[enses](http://gentisque-togaque.io/)!
+3. Drag the prefab back to your preferred directory (e.g. Assets/Prefabs) as a **Prefab Variant**.
+
+![Choose Prefab Variant](../resources/chooseprefabvariant.png)

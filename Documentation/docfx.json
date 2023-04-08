@@ -70,7 +70,7 @@
             }
         },
         "xref": [
-            "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+            "https://sky-haihai.github.io/xiheframework-document/xrefmap.yml"
         ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
