@@ -2136,11 +2136,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/getstarted.md",
+      "source_relative_path": "manual/GetStarted.md",
       "output": {
         ".html": {
-          "relative_path": "manual/getstarted.html",
-          "hash": "vykEo2H93sMroQI6F8L/AacEx3WeMtWtKSxLUPvOIJk="
+          "relative_path": "manual/GetStarted.html",
+          "hash": "Qsv8FVgoBNQOIQADlXuNEt5zvF0yovBvDHVHfTlDOw0="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "ch6tuUWRYzrKTw7JImcXNr3oKDdriHT/vbudrNGhmYM="
+          "hash": "j579p2UzjoH6hTVD5CFWn86rELrh1iN3Go/l74jDTIg="
         }
       },
       "is_incremental": false,
@@ -2197,7 +2197,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "/KE6KflJdNvXP/auVwlXMacyJZ6b+0j6CvImt0qopyU="
+          "hash": "oATmn2NuSiqLEPzA4g5cTvmyy2RdHkVWlC6TzixrBmg="
         }
       },
       "is_incremental": false,
@@ -2217,14 +2217,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 173,
-          "skipped_file_count": 0
+          "skipped_file_count": 173
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

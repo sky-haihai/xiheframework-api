@@ -18,7 +18,7 @@ To import XiheFramework into your Unity project, open a terminal window from the
 1. Drag the XiheFramework.prefab into any scene from path Assets/XiheFramework
 2. **[Optional]** Create a empty GameObject named "Custom"(Or any name you want) under XiheFramework. This is the place where you can place your custom [GameModule](/../api/XiheFramework.Modules.Base.GameModule.html) 
 
-![DocFxForUnity documentation scripting API](../resources/createcustomroot.png)
+![Create Custom Root](../resources/createcustomroot.png)
 
 3. Drag the prefab back to your preferred directory (e.g. Assets/Prefabs) as a **Prefab Variant**.
 

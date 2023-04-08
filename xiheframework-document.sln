@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{04940101-cd30-6cc7-ac03-c0b89ef629aa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowCanvas", "FlowCanvas.csproj", "{0594445a-7cc6-f6ea-a31e-ff1370b8b375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParadoxNotion", "ParadoxNotion.csproj", "{798c8a93-f053-ddba-a2a8-5de912aba5ff}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{c25086f0-f784-c906-8d59-0255678d3cb8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04940101-cd30-6cc7-ac03-c0b89ef629aa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04940101-cd30-6cc7-ac03-c0b89ef629aa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0594445a-7cc6-f6ea-a31e-ff1370b8b375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0594445a-7cc6-f6ea-a31e-ff1370b8b375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798c8a93-f053-ddba-a2a8-5de912aba5ff}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798c8a93-f053-ddba-a2a8-5de912aba5ff}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c25086f0-f784-c906-8d59-0255678d3cb8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c25086f0-f784-c906-8d59-0255678d3cb8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
