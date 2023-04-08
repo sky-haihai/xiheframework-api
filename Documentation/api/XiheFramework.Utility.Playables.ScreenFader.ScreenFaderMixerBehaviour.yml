@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour
+  id: ScreenFaderMixerBehaviour
+  parent: XiheFramework.Utility.Playables.ScreenFader
+  children:
+  - XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy(Playable)
+  - XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ScreenFaderMixerBehaviour
+  nameWithType: ScreenFaderMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour
+  type: Class
+  source:
+    id: ScreenFaderMixerBehaviour
+    path: ''
+    startLine: 6195
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: 'public class ScreenFaderMixerBehaviour : PlayableBehaviour'
+    content.vb: >-
+      Public Class ScreenFaderMixerBehaviour
+          Inherits PlayableBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  commentId: M:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  id: ProcessFrame(Playable,FrameData,System.Object)
+  parent: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour
+  langs:
+  - csharp
+  - vb
+  name: ProcessFrame(Playable, FrameData, Object)
+  nameWithType: ScreenFaderMixerBehaviour.ProcessFrame(Playable, FrameData, Object)
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame(Playable, FrameData, System.Object)
+  type: Method
+  source:
+    id: ProcessFrame
+    path: ''
+    startLine: 6201
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: public override void ProcessFrame(Playable playable, FrameData info, object playerData)
+    parameters:
+    - id: playable
+      type: Global.Playable
+    - id: info
+      type: Global.FrameData
+    - id: playerData
+      type: System.Object
+    content.vb: Public Overrides Sub ProcessFrame(playable As Playable, info As FrameData, playerData As Object)
+  overload: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy(Playable)
+  commentId: M:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy(Playable)
+  id: OnPlayableDestroy(Playable)
+  parent: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnPlayableDestroy(Playable)
+  nameWithType: ScreenFaderMixerBehaviour.OnPlayableDestroy(Playable)
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy(Playable)
+  type: Method
+  source:
+    id: OnPlayableDestroy
+    path: ''
+    startLine: 6236
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: public override void OnPlayableDestroy(Playable playable)
+    parameters:
+    - id: playable
+      type: Global.Playable
+    content.vb: Public Overrides Sub OnPlayableDestroy(playable As Playable)
+  overload: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.ScreenFader
+  commentId: N:XiheFramework.Utility.Playables.ScreenFader
+  name: XiheFramework.Utility.Playables.ScreenFader
+  nameWithType: XiheFramework.Utility.Playables.ScreenFader
+  fullName: XiheFramework.Utility.Playables.ScreenFader
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame*
+  commentId: Overload:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame
+  name: ProcessFrame
+  nameWithType: ScreenFaderMixerBehaviour.ProcessFrame
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.ProcessFrame
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable
+- uid: Global.FrameData
+  isExternal: true
+  name: FrameData
+  nameWithType: FrameData
+  fullName: FrameData
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy*
+  commentId: Overload:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy
+  name: OnPlayableDestroy
+  nameWithType: ScreenFaderMixerBehaviour.OnPlayableDestroy
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.OnPlayableDestroy

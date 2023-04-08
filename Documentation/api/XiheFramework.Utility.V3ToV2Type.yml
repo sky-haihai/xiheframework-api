@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.V3ToV2Type
+  commentId: T:XiheFramework.Utility.V3ToV2Type
+  id: V3ToV2Type
+  parent: XiheFramework.Utility
+  children:
+  - XiheFramework.Utility.V3ToV2Type.XY
+  - XiheFramework.Utility.V3ToV2Type.XZ
+  - XiheFramework.Utility.V3ToV2Type.YZ
+  langs:
+  - csharp
+  - vb
+  name: V3ToV2Type
+  nameWithType: V3ToV2Type
+  fullName: XiheFramework.Utility.V3ToV2Type
+  type: Enum
+  source:
+    id: V3ToV2Type
+    path: ''
+    startLine: 2415
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public enum V3ToV2Type
+    content.vb: Public Enum V3ToV2Type
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: XiheFramework.Utility.V3ToV2Type.XY
+  commentId: F:XiheFramework.Utility.V3ToV2Type.XY
+  id: XY
+  parent: XiheFramework.Utility.V3ToV2Type
+  langs:
+  - csharp
+  - vb
+  name: XY
+  nameWithType: V3ToV2Type.XY
+  fullName: XiheFramework.Utility.V3ToV2Type.XY
+  type: Field
+  source:
+    id: XY
+    path: ''
+    startLine: 2416
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: XY = 0
+    return:
+      type: XiheFramework.Utility.V3ToV2Type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.V3ToV2Type.XZ
+  commentId: F:XiheFramework.Utility.V3ToV2Type.XZ
+  id: XZ
+  parent: XiheFramework.Utility.V3ToV2Type
+  langs:
+  - csharp
+  - vb
+  name: XZ
+  nameWithType: V3ToV2Type.XZ
+  fullName: XiheFramework.Utility.V3ToV2Type.XZ
+  type: Field
+  source:
+    id: XZ
+    path: ''
+    startLine: 2417
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: XZ = 1
+    return:
+      type: XiheFramework.Utility.V3ToV2Type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.V3ToV2Type.YZ
+  commentId: F:XiheFramework.Utility.V3ToV2Type.YZ
+  id: YZ
+  parent: XiheFramework.Utility.V3ToV2Type
+  langs:
+  - csharp
+  - vb
+  name: YZ
+  nameWithType: V3ToV2Type.YZ
+  fullName: XiheFramework.Utility.V3ToV2Type.YZ
+  type: Field
+  source:
+    id: YZ
+    path: ''
+    startLine: 2418
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: YZ = 2
+    return:
+      type: XiheFramework.Utility.V3ToV2Type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: XiheFramework.Utility
+  commentId: N:XiheFramework.Utility
+  name: XiheFramework.Utility
+  nameWithType: XiheFramework.Utility
+  fullName: XiheFramework.Utility
+- uid: XiheFramework.Utility.V3ToV2Type
+  commentId: T:XiheFramework.Utility.V3ToV2Type
+  parent: XiheFramework.Utility
+  name: V3ToV2Type
+  nameWithType: V3ToV2Type
+  fullName: XiheFramework.Utility.V3ToV2Type

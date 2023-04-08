@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Base.GameManager
+  commentId: T:XiheFramework.Modules.Base.GameManager
+  id: GameManager
+  parent: XiheFramework.Modules.Base
+  children:
+  - XiheFramework.Modules.Base.GameManager.frameRate
+  - XiheFramework.Modules.Base.GameManager.GetModule``1
+  - XiheFramework.Modules.Base.GameManager.globalSpeed
+  - XiheFramework.Modules.Base.GameManager.logoDisplayTime
+  - XiheFramework.Modules.Base.GameManager.RegisterComponent(XiheFramework.Modules.Base.GameModule)
+  - XiheFramework.Modules.Base.GameManager.restartScene
+  - XiheFramework.Modules.Base.GameManager.retryScene
+  - XiheFramework.Modules.Base.GameManager.ShutDown(XiheFramework.Modules.Base.ShutDownType)
+  langs:
+  - csharp
+  - vb
+  name: GameManager
+  nameWithType: GameManager
+  fullName: XiheFramework.Modules.Base.GameManager
+  type: Class
+  source:
+    id: GameManager
+    path: ''
+    startLine: 178
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  summary: "\nGame manager for XiheFramework, work as a Singleton\n"
+  example: []
+  syntax:
+    content: 'public class GameManager : Singleton<GameManager>'
+    content.vb: >-
+      Public Class GameManager
+          Inherits Singleton(Of GameManager)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.Base.GameManager.frameRate
+  commentId: F:XiheFramework.Modules.Base.GameManager.frameRate
+  id: frameRate
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: frameRate
+  nameWithType: GameManager.frameRate
+  fullName: XiheFramework.Modules.Base.GameManager.frameRate
+  type: Field
+  source:
+    id: frameRate
+    path: ''
+    startLine: 180
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public int frameRate
+    return:
+      type: System.Int32
+    content.vb: Public frameRate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Base.GameManager.globalSpeed
+  commentId: F:XiheFramework.Modules.Base.GameManager.globalSpeed
+  id: globalSpeed
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: globalSpeed
+  nameWithType: GameManager.globalSpeed
+  fullName: XiheFramework.Modules.Base.GameManager.globalSpeed
+  type: Field
+  source:
+    id: globalSpeed
+    path: ''
+    startLine: 181
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public float globalSpeed
+    return:
+      type: System.Single
+    content.vb: Public globalSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Base.GameManager.logoDisplayTime
+  commentId: F:XiheFramework.Modules.Base.GameManager.logoDisplayTime
+  id: logoDisplayTime
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: logoDisplayTime
+  nameWithType: GameManager.logoDisplayTime
+  fullName: XiheFramework.Modules.Base.GameManager.logoDisplayTime
+  type: Field
+  source:
+    id: logoDisplayTime
+    path: ''
+    startLine: 183
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public float logoDisplayTime
+    return:
+      type: System.Single
+    content.vb: Public logoDisplayTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Base.GameManager.retryScene
+  commentId: F:XiheFramework.Modules.Base.GameManager.retryScene
+  id: retryScene
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: retryScene
+  nameWithType: GameManager.retryScene
+  fullName: XiheFramework.Modules.Base.GameManager.retryScene
+  type: Field
+  source:
+    id: retryScene
+    path: ''
+    startLine: 185
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public string retryScene
+    return:
+      type: System.String
+    content.vb: Public retryScene As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Base.GameManager.restartScene
+  commentId: F:XiheFramework.Modules.Base.GameManager.restartScene
+  id: restartScene
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: restartScene
+  nameWithType: GameManager.restartScene
+  fullName: XiheFramework.Modules.Base.GameManager.restartScene
+  type: Field
+  source:
+    id: restartScene
+    path: ''
+    startLine: 186
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public string restartScene
+    return:
+      type: System.String
+    content.vb: Public restartScene As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Base.GameManager.RegisterComponent(XiheFramework.Modules.Base.GameModule)
+  commentId: M:XiheFramework.Modules.Base.GameManager.RegisterComponent(XiheFramework.Modules.Base.GameModule)
+  id: RegisterComponent(XiheFramework.Modules.Base.GameModule)
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterComponent(GameModule)
+  nameWithType: GameManager.RegisterComponent(GameModule)
+  fullName: XiheFramework.Modules.Base.GameManager.RegisterComponent(XiheFramework.Modules.Base.GameModule)
+  type: Method
+  source:
+    id: RegisterComponent
+    path: ''
+    startLine: 229
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  summary: "\nRegister GameModule to let the framework recognize it\n"
+  example: []
+  syntax:
+    content: public static void RegisterComponent(GameModule component)
+    parameters:
+    - id: component
+      type: XiheFramework.Modules.Base.GameModule
+      description: ''
+    content.vb: Public Shared Sub RegisterComponent(component As GameModule)
+  overload: XiheFramework.Modules.Base.GameManager.RegisterComponent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Modules.Base.GameManager.GetModule``1
+  commentId: M:XiheFramework.Modules.Base.GameManager.GetModule``1
+  id: GetModule``1
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: GetModule<T>()
+  nameWithType: GameManager.GetModule<T>()
+  fullName: XiheFramework.Modules.Base.GameManager.GetModule<T>()
+  type: Method
+  source:
+    id: GetModule
+    path: ''
+    startLine: 250
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  summary: "\nGet GameModule\nShould use Game.ModuleName instead\n"
+  example: []
+  syntax:
+    content: >-
+      public static T GetModule<T>()
+          where T : GameModule
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function GetModule(Of T As GameModule) As T
+  overload: XiheFramework.Modules.Base.GameManager.GetModule*
+  nameWithType.vb: GameManager.GetModule(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Modules.Base.GameManager.GetModule(Of T)()
+  name.vb: GetModule(Of T)()
+- uid: XiheFramework.Modules.Base.GameManager.ShutDown(XiheFramework.Modules.Base.ShutDownType)
+  commentId: M:XiheFramework.Modules.Base.GameManager.ShutDown(XiheFramework.Modules.Base.ShutDownType)
+  id: ShutDown(XiheFramework.Modules.Base.ShutDownType)
+  parent: XiheFramework.Modules.Base.GameManager
+  langs:
+  - csharp
+  - vb
+  name: ShutDown(ShutDownType)
+  nameWithType: GameManager.ShutDown(ShutDownType)
+  fullName: XiheFramework.Modules.Base.GameManager.ShutDown(XiheFramework.Modules.Base.ShutDownType)
+  type: Method
+  source:
+    id: ShutDown
+    path: ''
+    startLine: 264
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  summary: "\nShut down the game with ShutDownType \n"
+  example: []
+  syntax:
+    content: public static void ShutDown(ShutDownType shutDownType)
+    parameters:
+    - id: shutDownType
+      type: XiheFramework.Modules.Base.ShutDownType
+      description: ''
+    content.vb: Public Shared Sub ShutDown(shutDownType As ShutDownType)
+  overload: XiheFramework.Modules.Base.GameManager.ShutDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: XiheFramework.Modules.Base.GameManager.RegisterComponent*
+  commentId: Overload:XiheFramework.Modules.Base.GameManager.RegisterComponent
+  name: RegisterComponent
+  nameWithType: GameManager.RegisterComponent
+  fullName: XiheFramework.Modules.Base.GameManager.RegisterComponent
+- uid: XiheFramework.Modules.Base.GameModule
+  commentId: T:XiheFramework.Modules.Base.GameModule
+  parent: XiheFramework.Modules.Base
+  name: GameModule
+  nameWithType: GameModule
+  fullName: XiheFramework.Modules.Base.GameModule
+- uid: XiheFramework.Modules.Base.GameManager.GetModule*
+  commentId: Overload:XiheFramework.Modules.Base.GameManager.GetModule
+  name: GetModule
+  nameWithType: GameManager.GetModule
+  fullName: XiheFramework.Modules.Base.GameManager.GetModule
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: XiheFramework.Modules.Base.GameManager.ShutDown*
+  commentId: Overload:XiheFramework.Modules.Base.GameManager.ShutDown
+  name: ShutDown
+  nameWithType: GameManager.ShutDown
+  fullName: XiheFramework.Modules.Base.GameManager.ShutDown
+- uid: XiheFramework.Modules.Base.ShutDownType
+  commentId: T:XiheFramework.Modules.Base.ShutDownType
+  parent: XiheFramework.Modules.Base
+  name: ShutDownType
+  nameWithType: ShutDownType
+  fullName: XiheFramework.Modules.Base.ShutDownType

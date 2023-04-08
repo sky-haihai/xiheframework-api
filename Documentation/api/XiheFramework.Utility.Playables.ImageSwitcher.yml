@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ImageSwitcher
+  commentId: N:XiheFramework.Utility.Playables.ImageSwitcher
+  id: XiheFramework.Utility.Playables.ImageSwitcher
+  children:
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.ImageSwitcher
+  nameWithType: XiheFramework.Utility.Playables.ImageSwitcher
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+  parent: XiheFramework.Utility.Playables.ImageSwitcher
+  name: ImageSwitcherBehaviour
+  nameWithType: ImageSwitcherBehaviour
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  name: ImageSwitcherClip
+  nameWithType: ImageSwitcherClip
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  name: ImageSwitcherMixerBehaviour
+  nameWithType: ImageSwitcherMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack
+  name: ImageSwitcherTrack
+  nameWithType: ImageSwitcherTrack
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack
+- uid: XiheFramework.Utility.Playables.ImageSwitcher
+  commentId: N:XiheFramework.Utility.Playables.ImageSwitcher
+  name: XiheFramework.Utility.Playables.ImageSwitcher
+  nameWithType: XiheFramework.Utility.Playables.ImageSwitcher
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher

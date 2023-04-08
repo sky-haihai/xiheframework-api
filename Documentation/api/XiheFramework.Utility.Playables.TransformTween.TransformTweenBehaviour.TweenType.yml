@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  commentId: T:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  id: TransformTweenBehaviour.TweenType
+  parent: XiheFramework.Utility.Playables.TransformTween
+  children:
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Custom
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Deceleration
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Harmonic
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Linear
+  langs:
+  - csharp
+  - vb
+  name: TransformTweenBehaviour.TweenType
+  nameWithType: TransformTweenBehaviour.TweenType
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  type: Enum
+  source:
+    id: TweenType
+    path: ''
+    startLine: 6636
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: public enum TweenType
+    content.vb: Public Enum TweenType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Linear
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Linear
+  id: Linear
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: TransformTweenBehaviour.TweenType.Linear
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Linear
+  type: Field
+  source:
+    id: Linear
+    path: ''
+    startLine: 6637
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: Linear = 0
+    return:
+      type: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Deceleration
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Deceleration
+  id: Deceleration
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  langs:
+  - csharp
+  - vb
+  name: Deceleration
+  nameWithType: TransformTweenBehaviour.TweenType.Deceleration
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Deceleration
+  type: Field
+  source:
+    id: Deceleration
+    path: ''
+    startLine: 6638
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: Deceleration = 1
+    return:
+      type: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Harmonic
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Harmonic
+  id: Harmonic
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  langs:
+  - csharp
+  - vb
+  name: Harmonic
+  nameWithType: TransformTweenBehaviour.TweenType.Harmonic
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Harmonic
+  type: Field
+  source:
+    id: Harmonic
+    path: ''
+    startLine: 6639
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: Harmonic = 2
+    return:
+      type: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Custom
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Custom
+  id: Custom
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: TransformTweenBehaviour.TweenType.Custom
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.Custom
+  type: Field
+  source:
+    id: Custom
+    path: ''
+    startLine: 6640
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: Custom = 3
+    return:
+      type: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: XiheFramework.Utility.Playables.TransformTween
+  commentId: N:XiheFramework.Utility.Playables.TransformTween
+  name: XiheFramework.Utility.Playables.TransformTween
+  nameWithType: XiheFramework.Utility.Playables.TransformTween
+  fullName: XiheFramework.Utility.Playables.TransformTween
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  commentId: T:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+  parent: XiheFramework.Utility.Playables.TransformTween
+  name: TransformTweenBehaviour.TweenType
+  nameWithType: TransformTweenBehaviour.TweenType
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType

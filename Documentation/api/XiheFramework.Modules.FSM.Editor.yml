@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.FSM.Editor
+  commentId: N:XiheFramework.Modules.FSM.Editor
+  id: XiheFramework.Modules.FSM.Editor
+  children:
+  - XiheFramework.Modules.FSM.Editor.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.FSM.Editor
+  nameWithType: XiheFramework.Modules.FSM.Editor
+  fullName: XiheFramework.Modules.FSM.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.FSM.Editor.FsmEditorWindow
+  commentId: T:XiheFramework.Modules.FSM.Editor.FsmEditorWindow
+  name: FsmEditorWindow
+  nameWithType: FsmEditorWindow
+  fullName: XiheFramework.Modules.FSM.Editor.FsmEditorWindow

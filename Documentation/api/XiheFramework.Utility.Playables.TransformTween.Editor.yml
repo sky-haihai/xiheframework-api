@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor
+  commentId: N:XiheFramework.Utility.Playables.TransformTween.Editor
+  id: XiheFramework.Utility.Playables.TransformTween.Editor
+  children:
+  - XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.TransformTween.Editor
+  nameWithType: XiheFramework.Utility.Playables.TransformTween.Editor
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  commentId: T:XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  name: TransformTweenDrawer
+  nameWithType: TransformTweenDrawer
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer

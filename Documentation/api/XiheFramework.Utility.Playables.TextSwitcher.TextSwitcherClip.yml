@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+  commentId: T:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+  id: TextSwitcherClip
+  parent: XiheFramework.Utility.Playables.TextSwitcher
+  children:
+  - XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps
+  - XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable(PlayableGraph,GameObject)
+  - XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.template
+  langs:
+  - csharp
+  - vb
+  name: TextSwitcherClip
+  nameWithType: TextSwitcherClip
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+  type: Class
+  source:
+    id: TextSwitcherClip
+    path: ''
+    startLine: 6322
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TextSwitcher
+  syntax:
+    content: 'public class TextSwitcherClip : PlayableAsset'
+    content.vb: >-
+      Public Class TextSwitcherClip
+          Inherits PlayableAsset
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITimelineClipAsset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.template
+  commentId: F:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.template
+  id: template
+  parent: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+  langs:
+  - csharp
+  - vb
+  name: template
+  nameWithType: TextSwitcherClip.template
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.template
+  type: Field
+  source:
+    id: template
+    path: ''
+    startLine: 6324
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TextSwitcher
+  syntax:
+    content: public TextSwitcherBehaviour template
+    return:
+      type: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour
+    content.vb: Public template As TextSwitcherBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps
+  commentId: P:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps
+  id: clipCaps
+  parent: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+  langs:
+  - csharp
+  - vb
+  name: clipCaps
+  nameWithType: TextSwitcherClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps
+  type: Property
+  source:
+    id: clipCaps
+    path: ''
+    startLine: 6326
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TextSwitcher
+  syntax:
+    content: public ClipCaps clipCaps { get; }
+    parameters: []
+    return:
+      type: Global.ClipCaps
+    content.vb: Public ReadOnly Property clipCaps As ClipCaps
+  overload: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable(PlayableGraph,GameObject)
+  commentId: M:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable(PlayableGraph,GameObject)
+  id: CreatePlayable(PlayableGraph,GameObject)
+  parent: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+  langs:
+  - csharp
+  - vb
+  name: CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: TextSwitcherClip.CreatePlayable(PlayableGraph, GameObject)
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable(PlayableGraph, GameObject)
+  type: Method
+  source:
+    id: CreatePlayable
+    path: ''
+    startLine: 6328
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TextSwitcher
+  syntax:
+    content: public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: owner
+      type: Global.GameObject
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreatePlayable(graph As PlayableGraph, owner As GameObject) As Playable
+  overload: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.TextSwitcher
+  commentId: N:XiheFramework.Utility.Playables.TextSwitcher
+  name: XiheFramework.Utility.Playables.TextSwitcher
+  nameWithType: XiheFramework.Utility.Playables.TextSwitcher
+  fullName: XiheFramework.Utility.Playables.TextSwitcher
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ITimelineClipAsset
+  isExternal: true
+  name: ITimelineClipAsset
+  nameWithType: ITimelineClipAsset
+  fullName: ITimelineClipAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour
+  parent: XiheFramework.Utility.Playables.TextSwitcher
+  name: TextSwitcherBehaviour
+  nameWithType: TextSwitcherBehaviour
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps*
+  commentId: Overload:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps
+  name: clipCaps
+  nameWithType: TextSwitcherClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.clipCaps
+- uid: Global.ClipCaps
+  isExternal: true
+  name: ClipCaps
+  nameWithType: ClipCaps
+  fullName: ClipCaps
+- uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable*
+  commentId: Overload:XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable
+  name: CreatePlayable
+  nameWithType: TextSwitcherClip.CreatePlayable
+  fullName: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.CreatePlayable
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

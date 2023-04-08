@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.GameObjectArray.Editor
+  commentId: N:XiheFramework.Utility.GameObjectArray.Editor
+  id: XiheFramework.Utility.GameObjectArray.Editor
+  children:
+  - XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.GameObjectArray.Editor
+  nameWithType: XiheFramework.Utility.GameObjectArray.Editor
+  fullName: XiheFramework.Utility.GameObjectArray.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor
+  commentId: T:XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor
+  name: ArrayModifierEditor
+  nameWithType: ArrayModifierEditor
+  fullName: XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor

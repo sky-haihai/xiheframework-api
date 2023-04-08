@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.Editor
+  commentId: N:XiheFramework.Utility.Playables.Editor
+  id: XiheFramework.Utility.Playables.Editor
+  children:
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.Editor
+  nameWithType: XiheFramework.Utility.Playables.Editor
+  fullName: XiheFramework.Utility.Playables.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard
+  name: TimelinePlayableWizard
+  nameWithType: TimelinePlayableWizard
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError
+  parent: XiheFramework.Utility.Playables.Editor
+  name: TimelinePlayableWizard.CreationError
+  nameWithType: TimelinePlayableWizard.CreationError
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable
+  name: TimelinePlayableWizard.Variable
+  nameWithType: TimelinePlayableWizard.Variable
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  parent: XiheFramework.Utility.Playables.Editor
+  name: TimelinePlayableWizard.UsableType
+  nameWithType: TimelinePlayableWizard.UsableType
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty
+  parent: XiheFramework.Utility.Playables.Editor
+  name: TimelinePlayableWizard.UsableProperty
+  nameWithType: TimelinePlayableWizard.UsableProperty
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability
+  parent: XiheFramework.Utility.Playables.Editor
+  name: TimelinePlayableWizard.UsableProperty.Usability
+  nameWithType: TimelinePlayableWizard.UsableProperty.Usability
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  parent: XiheFramework.Utility.Playables.Editor
+  name: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  nameWithType: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+- uid: XiheFramework.Utility.Playables.Editor
+  commentId: N:XiheFramework.Utility.Playables.Editor
+  name: XiheFramework.Utility.Playables.Editor
+  nameWithType: XiheFramework.Utility.Playables.Editor
+  fullName: XiheFramework.Utility.Playables.Editor

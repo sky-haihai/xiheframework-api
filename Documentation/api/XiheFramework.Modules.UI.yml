@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.UI
+  commentId: N:XiheFramework.Modules.UI
+  id: XiheFramework.Modules.UI
+  children:
+  - XiheFramework.Modules.UI.UIBehaviour
+  - XiheFramework.Modules.UI.UIModule
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.UI
+  nameWithType: XiheFramework.Modules.UI
+  fullName: XiheFramework.Modules.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.UI.UIBehaviour
+  commentId: T:XiheFramework.Modules.UI.UIBehaviour
+  parent: XiheFramework.Modules.UI
+  name: UIBehaviour
+  nameWithType: UIBehaviour
+  fullName: XiheFramework.Modules.UI.UIBehaviour
+- uid: XiheFramework.Modules.UI.UIModule
+  commentId: T:XiheFramework.Modules.UI.UIModule
+  parent: XiheFramework.Modules.UI
+  name: UIModule
+  nameWithType: UIModule
+  fullName: XiheFramework.Modules.UI.UIModule
+- uid: XiheFramework.Modules.UI
+  commentId: N:XiheFramework.Modules.UI
+  name: XiheFramework.Modules.UI
+  nameWithType: XiheFramework.Modules.UI
+  fullName: XiheFramework.Modules.UI

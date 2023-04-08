@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.FlowScriptEvent
+  commentId: N:XiheFramework.Modules.FlowScriptEvent
+  id: XiheFramework.Modules.FlowScriptEvent
+  children:
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.FlowScriptEvent
+  nameWithType: XiheFramework.Modules.FlowScriptEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  commentId: T:XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  parent: XiheFramework.Modules.FlowScriptEvent
+  name: FlowScriptEvent
+  nameWithType: FlowScriptEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  commentId: T:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  parent: XiheFramework.Modules.FlowScriptEvent
+  name: FlowScriptEventModule
+  nameWithType: FlowScriptEventModule
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+- uid: XiheFramework.Modules.FlowScriptEvent
+  commentId: N:XiheFramework.Modules.FlowScriptEvent
+  name: XiheFramework.Modules.FlowScriptEvent
+  nameWithType: XiheFramework.Modules.FlowScriptEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent

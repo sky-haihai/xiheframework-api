@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Base.GameModule
+  commentId: T:XiheFramework.Modules.Base.GameModule
+  id: GameModule
+  parent: XiheFramework.Modules.Base
+  children:
+  - XiheFramework.Modules.Base.GameModule.Awake
+  langs:
+  - csharp
+  - vb
+  name: GameModule
+  nameWithType: GameModule
+  fullName: XiheFramework.Modules.Base.GameModule
+  type: Class
+  source:
+    id: GameModule
+    path: ''
+    startLine: 294
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: 'public abstract class GameModule : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class GameModule
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - XiheFramework.Modules.Audio.AudioModule
+  - XiheFramework.Modules.Blackboard.BlackboardModule
+  - XiheFramework.Modules.Entity.EntityModule
+  - XiheFramework.Modules.Event.EventModule
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  - XiheFramework.Modules.FSM.StateMachineModule
+  - XiheFramework.Modules.Input.InputModule
+  - XiheFramework.Modules.Localization.LocalizationModule
+  - XiheFramework.Modules.Serialization.SerializationModule
+  - XiheFramework.Modules.UI.UIModule
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: XiheFramework.Modules.Base.GameModule.Awake
+  commentId: M:XiheFramework.Modules.Base.GameModule.Awake
+  id: Awake
+  parent: XiheFramework.Modules.Base.GameModule
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: GameModule.Awake()
+  fullName: XiheFramework.Modules.Base.GameModule.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 295
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: XiheFramework.Modules.Base.GameModule.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Modules.Base.GameModule.Awake*
+  commentId: Overload:XiheFramework.Modules.Base.GameModule.Awake
+  name: Awake
+  nameWithType: GameModule.Awake
+  fullName: XiheFramework.Modules.Base.GameModule.Awake

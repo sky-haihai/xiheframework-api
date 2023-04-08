@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+  id: TimeControlMixerBehaviour
+  parent: XiheFramework.Utility.Playables.TimeControl
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TimeControlMixerBehaviour
+  nameWithType: TimeControlMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+  type: Class
+  source:
+    id: TimeControlMixerBehaviour
+    path: ''
+    startLine: 6505
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TimeControl
+  syntax:
+    content: 'public class TimeControlMixerBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public Class TimeControlMixerBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: XiheFramework.Utility.Playables.TimeControl
+  commentId: N:XiheFramework.Utility.Playables.TimeControl
+  name: XiheFramework.Utility.Playables.TimeControl
+  nameWithType: XiheFramework.Utility.Playables.TimeControl
+  fullName: XiheFramework.Utility.Playables.TimeControl
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

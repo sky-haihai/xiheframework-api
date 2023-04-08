@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.LightControl.Editor
+  commentId: N:XiheFramework.Utility.Playables.LightControl.Editor
+  id: XiheFramework.Utility.Playables.LightControl.Editor
+  children:
+  - XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.LightControl.Editor
+  nameWithType: XiheFramework.Utility.Playables.LightControl.Editor
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  commentId: T:XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  name: LightControlDrawer
+  nameWithType: LightControlDrawer
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer

@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Services.InputSvc
+  commentId: T:XiheFramework.Services.InputSvc
+  id: InputSvc
+  parent: XiheFramework.Services
+  children:
+  - XiheFramework.Services.InputSvc.AssignKeyMap(System.String,KeyCode)
+  - XiheFramework.Services.InputSvc.GetAnyKey
+  - XiheFramework.Services.InputSvc.GetAnyKeyDown
+  - XiheFramework.Services.InputSvc.GetGlobalMoveAxis(Transform,Transform)
+  - XiheFramework.Services.InputSvc.GetKeyDown(System.String)
+  - XiheFramework.Services.InputSvc.GetKeyHold(System.String)
+  - XiheFramework.Services.InputSvc.GetKeyUp(System.String)
+  - XiheFramework.Services.InputSvc.GetMouseAxis
+  langs:
+  - csharp
+  - vb
+  name: InputSvc
+  nameWithType: InputSvc
+  fullName: XiheFramework.Services.InputSvc
+  type: Class
+  source:
+    id: InputSvc
+    path: ''
+    startLine: 1841
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static class InputSvc
+    content.vb: Public Module InputSvc
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: XiheFramework.Services.InputSvc.AssignKeyMap(System.String,KeyCode)
+  commentId: M:XiheFramework.Services.InputSvc.AssignKeyMap(System.String,KeyCode)
+  id: AssignKeyMap(System.String,KeyCode)
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: AssignKeyMap(String, KeyCode)
+  nameWithType: InputSvc.AssignKeyMap(String, KeyCode)
+  fullName: XiheFramework.Services.InputSvc.AssignKeyMap(System.String, KeyCode)
+  type: Method
+  source:
+    id: AssignKeyMap
+    path: ''
+    startLine: 1842
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static void AssignKeyMap(string action, KeyCode key)
+    parameters:
+    - id: action
+      type: System.String
+    - id: key
+      type: Global.KeyCode
+    content.vb: Public Shared Sub AssignKeyMap(action As String, key As KeyCode)
+  overload: XiheFramework.Services.InputSvc.AssignKeyMap*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetKeyDown(System.String)
+  commentId: M:XiheFramework.Services.InputSvc.GetKeyDown(System.String)
+  id: GetKeyDown(System.String)
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetKeyDown(String)
+  nameWithType: InputSvc.GetKeyDown(String)
+  fullName: XiheFramework.Services.InputSvc.GetKeyDown(System.String)
+  type: Method
+  source:
+    id: GetKeyDown
+    path: ''
+    startLine: 1867
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static bool GetKeyDown(string keyAction)
+    parameters:
+    - id: keyAction
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetKeyDown(keyAction As String) As Boolean
+  overload: XiheFramework.Services.InputSvc.GetKeyDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetKeyHold(System.String)
+  commentId: M:XiheFramework.Services.InputSvc.GetKeyHold(System.String)
+  id: GetKeyHold(System.String)
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetKeyHold(String)
+  nameWithType: InputSvc.GetKeyHold(String)
+  fullName: XiheFramework.Services.InputSvc.GetKeyHold(System.String)
+  type: Method
+  source:
+    id: GetKeyHold
+    path: ''
+    startLine: 1871
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static bool GetKeyHold(string keyAction)
+    parameters:
+    - id: keyAction
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetKeyHold(keyAction As String) As Boolean
+  overload: XiheFramework.Services.InputSvc.GetKeyHold*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetKeyUp(System.String)
+  commentId: M:XiheFramework.Services.InputSvc.GetKeyUp(System.String)
+  id: GetKeyUp(System.String)
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetKeyUp(String)
+  nameWithType: InputSvc.GetKeyUp(String)
+  fullName: XiheFramework.Services.InputSvc.GetKeyUp(System.String)
+  type: Method
+  source:
+    id: GetKeyUp
+    path: ''
+    startLine: 1875
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static bool GetKeyUp(string keyAction)
+    parameters:
+    - id: keyAction
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetKeyUp(keyAction As String) As Boolean
+  overload: XiheFramework.Services.InputSvc.GetKeyUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetAnyKeyDown
+  commentId: M:XiheFramework.Services.InputSvc.GetAnyKeyDown
+  id: GetAnyKeyDown
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetAnyKeyDown()
+  nameWithType: InputSvc.GetAnyKeyDown()
+  fullName: XiheFramework.Services.InputSvc.GetAnyKeyDown()
+  type: Method
+  source:
+    id: GetAnyKeyDown
+    path: ''
+    startLine: 1879
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static bool GetAnyKeyDown()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetAnyKeyDown As Boolean
+  overload: XiheFramework.Services.InputSvc.GetAnyKeyDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetAnyKey
+  commentId: M:XiheFramework.Services.InputSvc.GetAnyKey
+  id: GetAnyKey
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetAnyKey()
+  nameWithType: InputSvc.GetAnyKey()
+  fullName: XiheFramework.Services.InputSvc.GetAnyKey()
+  type: Method
+  source:
+    id: GetAnyKey
+    path: ''
+    startLine: 1883
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static bool GetAnyKey()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetAnyKey As Boolean
+  overload: XiheFramework.Services.InputSvc.GetAnyKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetGlobalMoveAxis(Transform,Transform)
+  commentId: M:XiheFramework.Services.InputSvc.GetGlobalMoveAxis(Transform,Transform)
+  id: GetGlobalMoveAxis(Transform,Transform)
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetGlobalMoveAxis(Transform, Transform)
+  nameWithType: InputSvc.GetGlobalMoveAxis(Transform, Transform)
+  fullName: XiheFramework.Services.InputSvc.GetGlobalMoveAxis(Transform, Transform)
+  type: Method
+  source:
+    id: GetGlobalMoveAxis
+    path: ''
+    startLine: 1887
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static Vector3 GetGlobalMoveAxis(Transform playerTransform, Transform playerCamera)
+    parameters:
+    - id: playerTransform
+      type: Global.Transform
+    - id: playerCamera
+      type: Global.Transform
+    return:
+      type: Global.Vector3
+    content.vb: Public Shared Function GetGlobalMoveAxis(playerTransform As Transform, playerCamera As Transform) As Vector3
+  overload: XiheFramework.Services.InputSvc.GetGlobalMoveAxis*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.InputSvc.GetMouseAxis
+  commentId: M:XiheFramework.Services.InputSvc.GetMouseAxis
+  id: GetMouseAxis
+  parent: XiheFramework.Services.InputSvc
+  langs:
+  - csharp
+  - vb
+  name: GetMouseAxis()
+  nameWithType: InputSvc.GetMouseAxis()
+  fullName: XiheFramework.Services.InputSvc.GetMouseAxis()
+  type: Method
+  source:
+    id: GetMouseAxis
+    path: ''
+    startLine: 1897
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static Vector2 GetMouseAxis()
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function GetMouseAxis As Vector2
+  overload: XiheFramework.Services.InputSvc.GetMouseAxis*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: XiheFramework.Services
+  commentId: N:XiheFramework.Services
+  name: XiheFramework.Services
+  nameWithType: XiheFramework.Services
+  fullName: XiheFramework.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Services.InputSvc.AssignKeyMap*
+  commentId: Overload:XiheFramework.Services.InputSvc.AssignKeyMap
+  name: AssignKeyMap
+  nameWithType: InputSvc.AssignKeyMap
+  fullName: XiheFramework.Services.InputSvc.AssignKeyMap
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.KeyCode
+  isExternal: true
+  name: KeyCode
+  nameWithType: KeyCode
+  fullName: KeyCode
+- uid: XiheFramework.Services.InputSvc.GetKeyDown*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetKeyDown
+  name: GetKeyDown
+  nameWithType: InputSvc.GetKeyDown
+  fullName: XiheFramework.Services.InputSvc.GetKeyDown
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: XiheFramework.Services.InputSvc.GetKeyHold*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetKeyHold
+  name: GetKeyHold
+  nameWithType: InputSvc.GetKeyHold
+  fullName: XiheFramework.Services.InputSvc.GetKeyHold
+- uid: XiheFramework.Services.InputSvc.GetKeyUp*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetKeyUp
+  name: GetKeyUp
+  nameWithType: InputSvc.GetKeyUp
+  fullName: XiheFramework.Services.InputSvc.GetKeyUp
+- uid: XiheFramework.Services.InputSvc.GetAnyKeyDown*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetAnyKeyDown
+  name: GetAnyKeyDown
+  nameWithType: InputSvc.GetAnyKeyDown
+  fullName: XiheFramework.Services.InputSvc.GetAnyKeyDown
+- uid: XiheFramework.Services.InputSvc.GetAnyKey*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetAnyKey
+  name: GetAnyKey
+  nameWithType: InputSvc.GetAnyKey
+  fullName: XiheFramework.Services.InputSvc.GetAnyKey
+- uid: XiheFramework.Services.InputSvc.GetGlobalMoveAxis*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetGlobalMoveAxis
+  name: GetGlobalMoveAxis
+  nameWithType: InputSvc.GetGlobalMoveAxis
+  fullName: XiheFramework.Services.InputSvc.GetGlobalMoveAxis
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: XiheFramework.Services.InputSvc.GetMouseAxis*
+  commentId: Overload:XiheFramework.Services.InputSvc.GetMouseAxis
+  name: GetMouseAxis
+  nameWithType: InputSvc.GetMouseAxis
+  fullName: XiheFramework.Services.InputSvc.GetMouseAxis
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

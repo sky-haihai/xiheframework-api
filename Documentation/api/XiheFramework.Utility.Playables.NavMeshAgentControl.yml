@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl
+  commentId: N:XiheFramework.Utility.Playables.NavMeshAgentControl
+  id: XiheFramework.Utility.Playables.NavMeshAgentControl
+  children:
+  - XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour
+  - XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip
+  - XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour
+  - XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.NavMeshAgentControl
+  nameWithType: XiheFramework.Utility.Playables.NavMeshAgentControl
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour
+  commentId: T:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour
+  parent: XiheFramework.Utility.Playables.NavMeshAgentControl
+  name: NavMeshAgentControlBehaviour
+  nameWithType: NavMeshAgentControlBehaviour
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip
+  commentId: T:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip
+  name: NavMeshAgentControlClip
+  nameWithType: NavMeshAgentControlClip
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour
+  name: NavMeshAgentControlMixerBehaviour
+  nameWithType: NavMeshAgentControlMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  commentId: T:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  name: NavMeshAgentControlTrack
+  nameWithType: NavMeshAgentControlTrack
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl
+  commentId: N:XiheFramework.Utility.Playables.NavMeshAgentControl
+  name: XiheFramework.Utility.Playables.NavMeshAgentControl
+  nameWithType: XiheFramework.Utility.Playables.NavMeshAgentControl
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl

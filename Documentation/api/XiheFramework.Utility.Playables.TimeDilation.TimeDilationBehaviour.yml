@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  id: TimeDilationBehaviour
+  parent: XiheFramework.Utility.Playables.TimeDilation
+  children:
+  - XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour.timeScale
+  langs:
+  - csharp
+  - vb
+  name: TimeDilationBehaviour
+  nameWithType: TimeDilationBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  type: Class
+  source:
+    id: TimeDilationBehaviour
+    path: ''
+    startLine: 6528
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TimeDilation
+  syntax:
+    content: 'public class TimeDilationBehaviour : PlayableBehaviour'
+    content.vb: >-
+      Public Class TimeDilationBehaviour
+          Inherits PlayableBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour.timeScale
+  commentId: F:XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour.timeScale
+  id: timeScale
+  parent: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: timeScale
+  nameWithType: TimeDilationBehaviour.timeScale
+  fullName: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour.timeScale
+  type: Field
+  source:
+    id: timeScale
+    path: ''
+    startLine: 6530
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TimeDilation
+  syntax:
+    content: public float timeScale
+    return:
+      type: System.Single
+    content.vb: Public timeScale As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Utility.Playables.TimeDilation
+  commentId: N:XiheFramework.Utility.Playables.TimeDilation
+  name: XiheFramework.Utility.Playables.TimeDilation
+  nameWithType: XiheFramework.Utility.Playables.TimeDilation
+  fullName: XiheFramework.Utility.Playables.TimeDilation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

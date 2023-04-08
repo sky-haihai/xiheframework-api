@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack
+  commentId: T:XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack
+  id: VideoScriptPlayableTrack
+  parent: XiheFramework.Utility.Playables.Video
+  children:
+  - XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: VideoScriptPlayableTrack
+  nameWithType: VideoScriptPlayableTrack
+  fullName: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack
+  type: Class
+  source:
+    id: VideoScriptPlayableTrack
+    path: ''
+    startLine: 7144
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Video
+  syntax:
+    content: 'public class VideoScriptPlayableTrack : TrackAsset'
+    content.vb: >-
+      Public Class VideoScriptPlayableTrack
+          Inherits TrackAsset
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  commentId: M:XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  id: CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  parent: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack
+  langs:
+  - csharp
+  - vb
+  name: CreateTrackMixer(PlayableGraph, GameObject, Int32)
+  nameWithType: VideoScriptPlayableTrack.CreateTrackMixer(PlayableGraph, GameObject, Int32)
+  fullName: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer(PlayableGraph, GameObject, System.Int32)
+  type: Method
+  source:
+    id: CreateTrackMixer
+    path: ''
+    startLine: 7148
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Video
+  syntax:
+    content: public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: go
+      type: Global.GameObject
+    - id: inputCount
+      type: System.Int32
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreateTrackMixer(graph As PlayableGraph, go As GameObject, inputCount As Integer) As Playable
+  overload: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.Video
+  commentId: N:XiheFramework.Utility.Playables.Video
+  name: XiheFramework.Utility.Playables.Video
+  nameWithType: XiheFramework.Utility.Playables.Video
+  fullName: XiheFramework.Utility.Playables.Video
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer*
+  commentId: Overload:XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer
+  name: CreateTrackMixer
+  nameWithType: VideoScriptPlayableTrack.CreateTrackMixer
+  fullName: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.CreateTrackMixer
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

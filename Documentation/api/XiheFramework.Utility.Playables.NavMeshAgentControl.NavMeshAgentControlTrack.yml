@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  commentId: T:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  id: NavMeshAgentControlTrack
+  parent: XiheFramework.Utility.Playables.NavMeshAgentControl
+  children:
+  - XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: NavMeshAgentControlTrack
+  nameWithType: NavMeshAgentControlTrack
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  type: Class
+  source:
+    id: NavMeshAgentControlTrack
+    path: ''
+    startLine: 6153
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.NavMeshAgentControl
+  syntax:
+    content: 'public class NavMeshAgentControlTrack : TrackAsset'
+    content.vb: >-
+      Public Class NavMeshAgentControlTrack
+          Inherits TrackAsset
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  commentId: M:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  id: CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  parent: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+  langs:
+  - csharp
+  - vb
+  name: CreateTrackMixer(PlayableGraph, GameObject, Int32)
+  nameWithType: NavMeshAgentControlTrack.CreateTrackMixer(PlayableGraph, GameObject, Int32)
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer(PlayableGraph, GameObject, System.Int32)
+  type: Method
+  source:
+    id: CreateTrackMixer
+    path: ''
+    startLine: 6157
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.NavMeshAgentControl
+  syntax:
+    content: public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: go
+      type: Global.GameObject
+    - id: inputCount
+      type: System.Int32
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreateTrackMixer(graph As PlayableGraph, go As GameObject, inputCount As Integer) As Playable
+  overload: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl
+  commentId: N:XiheFramework.Utility.Playables.NavMeshAgentControl
+  name: XiheFramework.Utility.Playables.NavMeshAgentControl
+  nameWithType: XiheFramework.Utility.Playables.NavMeshAgentControl
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer*
+  commentId: Overload:XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer
+  name: CreateTrackMixer
+  nameWithType: NavMeshAgentControlTrack.CreateTrackMixer
+  fullName: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.CreateTrackMixer
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

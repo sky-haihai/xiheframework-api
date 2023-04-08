@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.RigidBodyHelper
+  commentId: T:XiheFramework.Utility.RigidBodyHelper
+  id: RigidBodyHelper
+  parent: XiheFramework.Utility
+  children:
+  - XiheFramework.Utility.RigidBodyHelper.GetDrag(System.Single,System.Single)
+  - XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration(System.Single,System.Single)
+  - XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity(System.Single,System.Single)
+  - XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration(System.Single,System.Single)
+  - XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton(System.Single,System.Single)
+  - XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange(System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: RigidBodyHelper
+  nameWithType: RigidBodyHelper
+  fullName: XiheFramework.Utility.RigidBodyHelper
+  type: Class
+  source:
+    id: RigidBodyHelper
+    path: ''
+    startLine: 2145
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static class RigidBodyHelper
+    content.vb: Public Module RigidBodyHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity(System.Single,System.Single)
+  commentId: M:XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity(System.Single,System.Single)
+  id: GetFinalVelocity(System.Single,System.Single)
+  parent: XiheFramework.Utility.RigidBodyHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFinalVelocity(Single, Single)
+  nameWithType: RigidBodyHelper.GetFinalVelocity(Single, Single)
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity(System.Single, System.Single)
+  type: Method
+  source:
+    id: GetFinalVelocity
+    path: ''
+    startLine: 2147
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static float GetFinalVelocity(float aVelocityChange, float aDrag)
+    parameters:
+    - id: aVelocityChange
+      type: System.Single
+    - id: aDrag
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetFinalVelocity(aVelocityChange As Single, aDrag As Single) As Single
+  overload: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration(System.Single,System.Single)
+  commentId: M:XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration(System.Single,System.Single)
+  id: GetFinalVelocityFromAcceleration(System.Single,System.Single)
+  parent: XiheFramework.Utility.RigidBodyHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFinalVelocityFromAcceleration(Single, Single)
+  nameWithType: RigidBodyHelper.GetFinalVelocityFromAcceleration(Single, Single)
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration(System.Single, System.Single)
+  type: Method
+  source:
+    id: GetFinalVelocityFromAcceleration
+    path: ''
+    startLine: 2151
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static float GetFinalVelocityFromAcceleration(float aAcceleration, float aDrag)
+    parameters:
+    - id: aAcceleration
+      type: System.Single
+    - id: aDrag
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetFinalVelocityFromAcceleration(aAcceleration As Single, aDrag As Single) As Single
+  overload: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Utility.RigidBodyHelper.GetDrag(System.Single,System.Single)
+  commentId: M:XiheFramework.Utility.RigidBodyHelper.GetDrag(System.Single,System.Single)
+  id: GetDrag(System.Single,System.Single)
+  parent: XiheFramework.Utility.RigidBodyHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDrag(Single, Single)
+  nameWithType: RigidBodyHelper.GetDrag(Single, Single)
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetDrag(System.Single, System.Single)
+  type: Method
+  source:
+    id: GetDrag
+    path: ''
+    startLine: 2155
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static float GetDrag(float aVelocityChange, float aFinalVelocity)
+    parameters:
+    - id: aVelocityChange
+      type: System.Single
+    - id: aFinalVelocity
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetDrag(aVelocityChange As Single, aFinalVelocity As Single) As Single
+  overload: XiheFramework.Utility.RigidBodyHelper.GetDrag*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration(System.Single,System.Single)
+  commentId: M:XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration(System.Single,System.Single)
+  id: GetDragFromAcceleration(System.Single,System.Single)
+  parent: XiheFramework.Utility.RigidBodyHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDragFromAcceleration(Single, Single)
+  nameWithType: RigidBodyHelper.GetDragFromAcceleration(Single, Single)
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration(System.Single, System.Single)
+  type: Method
+  source:
+    id: GetDragFromAcceleration
+    path: ''
+    startLine: 2159
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static float GetDragFromAcceleration(float aAcceleration, float aFinalVelocity)
+    parameters:
+    - id: aAcceleration
+      type: System.Single
+    - id: aFinalVelocity
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetDragFromAcceleration(aAcceleration As Single, aFinalVelocity As Single) As Single
+  overload: XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange(System.Single,System.Single)
+  commentId: M:XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange(System.Single,System.Single)
+  id: GetRequiredVelocityChange(System.Single,System.Single)
+  parent: XiheFramework.Utility.RigidBodyHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRequiredVelocityChange(Single, Single)
+  nameWithType: RigidBodyHelper.GetRequiredVelocityChange(Single, Single)
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange(System.Single, System.Single)
+  type: Method
+  source:
+    id: GetRequiredVelocityChange
+    path: ''
+    startLine: 2163
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static float GetRequiredVelocityChange(float aFinalSpeed, float aDrag)
+    parameters:
+    - id: aFinalSpeed
+      type: System.Single
+    - id: aDrag
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetRequiredVelocityChange(aFinalSpeed As Single, aDrag As Single) As Single
+  overload: XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton(System.Single,System.Single)
+  commentId: M:XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton(System.Single,System.Single)
+  id: GetRequiredAcceleraton(System.Single,System.Single)
+  parent: XiheFramework.Utility.RigidBodyHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRequiredAcceleraton(Single, Single)
+  nameWithType: RigidBodyHelper.GetRequiredAcceleraton(Single, Single)
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton(System.Single, System.Single)
+  type: Method
+  source:
+    id: GetRequiredAcceleraton
+    path: ''
+    startLine: 2168
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public static float GetRequiredAcceleraton(float aFinalSpeed, float aDrag)
+    parameters:
+    - id: aFinalSpeed
+      type: System.Single
+    - id: aDrag
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetRequiredAcceleraton(aFinalSpeed As Single, aDrag As Single) As Single
+  overload: XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: XiheFramework.Utility
+  commentId: N:XiheFramework.Utility
+  name: XiheFramework.Utility
+  nameWithType: XiheFramework.Utility
+  fullName: XiheFramework.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity*
+  commentId: Overload:XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity
+  name: GetFinalVelocity
+  nameWithType: RigidBodyHelper.GetFinalVelocity
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocity
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration*
+  commentId: Overload:XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration
+  name: GetFinalVelocityFromAcceleration
+  nameWithType: RigidBodyHelper.GetFinalVelocityFromAcceleration
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetFinalVelocityFromAcceleration
+- uid: XiheFramework.Utility.RigidBodyHelper.GetDrag*
+  commentId: Overload:XiheFramework.Utility.RigidBodyHelper.GetDrag
+  name: GetDrag
+  nameWithType: RigidBodyHelper.GetDrag
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetDrag
+- uid: XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration*
+  commentId: Overload:XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration
+  name: GetDragFromAcceleration
+  nameWithType: RigidBodyHelper.GetDragFromAcceleration
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetDragFromAcceleration
+- uid: XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange*
+  commentId: Overload:XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange
+  name: GetRequiredVelocityChange
+  nameWithType: RigidBodyHelper.GetRequiredVelocityChange
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetRequiredVelocityChange
+- uid: XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton*
+  commentId: Overload:XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton
+  name: GetRequiredAcceleraton
+  nameWithType: RigidBodyHelper.GetRequiredAcceleraton
+  fullName: XiheFramework.Utility.RigidBodyHelper.GetRequiredAcceleraton

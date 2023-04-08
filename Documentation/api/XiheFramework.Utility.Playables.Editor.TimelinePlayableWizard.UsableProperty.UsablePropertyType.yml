@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  id: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  parent: XiheFramework.Utility.Playables.Editor
+  children:
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Field
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Property
+  langs:
+  - csharp
+  - vb
+  name: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  nameWithType: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  type: Enum
+  source:
+    id: UsablePropertyType
+    path: ''
+    startLine: 5298
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public enum UsablePropertyType
+    content.vb: Public Enum UsablePropertyType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Property
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Property
+  id: Property
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: TimelinePlayableWizard.UsableProperty.UsablePropertyType.Property
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Property
+  type: Field
+  source:
+    id: Property
+    path: ''
+    startLine: 5299
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: Property = 0
+    return:
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Field
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Field
+  id: Field
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: TimelinePlayableWizard.UsableProperty.UsablePropertyType.Field
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.Field
+  type: Field
+  source:
+    id: Field
+    path: ''
+    startLine: 5300
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: Field = 1
+    return:
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: XiheFramework.Utility.Playables.Editor
+  commentId: N:XiheFramework.Utility.Playables.Editor
+  name: XiheFramework.Utility.Playables.Editor
+  nameWithType: XiheFramework.Utility.Playables.Editor
+  fullName: XiheFramework.Utility.Playables.Editor
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  parent: XiheFramework.Utility.Playables.Editor
+  name: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  nameWithType: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType

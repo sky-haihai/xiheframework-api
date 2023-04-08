@@ -1,0 +1,457 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Services.BlackBoardSvc
+  commentId: T:XiheFramework.Services.BlackBoardSvc
+  id: BlackBoardSvc
+  parent: XiheFramework.Services
+  children:
+  - XiheFramework.Services.BlackBoardSvc.GetValue``1(System.String)
+  - XiheFramework.Services.BlackBoardSvc.SetValue``1(System.String,``0,XiheFramework.Modules.Blackboard.BlackBoardDataType)
+  langs:
+  - csharp
+  - vb
+  name: BlackBoardSvc
+  nameWithType: BlackBoardSvc
+  fullName: XiheFramework.Services.BlackBoardSvc
+  type: Class
+  source:
+    id: BlackBoardSvc
+    path: ''
+    startLine: 1754
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static class BlackBoardSvc
+    content.vb: Public Module BlackBoardSvc
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: XiheFramework.Services.BlackBoardSvc.SetValue``1(System.String,``0,XiheFramework.Modules.Blackboard.BlackBoardDataType)
+  commentId: M:XiheFramework.Services.BlackBoardSvc.SetValue``1(System.String,``0,XiheFramework.Modules.Blackboard.BlackBoardDataType)
+  id: SetValue``1(System.String,``0,XiheFramework.Modules.Blackboard.BlackBoardDataType)
+  parent: XiheFramework.Services.BlackBoardSvc
+  langs:
+  - csharp
+  - vb
+  name: SetValue<T>(String, T, BlackBoardDataType)
+  nameWithType: BlackBoardSvc.SetValue<T>(String, T, BlackBoardDataType)
+  fullName: XiheFramework.Services.BlackBoardSvc.SetValue<T>(System.String, T, XiheFramework.Modules.Blackboard.BlackBoardDataType)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 1755
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static void SetValue<T>(string key, T value, BlackBoardDataType targetType)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: '{T}'
+    - id: targetType
+      type: XiheFramework.Modules.Blackboard.BlackBoardDataType
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub SetValue(Of T)(key As String, value As T, targetType As BlackBoardDataType)
+  overload: XiheFramework.Services.BlackBoardSvc.SetValue*
+  nameWithType.vb: BlackBoardSvc.SetValue(Of T)(String, T, BlackBoardDataType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Services.BlackBoardSvc.SetValue(Of T)(System.String, T, XiheFramework.Modules.Blackboard.BlackBoardDataType)
+  name.vb: SetValue(Of T)(String, T, BlackBoardDataType)
+- uid: XiheFramework.Services.BlackBoardSvc.GetValue``1(System.String)
+  commentId: M:XiheFramework.Services.BlackBoardSvc.GetValue``1(System.String)
+  id: GetValue``1(System.String)
+  parent: XiheFramework.Services.BlackBoardSvc
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>(String)
+  nameWithType: BlackBoardSvc.GetValue<T>(String)
+  fullName: XiheFramework.Services.BlackBoardSvc.GetValue<T>(System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 1759
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static T GetValue<T>(string key)
+    parameters:
+    - id: key
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetValue(Of T)(key As String) As T
+  overload: XiheFramework.Services.BlackBoardSvc.GetValue*
+  nameWithType.vb: BlackBoardSvc.GetValue(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Services.BlackBoardSvc.GetValue(Of T)(System.String)
+  name.vb: GetValue(Of T)(String)
+references:
+- uid: XiheFramework.Services
+  commentId: N:XiheFramework.Services
+  name: XiheFramework.Services
+  nameWithType: XiheFramework.Services
+  fullName: XiheFramework.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Services.BlackBoardSvc.SetValue*
+  commentId: Overload:XiheFramework.Services.BlackBoardSvc.SetValue
+  name: SetValue
+  nameWithType: BlackBoardSvc.SetValue
+  fullName: XiheFramework.Services.BlackBoardSvc.SetValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: XiheFramework.Modules.Blackboard.BlackBoardDataType
+  commentId: T:XiheFramework.Modules.Blackboard.BlackBoardDataType
+  parent: XiheFramework.Modules.Blackboard
+  name: BlackBoardDataType
+  nameWithType: BlackBoardDataType
+  fullName: XiheFramework.Modules.Blackboard.BlackBoardDataType
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: XiheFramework.Modules.Blackboard
+  commentId: N:XiheFramework.Modules.Blackboard
+  name: XiheFramework.Modules.Blackboard
+  nameWithType: XiheFramework.Modules.Blackboard
+  fullName: XiheFramework.Modules.Blackboard
+- uid: XiheFramework.Services.BlackBoardSvc.GetValue*
+  commentId: Overload:XiheFramework.Services.BlackBoardSvc.GetValue
+  name: GetValue
+  nameWithType: BlackBoardSvc.GetValue
+  fullName: XiheFramework.Services.BlackBoardSvc.GetValue

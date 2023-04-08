@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Base.XiheKeywords
+  commentId: T:XiheFramework.Modules.Base.XiheKeywords
+  id: XiheKeywords
+  parent: XiheFramework.Modules.Base
+  children:
+  - XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncEnd
+  - XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncStart
+  - XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneId
+  - XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneName
+  - XiheFramework.Modules.Base.XiheKeywords.VAR_LoadSceneAsyncProgress
+  langs:
+  - csharp
+  - vb
+  name: XiheKeywords
+  nameWithType: XiheKeywords
+  fullName: XiheFramework.Modules.Base.XiheKeywords
+  type: Class
+  source:
+    id: XiheKeywords
+    path: ''
+    startLine: 339
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public class XiheKeywords
+    content.vb: Public Class XiheKeywords
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.Base.XiheKeywords.VAR_LoadSceneAsyncProgress
+  commentId: F:XiheFramework.Modules.Base.XiheKeywords.VAR_LoadSceneAsyncProgress
+  id: VAR_LoadSceneAsyncProgress
+  parent: XiheFramework.Modules.Base.XiheKeywords
+  langs:
+  - csharp
+  - vb
+  name: VAR_LoadSceneAsyncProgress
+  nameWithType: XiheKeywords.VAR_LoadSceneAsyncProgress
+  fullName: XiheFramework.Modules.Base.XiheKeywords.VAR_LoadSceneAsyncProgress
+  type: Field
+  source:
+    id: VAR_LoadSceneAsyncProgress
+    path: ''
+    startLine: 341
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public const string VAR_LoadSceneAsyncProgress = "VAR_LoadSceneAsyncProgress"
+    return:
+      type: System.String
+    content.vb: Public Const VAR_LoadSceneAsyncProgress As String = "VAR_LoadSceneAsyncProgress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneName
+  commentId: F:XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneName
+  id: VAR_CurrentSceneName
+  parent: XiheFramework.Modules.Base.XiheKeywords
+  langs:
+  - csharp
+  - vb
+  name: VAR_CurrentSceneName
+  nameWithType: XiheKeywords.VAR_CurrentSceneName
+  fullName: XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneName
+  type: Field
+  source:
+    id: VAR_CurrentSceneName
+    path: ''
+    startLine: 342
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public const string VAR_CurrentSceneName = "VAR_CurrentSceneId"
+    return:
+      type: System.String
+    content.vb: Public Const VAR_CurrentSceneName As String = "VAR_CurrentSceneId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneId
+  commentId: F:XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneId
+  id: VAR_CurrentSceneId
+  parent: XiheFramework.Modules.Base.XiheKeywords
+  langs:
+  - csharp
+  - vb
+  name: VAR_CurrentSceneId
+  nameWithType: XiheKeywords.VAR_CurrentSceneId
+  fullName: XiheFramework.Modules.Base.XiheKeywords.VAR_CurrentSceneId
+  type: Field
+  source:
+    id: VAR_CurrentSceneId
+    path: ''
+    startLine: 343
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public const string VAR_CurrentSceneId = "VAR_CurrentSceneId"
+    return:
+      type: System.String
+    content.vb: Public Const VAR_CurrentSceneId As String = "VAR_CurrentSceneId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncStart
+  commentId: F:XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncStart
+  id: EVT_LoadSceneAsyncStart
+  parent: XiheFramework.Modules.Base.XiheKeywords
+  langs:
+  - csharp
+  - vb
+  name: EVT_LoadSceneAsyncStart
+  nameWithType: XiheKeywords.EVT_LoadSceneAsyncStart
+  fullName: XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncStart
+  type: Field
+  source:
+    id: EVT_LoadSceneAsyncStart
+    path: ''
+    startLine: 345
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public static string EVT_LoadSceneAsyncStart
+    return:
+      type: System.String
+    content.vb: Public Shared EVT_LoadSceneAsyncStart As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncEnd
+  commentId: F:XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncEnd
+  id: EVT_LoadSceneAsyncEnd
+  parent: XiheFramework.Modules.Base.XiheKeywords
+  langs:
+  - csharp
+  - vb
+  name: EVT_LoadSceneAsyncEnd
+  nameWithType: XiheKeywords.EVT_LoadSceneAsyncEnd
+  fullName: XiheFramework.Modules.Base.XiheKeywords.EVT_LoadSceneAsyncEnd
+  type: Field
+  source:
+    id: EVT_LoadSceneAsyncEnd
+    path: ''
+    startLine: 346
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Base
+  syntax:
+    content: public static string EVT_LoadSceneAsyncEnd
+    return:
+      type: System.String
+    content.vb: Public Shared EVT_LoadSceneAsyncEnd As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

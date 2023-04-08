@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor
+  commentId: N:XiheFramework.Utility.Playables.ScreenFader.Editor
+  id: XiheFramework.Utility.Playables.ScreenFader.Editor
+  children:
+  - XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.ScreenFader.Editor
+  nameWithType: XiheFramework.Utility.Playables.ScreenFader.Editor
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  commentId: T:XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  name: ScreenFaderDrawer
+  nameWithType: ScreenFaderDrawer
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer

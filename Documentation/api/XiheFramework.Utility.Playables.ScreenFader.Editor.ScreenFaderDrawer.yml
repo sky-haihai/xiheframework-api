@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  commentId: T:XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  id: ScreenFaderDrawer
+  parent: XiheFramework.Utility.Playables.ScreenFader.Editor
+  children:
+  - XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  - XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  langs:
+  - csharp
+  - vb
+  name: ScreenFaderDrawer
+  nameWithType: ScreenFaderDrawer
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  type: Class
+  source:
+    id: ScreenFaderDrawer
+    path: ''
+    startLine: 6284
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader.Editor
+  syntax:
+    content: 'public class ScreenFaderDrawer : PropertyDrawer'
+    content.vb: >-
+      Public Class ScreenFaderDrawer
+          Inherits PropertyDrawer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  commentId: M:XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  id: GetPropertyHeight(SerializedProperty,GUIContent)
+  parent: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: ScreenFaderDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: GetPropertyHeight
+    path: ''
+    startLine: 6286
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader.Editor
+  syntax:
+    content: public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+    parameters:
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetPropertyHeight(property As SerializedProperty, label As GUIContent) As Single
+  overload: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  commentId: M:XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  id: OnGUI(Rect,SerializedProperty,GUIContent)
+  parent: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: ScreenFaderDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 6291
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader.Editor
+  syntax:
+    content: public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    parameters:
+    - id: position
+      type: Global.Rect
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    content.vb: Public Overrides Sub OnGUI(position As Rect, property As SerializedProperty, label As GUIContent)
+  overload: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor
+  commentId: N:XiheFramework.Utility.Playables.ScreenFader.Editor
+  name: XiheFramework.Utility.Playables.ScreenFader.Editor
+  nameWithType: XiheFramework.Utility.Playables.ScreenFader.Editor
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight*
+  commentId: Overload:XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight
+  name: GetPropertyHeight
+  nameWithType: ScreenFaderDrawer.GetPropertyHeight
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.GetPropertyHeight
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: Global.GUIContent
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI*
+  commentId: Overload:XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI
+  name: OnGUI
+  nameWithType: ScreenFaderDrawer.OnGUI
+  fullName: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

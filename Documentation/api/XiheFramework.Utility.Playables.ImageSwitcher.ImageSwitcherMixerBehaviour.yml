@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  id: ImageSwitcherMixerBehaviour
+  parent: XiheFramework.Utility.Playables.ImageSwitcher
+  children:
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ImageSwitcherMixerBehaviour
+  nameWithType: ImageSwitcherMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  type: Class
+  source:
+    id: ImageSwitcherMixerBehaviour
+    path: ''
+    startLine: 5648
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: 'public class ImageSwitcherMixerBehaviour : PlayableBehaviour'
+    content.vb: >-
+      Public Class ImageSwitcherMixerBehaviour
+          Inherits PlayableBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  commentId: M:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  id: ProcessFrame(Playable,FrameData,System.Object)
+  parent: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  langs:
+  - csharp
+  - vb
+  name: ProcessFrame(Playable, FrameData, Object)
+  nameWithType: ImageSwitcherMixerBehaviour.ProcessFrame(Playable, FrameData, Object)
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame(Playable, FrameData, System.Object)
+  type: Method
+  source:
+    id: ProcessFrame
+    path: ''
+    startLine: 5660
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: public override void ProcessFrame(Playable playable, FrameData info, object playerData)
+    parameters:
+    - id: playable
+      type: Global.Playable
+    - id: info
+      type: Global.FrameData
+    - id: playerData
+      type: System.Object
+    content.vb: Public Overrides Sub ProcessFrame(playable As Playable, info As FrameData, playerData As Object)
+  overload: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  commentId: M:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  id: OnPlayableDestroy(Playable)
+  parent: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnPlayableDestroy(Playable)
+  nameWithType: ImageSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  type: Method
+  source:
+    id: OnPlayableDestroy
+    path: ''
+    startLine: 5721
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: public override void OnPlayableDestroy(Playable playable)
+    parameters:
+    - id: playable
+      type: Global.Playable
+    content.vb: Public Overrides Sub OnPlayableDestroy(playable As Playable)
+  overload: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.ImageSwitcher
+  commentId: N:XiheFramework.Utility.Playables.ImageSwitcher
+  name: XiheFramework.Utility.Playables.ImageSwitcher
+  nameWithType: XiheFramework.Utility.Playables.ImageSwitcher
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame*
+  commentId: Overload:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame
+  name: ProcessFrame
+  nameWithType: ImageSwitcherMixerBehaviour.ProcessFrame
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.ProcessFrame
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable
+- uid: Global.FrameData
+  isExternal: true
+  name: FrameData
+  nameWithType: FrameData
+  fullName: FrameData
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy*
+  commentId: Overload:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy
+  name: OnPlayableDestroy
+  nameWithType: ImageSwitcherMixerBehaviour.OnPlayableDestroy
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.OnPlayableDestroy

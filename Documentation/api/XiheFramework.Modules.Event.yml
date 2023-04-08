@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Event
+  commentId: N:XiheFramework.Modules.Event
+  id: XiheFramework.Modules.Event
+  children:
+  - XiheFramework.Modules.Event.EventModule
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.Event
+  nameWithType: XiheFramework.Modules.Event
+  fullName: XiheFramework.Modules.Event
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.Event.EventModule
+  commentId: T:XiheFramework.Modules.Event.EventModule
+  parent: XiheFramework.Modules.Event
+  name: EventModule
+  nameWithType: EventModule
+  fullName: XiheFramework.Modules.Event.EventModule
+- uid: XiheFramework.Modules.Event
+  commentId: N:XiheFramework.Modules.Event
+  name: XiheFramework.Modules.Event
+  nameWithType: XiheFramework.Modules.Event
+  fullName: XiheFramework.Modules.Event

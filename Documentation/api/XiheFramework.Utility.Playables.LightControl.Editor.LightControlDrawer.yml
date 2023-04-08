@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  commentId: T:XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  id: LightControlDrawer
+  parent: XiheFramework.Utility.Playables.LightControl.Editor
+  children:
+  - XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  - XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  langs:
+  - csharp
+  - vb
+  name: LightControlDrawer
+  nameWithType: LightControlDrawer
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  type: Class
+  source:
+    id: LightControlDrawer
+    path: ''
+    startLine: 5901
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl.Editor
+  syntax:
+    content: 'public class LightControlDrawer : PropertyDrawer'
+    content.vb: >-
+      Public Class LightControlDrawer
+          Inherits PropertyDrawer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  commentId: M:XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  id: GetPropertyHeight(SerializedProperty,GUIContent)
+  parent: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: LightControlDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: GetPropertyHeight
+    path: ''
+    startLine: 5903
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl.Editor
+  syntax:
+    content: public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+    parameters:
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetPropertyHeight(property As SerializedProperty, label As GUIContent) As Single
+  overload: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  commentId: M:XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  id: OnGUI(Rect,SerializedProperty,GUIContent)
+  parent: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: LightControlDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 5908
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl.Editor
+  syntax:
+    content: public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    parameters:
+    - id: position
+      type: Global.Rect
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    content.vb: Public Overrides Sub OnGUI(position As Rect, property As SerializedProperty, label As GUIContent)
+  overload: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.LightControl.Editor
+  commentId: N:XiheFramework.Utility.Playables.LightControl.Editor
+  name: XiheFramework.Utility.Playables.LightControl.Editor
+  nameWithType: XiheFramework.Utility.Playables.LightControl.Editor
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight*
+  commentId: Overload:XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight
+  name: GetPropertyHeight
+  nameWithType: LightControlDrawer.GetPropertyHeight
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.GetPropertyHeight
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: Global.GUIContent
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI*
+  commentId: Overload:XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI
+  name: OnGUI
+  nameWithType: LightControlDrawer.OnGUI
+  fullName: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

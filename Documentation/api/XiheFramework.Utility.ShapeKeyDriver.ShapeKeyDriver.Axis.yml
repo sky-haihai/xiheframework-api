@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  commentId: T:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  id: ShapeKeyDriver.Axis
+  parent: XiheFramework.Utility.ShapeKeyDriver
+  children:
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.X
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Y
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Z
+  langs:
+  - csharp
+  - vb
+  name: ShapeKeyDriver.Axis
+  nameWithType: ShapeKeyDriver.Axis
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  type: Enum
+  source:
+    id: Axis
+    path: ''
+    startLine: 7172
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: public enum Axis
+    content.vb: Public Enum Axis
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.X
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.X
+  id: X
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: ShapeKeyDriver.Axis.X
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.X
+  type: Field
+  source:
+    id: X
+    path: ''
+    startLine: 7173
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: X = 0
+    return:
+      type: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Y
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Y
+  id: Y
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: ShapeKeyDriver.Axis.Y
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Y
+  type: Field
+  source:
+    id: Y
+    path: ''
+    startLine: 7174
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: Y = 1
+    return:
+      type: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Z
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Z
+  id: Z
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: ShapeKeyDriver.Axis.Z
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.Z
+  type: Field
+  source:
+    id: Z
+    path: ''
+    startLine: 7175
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: Z = 2
+    return:
+      type: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: XiheFramework.Utility.ShapeKeyDriver
+  commentId: N:XiheFramework.Utility.ShapeKeyDriver
+  name: XiheFramework.Utility.ShapeKeyDriver
+  nameWithType: XiheFramework.Utility.ShapeKeyDriver
+  fullName: XiheFramework.Utility.ShapeKeyDriver
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  commentId: T:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  parent: XiheFramework.Utility.ShapeKeyDriver
+  name: ShapeKeyDriver.Axis
+  nameWithType: ShapeKeyDriver.Axis
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis

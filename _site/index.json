@@ -1,0 +1,882 @@
+{
+  "api/XiheFramework.Game.html": {
+    "href": "api/XiheFramework.Game.html",
+    "title": "Class Game | Example Unity documentation",
+    "keywords": "Class Game shortcut to get all component Inheritance Object Game Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework Assembly : cs.temp.dll.dll Syntax public static class Game Properties Audio Declaration public static AudioModule Audio { get; } Property Value Type Description AudioModule Blackboard Declaration public static BlackboardModule Blackboard { get; } Property Value Type Description BlackboardModule Entity Declaration public static EntityModule Entity { get; } Property Value Type Description EntityModule Event Declaration public static EventModule Event { get; } Property Value Type Description EventModule FlowEvent Declaration public static FlowScriptEventModule FlowEvent { get; } Property Value Type Description FlowScriptEventModule Fsm Declaration public static StateMachineModule Fsm { get; } Property Value Type Description StateMachineModule Input Declaration public static InputModule Input { get; } Property Value Type Description InputModule Localization Declaration public static LocalizationModule Localization { get; } Property Value Type Description LocalizationModule Serialization Declaration public static SerializationModule Serialization { get; } Property Value Type Description SerializationModule UI Declaration public static UIModule UI { get; } Property Value Type Description UIModule Methods GetModule<T>() Declaration public static T GetModule<T>() where T : GameModule Returns Type Description T Type Parameters Name Description T"
+  },
+  "api/XiheFramework.html": {
+    "href": "api/XiheFramework.html",
+    "title": "Namespace XiheFramework | Example Unity documentation",
+    "keywords": "Namespace XiheFramework Classes Game shortcut to get all component"
+  },
+  "api/XiheFramework.Modules.Audio.AudioChannelTypes.html": {
+    "href": "api/XiheFramework.Modules.Audio.AudioChannelTypes.html",
+    "title": "Enum AudioChannelTypes | Example Unity documentation",
+    "keywords": "Enum AudioChannelTypes Namespace : XiheFramework.Modules.Audio Assembly : cs.temp.dll.dll Syntax public enum AudioChannelTypes Fields Name Description BackGroundMusic BackGroundSound CharacterVoice Master SoundEffect"
+  },
+  "api/XiheFramework.Modules.Audio.AudioModule.html": {
+    "href": "api/XiheFramework.Modules.Audio.AudioModule.html",
+    "title": "Class AudioModule | Example Unity documentation",
+    "keywords": "Class AudioModule Inheritance Object GameModule AudioModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.Audio Assembly : cs.temp.dll.dll Syntax public class AudioModule : GameModule Methods Play(AudioSource, AudioChannelTypes, AudioClip, Single, Boolean) Play Audio Declaration public AudioSource Play(AudioSource audioSource, AudioChannelTypes channelType, AudioClip audioClip, float volume, bool loop) Parameters Type Name Description AudioSource audioSource target audio source, can be Null AudioChannelTypes channelType AudioClip audioClip Single volume 0-1 Boolean loop Returns Type Description AudioSource SetPause(AudioSource, Boolean) Declaration public void SetPause(AudioSource audioSource, bool pause) Parameters Type Name Description AudioSource audioSource Boolean pause SetPauseAll(Boolean) Declaration public void SetPauseAll(bool pause) Parameters Type Name Description Boolean pause Stop(AudioSource) Declaration public void Stop(AudioSource audioSource) Parameters Type Name Description AudioSource audioSource StopAll() Destroy all temporary AudioSource under the framework audio root Declaration public void StopAll()"
+  },
+  "api/XiheFramework.Modules.Audio.html": {
+    "href": "api/XiheFramework.Modules.Audio.html",
+    "title": "Namespace XiheFramework.Modules.Audio | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Audio Classes AudioModule Enums AudioChannelTypes"
+  },
+  "api/XiheFramework.Modules.Base.GameManager.html": {
+    "href": "api/XiheFramework.Modules.Base.GameManager.html",
+    "title": "Class GameManager | Example Unity documentation",
+    "keywords": "Class GameManager Game manager for XiheFramework, work as a Singleton Inheritance Object GameManager Namespace : XiheFramework.Modules.Base Assembly : cs.temp.dll.dll Syntax public class GameManager : Singleton<GameManager> Fields frameRate Declaration public int frameRate Field Value Type Description Int32 globalSpeed Declaration public float globalSpeed Field Value Type Description Single logoDisplayTime Declaration public float logoDisplayTime Field Value Type Description Single restartScene Declaration public string restartScene Field Value Type Description String retryScene Declaration public string retryScene Field Value Type Description String Methods GetModule<T>() Get GameModule Should use Game.ModuleName instead Declaration public static T GetModule<T>() where T : GameModule Returns Type Description T Type Parameters Name Description T RegisterComponent(GameModule) Register GameModule to let the framework recognize it Declaration public static void RegisterComponent(GameModule component) Parameters Type Name Description GameModule component ShutDown(ShutDownType) Shut down the game with ShutDownType Declaration public static void ShutDown(ShutDownType shutDownType) Parameters Type Name Description ShutDownType shutDownType"
+  },
+  "api/XiheFramework.Modules.Base.GameModule.html": {
+    "href": "api/XiheFramework.Modules.Base.GameModule.html",
+    "title": "Class GameModule | Example Unity documentation",
+    "keywords": "Class GameModule Inheritance Object GameModule AudioModule BlackboardModule EntityModule EventModule FlowScriptEventModule StateMachineModule InputModule LocalizationModule SerializationModule UIModule Namespace : XiheFramework.Modules.Base Assembly : cs.temp.dll.dll Syntax public abstract class GameModule : MonoBehaviour Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/XiheFramework.Modules.Base.html": {
+    "href": "api/XiheFramework.Modules.Base.html",
+    "title": "Namespace XiheFramework.Modules.Base | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Base Classes GameManager Game manager for XiheFramework, work as a Singleton GameModule XiheKeywords Enums ShutDownType"
+  },
+  "api/XiheFramework.Modules.Base.ShutDownType.html": {
+    "href": "api/XiheFramework.Modules.Base.ShutDownType.html",
+    "title": "Enum ShutDownType | Example Unity documentation",
+    "keywords": "Enum ShutDownType Namespace : XiheFramework.Modules.Base Assembly : cs.temp.dll.dll Syntax public enum ShutDownType Fields Name Description None Quit Restart Retry"
+  },
+  "api/XiheFramework.Modules.Base.XiheKeywords.html": {
+    "href": "api/XiheFramework.Modules.Base.XiheKeywords.html",
+    "title": "Class XiheKeywords | Example Unity documentation",
+    "keywords": "Class XiheKeywords Inheritance Object XiheKeywords Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.Base Assembly : cs.temp.dll.dll Syntax public class XiheKeywords Fields EVT_LoadSceneAsyncEnd Declaration public static string EVT_LoadSceneAsyncEnd Field Value Type Description String EVT_LoadSceneAsyncStart Declaration public static string EVT_LoadSceneAsyncStart Field Value Type Description String VAR_CurrentSceneId Declaration public const string VAR_CurrentSceneId = \"VAR_CurrentSceneId\" Field Value Type Description String VAR_CurrentSceneName Declaration public const string VAR_CurrentSceneName = \"VAR_CurrentSceneId\" Field Value Type Description String VAR_LoadSceneAsyncProgress Declaration public const string VAR_LoadSceneAsyncProgress = \"VAR_LoadSceneAsyncProgress\" Field Value Type Description String"
+  },
+  "api/XiheFramework.Modules.Blackboard.BlackBoardDataType.html": {
+    "href": "api/XiheFramework.Modules.Blackboard.BlackBoardDataType.html",
+    "title": "Enum BlackBoardDataType | Example Unity documentation",
+    "keywords": "Enum BlackBoardDataType Namespace : XiheFramework.Modules.Blackboard Assembly : cs.temp.dll.dll Syntax public enum BlackBoardDataType Fields Name Description GlobalSaveData Runtime SaveData"
+  },
+  "api/XiheFramework.Modules.Blackboard.BlackboardModule.html": {
+    "href": "api/XiheFramework.Modules.Blackboard.BlackboardModule.html",
+    "title": "Class BlackboardModule | Example Unity documentation",
+    "keywords": "Class BlackboardModule Inheritance Object GameModule BlackboardModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.Blackboard Assembly : cs.temp.dll.dll Syntax public class BlackboardModule : GameModule Methods ContainsKey(String) Check whether a data name exists Declaration public bool ContainsKey(string dataName) Parameters Type Name Description String dataName data name, work as indexing key Returns Type Description Boolean GetData(String) Get data entity at runtime Declaration public object GetData(string dataName) Parameters Type Name Description String dataName data name, work as indexing key Returns Type Description Object GetData<T>(String) Get data entity at runtime with a type conversion Declaration public T GetData<T>(string dataName) Parameters Type Name Description String dataName data name, work as indexing key Returns Type Description T Type Parameters Name Description T output type GetDataArray() Retrive all data from the current blackboard Declaration public object[] GetDataArray() Returns Type Description Object [] data GetDataPathArray() Retrive all keys from the current blackboard Declaration public IEnumerable<string> GetDataPathArray() Returns Type Description IEnumerable < String > keys GetDataPaths() Declaration public TreeNode<string> GetDataPaths() Returns Type Description TreeNode < String > RemoveData(String) Remove a data entity from the runtime Blackboard using its data name Declaration public void RemoveData(string dataName) Parameters Type Name Description String dataName data name, work as indexing key Reset() Clear all runtime data Declaration public void Reset() SetData<T>(String, T, BlackBoardDataType) Set data at runtime Declaration public void SetData<T>(string dataName, T value, BlackBoardDataType targetType = BlackBoardDataType.Runtime) Parameters Type Name Description String dataName data name, work as indexing key T value data entity BlackBoardDataType targetType data type Type Parameters Name Description T object"
+  },
+  "api/XiheFramework.Modules.Blackboard.BlackBoardObject.html": {
+    "href": "api/XiheFramework.Modules.Blackboard.BlackBoardObject.html",
+    "title": "Struct BlackBoardObject | Example Unity documentation",
+    "keywords": "Struct BlackBoardObject Inherited Members ValueType.Equals(Object) ValueType.GetHashCode() ValueType.ToString() Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetType() Namespace : XiheFramework.Modules.Blackboard Assembly : cs.temp.dll.dll Syntax public struct BlackBoardObject Constructors BlackBoardObject(Object, BlackBoardDataType) Declaration public BlackBoardObject(object entity, BlackBoardDataType type) Parameters Type Name Description Object entity BlackBoardDataType type Fields entity Declaration public object entity Field Value Type Description Object type Declaration public BlackBoardDataType type Field Value Type Description BlackBoardDataType"
+  },
+  "api/XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow.html": {
+    "href": "api/XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow.html",
+    "title": "Class BlackBoardEditorWindow | Example Unity documentation",
+    "keywords": "Class BlackBoardEditorWindow Inheritance Object BlackBoardEditorWindow Namespace : XiheFramework.Modules.Blackboard.Editor Assembly : cs.temp.dll.dll Syntax public class BlackBoardEditorWindow : EditorWindow"
+  },
+  "api/XiheFramework.Modules.Blackboard.Editor.html": {
+    "href": "api/XiheFramework.Modules.Blackboard.Editor.html",
+    "title": "Namespace XiheFramework.Modules.Blackboard.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Blackboard.Editor Classes BlackBoardEditorWindow"
+  },
+  "api/XiheFramework.Modules.Blackboard.html": {
+    "href": "api/XiheFramework.Modules.Blackboard.html",
+    "title": "Namespace XiheFramework.Modules.Blackboard | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Blackboard Classes BlackboardModule Structs BlackBoardObject Enums BlackBoardDataType"
+  },
+  "api/XiheFramework.Modules.Entity.Entity.html": {
+    "href": "api/XiheFramework.Modules.Entity.Entity.html",
+    "title": "Class Entity | Example Unity documentation",
+    "keywords": "Class Entity Inheritance Object Entity Namespace : XiheFramework.Modules.Entity Assembly : cs.temp.dll.dll Syntax public class Entity : MonoBehaviour Methods InitializeEntity(String) Declaration public void InitializeEntity(string entityName) Parameters Type Name Description String entityName"
+  },
+  "api/XiheFramework.Modules.Entity.EntityModule.html": {
+    "href": "api/XiheFramework.Modules.Entity.EntityModule.html",
+    "title": "Class EntityModule | Example Unity documentation",
+    "keywords": "Class EntityModule Inheritance Object GameModule EntityModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.Entity Assembly : cs.temp.dll.dll Syntax public class EntityModule : GameModule Methods GetEntity(String) Declaration public Entity GetEntity(string entityName) Parameters Type Name Description String entityName Returns Type Description Entity RegisterEntity(String, Entity) Declaration public void RegisterEntity(string id, Entity entity) Parameters Type Name Description String id Entity entity"
+  },
+  "api/XiheFramework.Modules.Entity.html": {
+    "href": "api/XiheFramework.Modules.Entity.html",
+    "title": "Namespace XiheFramework.Modules.Entity | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Entity Classes Entity EntityModule"
+  },
+  "api/XiheFramework.Modules.Event.EventModule.html": {
+    "href": "api/XiheFramework.Modules.Event.EventModule.html",
+    "title": "Class EventModule | Example Unity documentation",
+    "keywords": "Class EventModule Inheritance Object GameModule EventModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.Event Assembly : cs.temp.dll.dll Syntax public class EventModule : GameModule Methods Count() Declaration public int Count() Returns Type Description Int32 Invoke(String, Object, Object) Declaration public void Invoke(string eventName, object sender = null, object eventArg = null) Parameters Type Name Description String eventName Object sender Object eventArg Subscribe(String, EventHandler<Object>) Subscribe to event name with a handler Declaration public void Subscribe(string eventName, EventHandler<object> handler) Parameters Type Name Description String eventName EventHandler < Object > handler Unsubscribe(String, EventHandler<Object>) Declaration public void Unsubscribe(string eventName, EventHandler<object> handler) Parameters Type Name Description String eventName EventHandler < Object > handler"
+  },
+  "api/XiheFramework.Modules.Event.html": {
+    "href": "api/XiheFramework.Modules.Event.html",
+    "title": "Namespace XiheFramework.Modules.Event | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Event Classes EventModule"
+  },
+  "api/XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent.html": {
+    "href": "api/XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent.html",
+    "title": "Class FlowScriptEvent | Example Unity documentation",
+    "keywords": "Class FlowScriptEvent Inheritance Object FlowScriptEvent Namespace : XiheFramework.Modules.FlowScriptEvent Assembly : cs.temp.dll.dll Syntax public class FlowScriptEvent : MonoBehaviour Fields canvas Declaration public FlowScript canvas Field Value Type Description FlowScript description Declaration public string description Field Value Type Description String eventName Declaration public string eventName Field Value Type Description String playOnAwake Declaration public bool playOnAwake Field Value Type Description Boolean priority Declaration public int priority Field Value Type Description Int32 Methods Play() Declaration public void Play()"
+  },
+  "api/XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.html": {
+    "href": "api/XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.html",
+    "title": "Class FlowScriptEventModule | Example Unity documentation",
+    "keywords": "Class FlowScriptEventModule Inheritance Object GameModule FlowScriptEventModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.FlowScriptEvent Assembly : cs.temp.dll.dll Syntax public class FlowScriptEventModule : GameModule Fields allEvents Declaration public List<FlowScriptEvent> allEvents Field Value Type Description List < FlowScriptEvent > Methods DestroyEvent(String, Single) Declaration public void DestroyEvent(string eventName, float delay) Parameters Type Name Description String eventName Single delay GetEvent(String) Declaration public FlowScriptEvent GetEvent(string eventName) Parameters Type Name Description String eventName Returns Type Description FlowScriptEvent StartEvent(String) Declaration public void StartEvent(string eventName) Parameters Type Name Description String eventName"
+  },
+  "api/XiheFramework.Modules.FlowScriptEvent.html": {
+    "href": "api/XiheFramework.Modules.FlowScriptEvent.html",
+    "title": "Namespace XiheFramework.Modules.FlowScriptEvent | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.FlowScriptEvent Classes FlowScriptEvent FlowScriptEventModule"
+  },
+  "api/XiheFramework.Modules.FSM.BaseState.html": {
+    "href": "api/XiheFramework.Modules.FSM.BaseState.html",
+    "title": "Class BaseState | Example Unity documentation",
+    "keywords": "Class BaseState Inheritance Object BaseState FlowState State<T> Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.FSM Assembly : cs.temp.dll.dll Syntax public abstract class BaseState Constructors BaseState(StateMachine) Declaration protected BaseState(StateMachine parentStateMachine) Parameters Type Name Description StateMachine parentStateMachine Methods ChangeState(String) Declaration public void ChangeState(string targetState) Parameters Type Name Description String targetState OnEnter() Declaration public abstract void OnEnter() OnExit() Declaration public abstract void OnExit() OnUpdate() Declaration public abstract void OnUpdate()"
+  },
+  "api/XiheFramework.Modules.FSM.Editor.FsmEditorWindow.html": {
+    "href": "api/XiheFramework.Modules.FSM.Editor.FsmEditorWindow.html",
+    "title": "Class FsmEditorWindow | Example Unity documentation",
+    "keywords": "Class FsmEditorWindow Inheritance Object FsmEditorWindow Namespace : XiheFramework.Modules.FSM.Editor Assembly : cs.temp.dll.dll Syntax public class FsmEditorWindow : EditorWindow"
+  },
+  "api/XiheFramework.Modules.FSM.Editor.html": {
+    "href": "api/XiheFramework.Modules.FSM.Editor.html",
+    "title": "Namespace XiheFramework.Modules.FSM.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.FSM.Editor Classes FsmEditorWindow"
+  },
+  "api/XiheFramework.Modules.FSM.FlowState.html": {
+    "href": "api/XiheFramework.Modules.FSM.FlowState.html",
+    "title": "Class FlowState | Example Unity documentation",
+    "keywords": "Class FlowState Inheritance Object BaseState FlowState Inherited Members BaseState.ChangeState(String) Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.FSM Assembly : cs.temp.dll.dll Syntax public class FlowState : BaseState Constructors FlowState(StateMachine, Action, Action, Action) Declaration public FlowState(StateMachine parentStateMachine, Action onEnterCallbacks, Action onUpdateCallbacks, Action onExitCallbacks) Parameters Type Name Description StateMachine parentStateMachine Action onEnterCallbacks Action onUpdateCallbacks Action onExitCallbacks Methods OnEnter() Declaration public override void OnEnter() Overrides BaseState.OnEnter() OnExit() Declaration public override void OnExit() Overrides BaseState.OnExit() OnUpdate() Declaration public override void OnUpdate() Overrides BaseState.OnUpdate()"
+  },
+  "api/XiheFramework.Modules.FSM.html": {
+    "href": "api/XiheFramework.Modules.FSM.html",
+    "title": "Namespace XiheFramework.Modules.FSM | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.FSM Classes BaseState FlowState State<T> StateMachine StateMachineModule"
+  },
+  "api/XiheFramework.Modules.FSM.State-1.html": {
+    "href": "api/XiheFramework.Modules.FSM.State-1.html",
+    "title": "Class State<T> | Example Unity documentation",
+    "keywords": "Class State<T> Inheritance Object BaseState State<T> Inherited Members BaseState.OnEnter() BaseState.OnUpdate() BaseState.OnExit() BaseState.ChangeState(String) Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.FSM Assembly : cs.temp.dll.dll Syntax public abstract class State<T> : BaseState Type Parameters Name Description T Constructors State(StateMachine, T) Declaration protected State(StateMachine parentStateMachine, T owner) Parameters Type Name Description StateMachine parentStateMachine T owner Fields owner Declaration protected T owner Field Value Type Description T"
+  },
+  "api/XiheFramework.Modules.FSM.StateMachine.html": {
+    "href": "api/XiheFramework.Modules.FSM.StateMachine.html",
+    "title": "Class StateMachine | Example Unity documentation",
+    "keywords": "Class StateMachine Inheritance Object StateMachine Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.FSM Assembly : cs.temp.dll.dll Syntax public class StateMachine Methods AddState(String, BaseState) Declaration public void AddState(string stateName, BaseState state) Parameters Type Name Description String stateName BaseState state ChangeState(String) Declaration public void ChangeState(string targetState) Parameters Type Name Description String targetState Create() Declaration public static StateMachine Create() Returns Type Description StateMachine Create(String) Declaration public static StateMachine Create(string defaultState) Parameters Type Name Description String defaultState Returns Type Description StateMachine GetCurrentState() Declaration public string GetCurrentState() Returns Type Description String RemoveState(String) Declaration public void RemoveState(string stateName) Parameters Type Name Description String stateName SetDefaultState(String) Declaration public void SetDefaultState(string stateName) Parameters Type Name Description String stateName Start() Declaration public void Start() Stop() shutdown fsm Declaration public void Stop() Update() Declaration public void Update()"
+  },
+  "api/XiheFramework.Modules.FSM.StateMachineModule.html": {
+    "href": "api/XiheFramework.Modules.FSM.StateMachineModule.html",
+    "title": "Class StateMachineModule | Example Unity documentation",
+    "keywords": "Class StateMachineModule Inheritance Object GameModule StateMachineModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.FSM Assembly : cs.temp.dll.dll Syntax public class StateMachineModule : GameModule Fields enableDebug Declaration public bool enableDebug Field Value Type Description Boolean Methods AddFlowState(String, String, Action, Action, Action) Declaration public void AddFlowState(string fsmName, string stateName, Action onEnter, Action onUpdate, Action onExit) Parameters Type Name Description String fsmName String stateName Action onEnter Action onUpdate Action onExit ChangeState(String, String) Declaration public void ChangeState(string fsmName, string stateName) Parameters Type Name Description String fsmName String stateName ContinueAllStateMachines() Declaration public void ContinueAllStateMachines() CreateStateMachine(String) Declaration public StateMachine CreateStateMachine(string fsmName) Parameters Type Name Description String fsmName Returns Type Description StateMachine GetCurrentState(String) Declaration public string GetCurrentState(string fsmName) Parameters Type Name Description String fsmName Returns Type Description String GetData() Declaration public Dictionary<string, StateMachine> GetData() Returns Type Description Dictionary < String , StateMachine > IsFsmExisted(String) Declaration public bool IsFsmExisted(string fsmName) Parameters Type Name Description String fsmName Returns Type Description Boolean PauseAllStateMachines() Declaration public void PauseAllStateMachines() RemoveStateMachine(String) Declaration public void RemoveStateMachine(string fsmName) Parameters Type Name Description String fsmName SetDefaultState(String, String) Declaration public void SetDefaultState(string fsmName, string stateName) Parameters Type Name Description String fsmName String stateName"
+  },
+  "api/XiheFramework.Modules.Input.html": {
+    "href": "api/XiheFramework.Modules.Input.html",
+    "title": "Namespace XiheFramework.Modules.Input | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Input Classes InputModule Structs InputModule.ActionKeyPair InputModule.TwoDirectionalKeySet Enums KeyActionTypes"
+  },
+  "api/XiheFramework.Modules.Input.InputModule.ActionKeyPair.html": {
+    "href": "api/XiheFramework.Modules.Input.InputModule.ActionKeyPair.html",
+    "title": "Struct InputModule.ActionKeyPair | Example Unity documentation",
+    "keywords": "Struct InputModule.ActionKeyPair Inherited Members ValueType.Equals(Object) ValueType.GetHashCode() ValueType.ToString() Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetType() Namespace : XiheFramework.Modules.Input Assembly : cs.temp.dll.dll Syntax public struct ActionKeyPair Constructors ActionKeyPair(String, KeyCode) Declaration public ActionKeyPair(string action, KeyCode key) Parameters Type Name Description String action KeyCode key Fields action Declaration public string action Field Value Type Description String key Declaration public KeyCode key Field Value Type Description KeyCode"
+  },
+  "api/XiheFramework.Modules.Input.InputModule.html": {
+    "href": "api/XiheFramework.Modules.Input.InputModule.html",
+    "title": "Class InputModule | Example Unity documentation",
+    "keywords": "Class InputModule Inheritance Object GameModule InputModule Namespace : XiheFramework.Modules.Input Assembly : cs.temp.dll.dll Syntax public class InputModule : GameModule Fields allowInput Declaration public bool allowInput Field Value Type Description Boolean Methods AnyKey() Declaration public bool AnyKey() Returns Type Description Boolean AnyKeyDown() Declaration public bool AnyKeyDown() Returns Type Description Boolean Awake() Declaration protected override void Awake() Overrides GameModule.Awake() ContainsKeyAction(String) Declaration public bool ContainsKeyAction(string keyActionTypes) Parameters Type Name Description String keyActionTypes Returns Type Description Boolean DisableInput() Declaration public void DisableInput() EnableInput() Declaration public void EnableInput() GetKey(String) Declaration public bool GetKey(string keyActionTypes) Parameters Type Name Description String keyActionTypes Returns Type Description Boolean GetKeyCode(String) Declaration public KeyCode GetKeyCode(string keyActionTypes) Parameters Type Name Description String keyActionTypes Returns Type Description KeyCode GetKeyDown(String) Declaration public bool GetKeyDown(string keyActionTypes) Parameters Type Name Description String keyActionTypes Returns Type Description Boolean GetKeyUp(String) Declaration public bool GetKeyUp(string keyActionTypes) Parameters Type Name Description String keyActionTypes Returns Type Description Boolean GetMouse(Int32) Declaration public bool GetMouse(int mouseType) Parameters Type Name Description Int32 mouseType Returns Type Description Boolean GetMouseDeltaPosition() Declaration public Vector2 GetMouseDeltaPosition() Returns Type Description Vector2 GetMouseDown(Int32) Declaration public bool GetMouseDown(int mouseType) Parameters Type Name Description Int32 mouseType Returns Type Description Boolean GetMouseUp(Int32) Declaration public bool GetMouseUp(int mouseType) Parameters Type Name Description Int32 mouseType Returns Type Description Boolean GetMouseXZInput() Declaration public Vector2 GetMouseXZInput() Returns Type Description Vector2 GetTwoAxisInput(String, Single) Declaration public Vector2 GetTwoAxisInput(string setName, float acceleration = 1F) Parameters Type Name Description String setName Single acceleration Returns Type Description Vector2 GetXZInput() Declaration public Vector2 GetXZInput() Returns Type Description Vector2 SetKeycode(String, KeyCode) Declaration public void SetKeycode(string action, KeyCode keyCode) Parameters Type Name Description String action KeyCode keyCode"
+  },
+  "api/XiheFramework.Modules.Input.InputModule.TwoDirectionalKeySet.html": {
+    "href": "api/XiheFramework.Modules.Input.InputModule.TwoDirectionalKeySet.html",
+    "title": "Struct InputModule.TwoDirectionalKeySet | Example Unity documentation",
+    "keywords": "Struct InputModule.TwoDirectionalKeySet Inherited Members ValueType.Equals(Object) ValueType.GetHashCode() ValueType.ToString() Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetType() Namespace : XiheFramework.Modules.Input Assembly : cs.temp.dll.dll Syntax public struct TwoDirectionalKeySet Fields backward Declaration public KeyCode backward Field Value Type Description KeyCode forward Declaration public KeyCode forward Field Value Type Description KeyCode left Declaration public KeyCode left Field Value Type Description KeyCode name Declaration public string name Field Value Type Description String right Declaration public KeyCode right Field Value Type Description KeyCode"
+  },
+  "api/XiheFramework.Modules.Input.KeyActionTypes.html": {
+    "href": "api/XiheFramework.Modules.Input.KeyActionTypes.html",
+    "title": "Enum KeyActionTypes | Example Unity documentation",
+    "keywords": "Enum KeyActionTypes Namespace : XiheFramework.Modules.Input Assembly : cs.temp.dll.dll Syntax public enum KeyActionTypes Fields Name Description Crouch Dash Fire Interact Jump Map MoveBackward MoveForward MoveLeft MoveRight SwitchCharacter TurnLeft TurnRight"
+  },
+  "api/XiheFramework.Modules.Localization.html": {
+    "href": "api/XiheFramework.Modules.Localization.html",
+    "title": "Namespace XiheFramework.Modules.Localization | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Localization Classes LocalizationModule Enums Languages"
+  },
+  "api/XiheFramework.Modules.Localization.Languages.html": {
+    "href": "api/XiheFramework.Modules.Localization.Languages.html",
+    "title": "Enum Languages | Example Unity documentation",
+    "keywords": "Enum Languages Namespace : XiheFramework.Modules.Localization Assembly : cs.temp.dll.dll Syntax public enum Languages Fields Name Description English Japanese"
+  },
+  "api/XiheFramework.Modules.Localization.LocalizationModule.html": {
+    "href": "api/XiheFramework.Modules.Localization.LocalizationModule.html",
+    "title": "Class LocalizationModule | Example Unity documentation",
+    "keywords": "Class LocalizationModule Inheritance Object GameModule LocalizationModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.Localization Assembly : cs.temp.dll.dll Syntax public class LocalizationModule : GameModule Fields language Declaration public Languages language Field Value Type Description Languages streamingPath Declaration public string streamingPath Field Value Type Description String Methods GetValue(String) Declaration public string GetValue(string key) Parameters Type Name Description String key Returns Type Description String"
+  },
+  "api/XiheFramework.Modules.Serialization.BaseSaveData.html": {
+    "href": "api/XiheFramework.Modules.Serialization.BaseSaveData.html",
+    "title": "Class BaseSaveData | Example Unity documentation",
+    "keywords": "Class BaseSaveData Inheritance Object BaseSaveData Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.Serialization Assembly : cs.temp.dll.dll Syntax public class BaseSaveData Fields name Declaration public string name Field Value Type Description String saveData Declaration public Dictionary<string, object> saveData Field Value Type Description Dictionary < String , Object > time Declaration public string time Field Value Type Description String"
+  },
+  "api/XiheFramework.Modules.Serialization.html": {
+    "href": "api/XiheFramework.Modules.Serialization.html",
+    "title": "Namespace XiheFramework.Modules.Serialization | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.Serialization Classes BaseSaveData SaveData SerializationModule SerializationUtil"
+  },
+  "api/XiheFramework.Modules.Serialization.SaveData.html": {
+    "href": "api/XiheFramework.Modules.Serialization.SaveData.html",
+    "title": "Class SaveData | Example Unity documentation",
+    "keywords": "Class SaveData Inheritance Object SaveData Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.Serialization Assembly : cs.temp.dll.dll Syntax public class SaveData Fields name Declaration public string name Field Value Type Description String note Declaration public string note Field Value Type Description String time Declaration public string time Field Value Type Description String"
+  },
+  "api/XiheFramework.Modules.Serialization.SerializationModule.html": {
+    "href": "api/XiheFramework.Modules.Serialization.SerializationModule.html",
+    "title": "Class SerializationModule | Example Unity documentation",
+    "keywords": "Class SerializationModule Inheritance Object GameModule SerializationModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.Serialization Assembly : cs.temp.dll.dll Syntax public class SerializationModule : GameModule Methods GetSaveInfo(String) Declaration public string GetSaveInfo(string fileName) Parameters Type Name Description String fileName Returns Type Description String IfLoadFileEmpty(String) Declaration public bool IfLoadFileEmpty(string fileName) Parameters Type Name Description String fileName Returns Type Description Boolean IfRecoverSaveFile(String) Declaration public bool IfRecoverSaveFile(string fileName) Parameters Type Name Description String fileName Returns Type Description Boolean ReadSaveData(String) Declaration public void ReadSaveData(string fileName) Parameters Type Name Description String fileName WriteSaveData(String) Declaration public void WriteSaveData(string fileName) Parameters Type Name Description String fileName"
+  },
+  "api/XiheFramework.Modules.Serialization.SerializationUtil.html": {
+    "href": "api/XiheFramework.Modules.Serialization.SerializationUtil.html",
+    "title": "Class SerializationUtil | Example Unity documentation",
+    "keywords": "Class SerializationUtil Inheritance Object SerializationUtil Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Modules.Serialization Assembly : cs.temp.dll.dll Syntax public static class SerializationUtil Methods ParseBoolToString(Boolean) Declaration public static string ParseBoolToString(bool value) Parameters Type Name Description Boolean value Returns Type Description String ParseFloatToString(Single) Declaration public static string ParseFloatToString(float value) Parameters Type Name Description Single value Returns Type Description String ParseIntToString(Int32) Declaration public static string ParseIntToString(int value) Parameters Type Name Description Int32 value Returns Type Description String ParseStringToBool(String) Declaration public static bool ParseStringToBool(string value) Parameters Type Name Description String value Returns Type Description Boolean ParseStringToFloat(String) Declaration public static float ParseStringToFloat(string value) Parameters Type Name Description String value Returns Type Description Single ParseStringToInt(String) Declaration public static int ParseStringToInt(string value) Parameters Type Name Description String value Returns Type Description Int32 ParseStringToVector3(String) Declaration public static Vector3 ParseStringToVector3(string value) Parameters Type Name Description String value Returns Type Description Vector3 ParseVector3ToString(Vector3) Declaration public static string ParseVector3ToString(Vector3 value) Parameters Type Name Description Vector3 value Returns Type Description String"
+  },
+  "api/XiheFramework.Modules.UI.html": {
+    "href": "api/XiheFramework.Modules.UI.html",
+    "title": "Namespace XiheFramework.Modules.UI | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Modules.UI Classes UIBehaviour UIModule"
+  },
+  "api/XiheFramework.Modules.UI.UIBehaviour.html": {
+    "href": "api/XiheFramework.Modules.UI.UIBehaviour.html",
+    "title": "Class UIBehaviour | Example Unity documentation",
+    "keywords": "Class UIBehaviour Inheritance Object UIBehaviour Namespace : XiheFramework.Modules.UI Assembly : cs.temp.dll.dll Syntax public abstract class UIBehaviour : MonoBehaviour Fields uiName Declaration public string uiName Field Value Type Description String Methods Active() Declaration public virtual void Active() Register() Declaration public virtual void Register() Start() Declaration public virtual void Start() UnActive() Declaration public virtual void UnActive()"
+  },
+  "api/XiheFramework.Modules.UI.UIModule.html": {
+    "href": "api/XiheFramework.Modules.UI.UIModule.html",
+    "title": "Class UIModule | Example Unity documentation",
+    "keywords": "Class UIModule Inheritance Object GameModule UIModule Inherited Members GameModule.Awake() Namespace : XiheFramework.Modules.UI Assembly : cs.temp.dll.dll Syntax public class UIModule : GameModule Methods ActivateUI(String) Declaration public bool ActivateUI(string behaviourName) Parameters Type Name Description String behaviourName Returns Type Description Boolean InstantiateUIBehaviour<T>(T) Declaration public T InstantiateUIBehaviour<T>(T uiBehaviour) where T : UIBehaviour Parameters Type Name Description T uiBehaviour Returns Type Description T Type Parameters Name Description T RegisterUIBehaviour(String, UIBehaviour) Declaration public void RegisterUIBehaviour(string behaviourName, UIBehaviour behaviour) Parameters Type Name Description String behaviourName UIBehaviour behaviour TryGetUIBehaviour<T>(out T) Declaration public bool TryGetUIBehaviour<T>(out T uiBehaviour) where T : UIBehaviour Parameters Type Name Description T uiBehaviour Returns Type Description Boolean Type Parameters Name Description T UnactivateUI(String) Declaration public bool UnactivateUI(string behaviourName) Parameters Type Name Description String behaviourName Returns Type Description Boolean UnregisterUIBehaviour(String) use UnActiveUI instead to hide ui Declaration public void UnregisterUIBehaviour(string behaviourName) Parameters Type Name Description String behaviourName"
+  },
+  "api/XiheFramework.Services.AudioSvc.html": {
+    "href": "api/XiheFramework.Services.AudioSvc.html",
+    "title": "Class AudioSvc | Example Unity documentation",
+    "keywords": "Class AudioSvc Inheritance Object AudioSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class AudioSvc Methods PauseAudio(AudioSource) Declaration public static void PauseAudio(AudioSource audioSource) Parameters Type Name Description AudioSource audioSource PlayAudio(AudioSource, AudioChannelTypes, AudioClip, Single, Boolean) Declaration public static AudioSource PlayAudio(AudioSource audioSource, AudioChannelTypes channelType, AudioClip audioClip, float volume, bool loop) Parameters Type Name Description AudioSource audioSource AudioChannelTypes channelType AudioClip audioClip Single volume Boolean loop Returns Type Description AudioSource StopAudio(AudioSource) Declaration public static void StopAudio(AudioSource audioSource) Parameters Type Name Description AudioSource audioSource UnPauseAudio(AudioSource) Declaration public static void UnPauseAudio(AudioSource audioSource) Parameters Type Name Description AudioSource audioSource"
+  },
+  "api/XiheFramework.Services.BlackBoardSvc.html": {
+    "href": "api/XiheFramework.Services.BlackBoardSvc.html",
+    "title": "Class BlackBoardSvc | Example Unity documentation",
+    "keywords": "Class BlackBoardSvc Inheritance Object BlackBoardSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class BlackBoardSvc Methods GetValue<T>(String) Declaration public static T GetValue<T>(string key) Parameters Type Name Description String key Returns Type Description T Type Parameters Name Description T SetValue<T>(String, T, BlackBoardDataType) Declaration public static void SetValue<T>(string key, T value, BlackBoardDataType targetType) Parameters Type Name Description String key T value BlackBoardDataType targetType Type Parameters Name Description T"
+  },
+  "api/XiheFramework.Services.EntitySvc.html": {
+    "href": "api/XiheFramework.Services.EntitySvc.html",
+    "title": "Class EntitySvc | Example Unity documentation",
+    "keywords": "Class EntitySvc Inheritance Object EntitySvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class EntitySvc Methods GetEntity(String) Declaration public static Entity GetEntity(string entityName) Parameters Type Name Description String entityName Returns Type Description Entity SetupEntity(GameObject, String) Declaration public static void SetupEntity(GameObject owner, string entityName) Parameters Type Name Description GameObject owner String entityName"
+  },
+  "api/XiheFramework.Services.EventSvc.html": {
+    "href": "api/XiheFramework.Services.EventSvc.html",
+    "title": "Class EventSvc | Example Unity documentation",
+    "keywords": "Class EventSvc Inheritance Object EventSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class EventSvc Methods Invoke(String, Object, Object) Declaration public static void Invoke(string eventName, object sender, object value) Parameters Type Name Description String eventName Object sender Object value"
+  },
+  "api/XiheFramework.Services.FlowEventSvc.html": {
+    "href": "api/XiheFramework.Services.FlowEventSvc.html",
+    "title": "Class FlowEventSvc | Example Unity documentation",
+    "keywords": "Class FlowEventSvc Inheritance Object FlowEventSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class FlowEventSvc Methods DestroyFlowEvent(String, Single) Declaration public static void DestroyFlowEvent(string eventName, float delay) Parameters Type Name Description String eventName Single delay IsEventUsed(String) Declaration public static bool IsEventUsed(string eventName) Parameters Type Name Description String eventName Returns Type Description Boolean SetEventUsed(String, Boolean) Declaration public static void SetEventUsed(string eventName, bool used) Parameters Type Name Description String eventName Boolean used StartFlowEvent(String) Declaration public static void StartFlowEvent(string eventName) Parameters Type Name Description String eventName"
+  },
+  "api/XiheFramework.Services.FsmSvc.html": {
+    "href": "api/XiheFramework.Services.FsmSvc.html",
+    "title": "Class FsmSvc | Example Unity documentation",
+    "keywords": "Class FsmSvc Inheritance Object FsmSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class FsmSvc Methods ChangeState(String, String) Declaration public static void ChangeState(string fsmName, string stateName) Parameters Type Name Description String fsmName String stateName GetState(String) Declaration public static string GetState(string fsmName) Parameters Type Name Description String fsmName Returns Type Description String RegisterCallbacks(String, String, Action, Action, Action, Boolean) Declaration public static void RegisterCallbacks(string fsmName, string stateName, Action onStartCallback, Action onUpdateCallback, Action onExitCallback, bool defaultState) Parameters Type Name Description String fsmName String stateName Action onStartCallback Action onUpdateCallback Action onExitCallback Boolean defaultState SetDefaultState(String, String) Declaration public static void SetDefaultState(string fsmName, string stateName) Parameters Type Name Description String fsmName String stateName"
+  },
+  "api/XiheFramework.Services.html": {
+    "href": "api/XiheFramework.Services.html",
+    "title": "Namespace XiheFramework.Services | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Services Classes AudioSvc BlackBoardSvc EntitySvc EventSvc FlowEventSvc FsmSvc InputSvc LocalizationSvc SceneSvc SerializationSvc UISvc UtilSvc"
+  },
+  "api/XiheFramework.Services.InputSvc.html": {
+    "href": "api/XiheFramework.Services.InputSvc.html",
+    "title": "Class InputSvc | Example Unity documentation",
+    "keywords": "Class InputSvc Inheritance Object InputSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class InputSvc Methods AssignKeyMap(String, KeyCode) Declaration public static void AssignKeyMap(string action, KeyCode key) Parameters Type Name Description String action KeyCode key GetAnyKey() Declaration public static bool GetAnyKey() Returns Type Description Boolean GetAnyKeyDown() Declaration public static bool GetAnyKeyDown() Returns Type Description Boolean GetGlobalMoveAxis(Transform, Transform) Declaration public static Vector3 GetGlobalMoveAxis(Transform playerTransform, Transform playerCamera) Parameters Type Name Description Transform playerTransform Transform playerCamera Returns Type Description Vector3 GetKeyDown(String) Declaration public static bool GetKeyDown(string keyAction) Parameters Type Name Description String keyAction Returns Type Description Boolean GetKeyHold(String) Declaration public static bool GetKeyHold(string keyAction) Parameters Type Name Description String keyAction Returns Type Description Boolean GetKeyUp(String) Declaration public static bool GetKeyUp(string keyAction) Parameters Type Name Description String keyAction Returns Type Description Boolean GetMouseAxis() Declaration public static Vector2 GetMouseAxis() Returns Type Description Vector2"
+  },
+  "api/XiheFramework.Services.LocalizationSvc.html": {
+    "href": "api/XiheFramework.Services.LocalizationSvc.html",
+    "title": "Class LocalizationSvc | Example Unity documentation",
+    "keywords": "Class LocalizationSvc Inheritance Object LocalizationSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public class LocalizationSvc Methods GetValue(String) Declaration public static string GetValue(string key) Parameters Type Name Description String key Returns Type Description String"
+  },
+  "api/XiheFramework.Services.SceneSvc.html": {
+    "href": "api/XiheFramework.Services.SceneSvc.html",
+    "title": "Class SceneSvc | Example Unity documentation",
+    "keywords": "Class SceneSvc Inheritance Object SceneSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public class SceneSvc Methods LoadScene(String) Declaration public static void LoadScene(string loadSceneName) Parameters Type Name Description String loadSceneName"
+  },
+  "api/XiheFramework.Services.SerializationSvc.html": {
+    "href": "api/XiheFramework.Services.SerializationSvc.html",
+    "title": "Class SerializationSvc | Example Unity documentation",
+    "keywords": "Class SerializationSvc Inheritance Object SerializationSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class SerializationSvc Methods ReadSaveData(String) Declaration public static void ReadSaveData(string fileName) Parameters Type Name Description String fileName WriteSaveData(String) Declaration public static void WriteSaveData(string fileName) Parameters Type Name Description String fileName"
+  },
+  "api/XiheFramework.Services.UISvc.html": {
+    "href": "api/XiheFramework.Services.UISvc.html",
+    "title": "Class UISvc | Example Unity documentation",
+    "keywords": "Class UISvc Inheritance Object UISvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class UISvc Methods ActivateUI(String) Declaration public static void ActivateUI(string uiName) Parameters Type Name Description String uiName UnactivateUI(String) Declaration public static void UnactivateUI(string uiName) Parameters Type Name Description String uiName"
+  },
+  "api/XiheFramework.Services.UtilSvc.html": {
+    "href": "api/XiheFramework.Services.UtilSvc.html",
+    "title": "Class UtilSvc | Example Unity documentation",
+    "keywords": "Class UtilSvc Inheritance Object UtilSvc Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Services Assembly : cs.temp.dll.dll Syntax public static class UtilSvc Methods AddDeltaTime(Single, out Single) Declaration public static void AddDeltaTime(float input, out float output) Parameters Type Name Description Single input Single output GetFlowCanvasBlackBoardValue<T>(Blackboard, String) Declaration public static T GetFlowCanvasBlackBoardValue<T>(Blackboard blackboard, string name) Parameters Type Name Description Blackboard blackboard String name Returns Type Description T Type Parameters Name Description T JoinString(String, String) Declaration public static string JoinString(string a, string b) Parameters Type Name Description String a String b Returns Type Description String SetFlowCanvasBlackBoardValue<T>(Blackboard, String, T) Declaration public static void SetFlowCanvasBlackBoardValue<T>(Blackboard blackboard, string name, T value) Parameters Type Name Description Blackboard blackboard String name T value Type Parameters Name Description T"
+  },
+  "api/XiheFramework.Utility.AStar.AStar.html": {
+    "href": "api/XiheFramework.Utility.AStar.AStar.html",
+    "title": "Class AStar | Example Unity documentation",
+    "keywords": "Class AStar Inheritance Object AStar Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility.AStar Assembly : cs.temp.dll.dll Syntax public static class AStar Methods GetPath(Dictionary<Int32, AStarNode>, AStarNode, AStarNode, Boolean) Declaration public static AStarNode[] GetPath(Dictionary<int, AStarNode> source, AStarNode startNode, AStarNode targetNode, bool includeDiagonalPath) Parameters Type Name Description Dictionary < Int32 , AStarNode > source AStarNode startNode AStarNode targetNode Boolean includeDiagonalPath Returns Type Description AStarNode []"
+  },
+  "api/XiheFramework.Utility.AStar.AStarGrid.html": {
+    "href": "api/XiheFramework.Utility.AStar.AStarGrid.html",
+    "title": "Class AStarGrid | Example Unity documentation",
+    "keywords": "Class AStarGrid Inheritance Object AStarGrid Namespace : XiheFramework.Utility.AStar Assembly : cs.temp.dll.dll Syntax public class AStarGrid : MonoBehaviour"
+  },
+  "api/XiheFramework.Utility.AStar.AStarNode.html": {
+    "href": "api/XiheFramework.Utility.AStar.AStarNode.html",
+    "title": "Class AStarNode | Example Unity documentation",
+    "keywords": "Class AStarNode Inheritance Object AStarNode Namespace : XiheFramework.Utility.AStar Assembly : cs.temp.dll.dll Syntax public class AStarNode : MonoBehaviour Fields fromDst Declaration public int fromDst Field Value Type Description Int32 gridX Declaration public int gridX Field Value Type Description Int32 gridY Declaration public int gridY Field Value Type Description Int32 parent Declaration public AStarNode parent Field Value Type Description AStarNode toDst Declaration public int toDst Field Value Type Description Int32 walkable Declaration public bool walkable Field Value Type Description Boolean worldPosition Declaration public Vector3 worldPosition Field Value Type Description Vector3 Properties TotalDst Declaration public int TotalDst { get; } Property Value Type Description Int32 Methods InitNode() Declaration public void InitNode()"
+  },
+  "api/XiheFramework.Utility.AStar.html": {
+    "href": "api/XiheFramework.Utility.AStar.html",
+    "title": "Namespace XiheFramework.Utility.AStar | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.AStar Classes AStar AStarGrid AStarNode"
+  },
+  "api/XiheFramework.Utility.Bezier.BezierHelper.html": {
+    "href": "api/XiheFramework.Utility.Bezier.BezierHelper.html",
+    "title": "Class BezierHelper | Example Unity documentation",
+    "keywords": "Class BezierHelper Inheritance Object BezierHelper Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility.Bezier Assembly : cs.temp.dll.dll Syntax public static class BezierHelper Methods GetLinearPoint(Vector3, Vector3, Single) Declaration public static Vector3 GetLinearPoint(Vector3 start, Vector3 end, float t) Parameters Type Name Description Vector3 start Vector3 end Single t Returns Type Description Vector3 GetQuadraticLength(Vector3, Vector3, Vector3, Int32) Declaration public static float GetQuadraticLength(Vector3 start, Vector3 end, Vector3 handle, int resolution) Parameters Type Name Description Vector3 start Vector3 end Vector3 handle Int32 resolution Returns Type Description Single GetQuadraticPoint(Vector3, Vector3, Vector3, Single) Declaration public static Vector3 GetQuadraticPoint(Vector3 start, Vector3 end, Vector3 handle, float t) Parameters Type Name Description Vector3 start Vector3 end Vector3 handle Single t Returns Type Description Vector3 GetQuadraticPoints(Transform, Transform, Transform, Int32) Declaration public static TransformInfo[] GetQuadraticPoints(Transform start, Transform end, Transform handle, int resolution) Parameters Type Name Description Transform start Transform end Transform handle Int32 resolution Returns Type Description TransformInfo []"
+  },
+  "api/XiheFramework.Utility.Bezier.BezierPath.CurveInfo.html": {
+    "href": "api/XiheFramework.Utility.Bezier.BezierPath.CurveInfo.html",
+    "title": "Class BezierPath.CurveInfo | Example Unity documentation",
+    "keywords": "Class BezierPath.CurveInfo Inheritance Object BezierPath.CurveInfo Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility.Bezier Assembly : cs.temp.dll.dll Syntax public class CurveInfo Fields curveType Declaration public CurveType curveType Field Value Type Description CurveType handle Declaration public Transform handle Field Value Type Description Transform start Declaration public Transform start Field Value Type Description Transform"
+  },
+  "api/XiheFramework.Utility.Bezier.BezierPath.html": {
+    "href": "api/XiheFramework.Utility.Bezier.BezierPath.html",
+    "title": "Class BezierPath | Example Unity documentation",
+    "keywords": "Class BezierPath Inheritance Object BezierPath Namespace : XiheFramework.Utility.Bezier Assembly : cs.temp.dll.dll Syntax public class BezierPath : MonoBehaviour Fields pathPoints Declaration public List<BezierPath.CurveInfo> pathPoints Field Value Type Description List < BezierPath.CurveInfo > resolution Declaration public int resolution Field Value Type Description Int32 Methods GetPathPoints() Declaration public List<TransformInfo> GetPathPoints() Returns Type Description List < TransformInfo > GetPointOnPath(Single) Get position of certain progress on the path Declaration public Vector3 GetPointOnPath(float t) Parameters Type Name Description Single t global progress of whole path clamp from 0 to 1 Returns Type Description Vector3 IsPointOnPath(Vector3, Single) Declaration public bool IsPointOnPath(Vector3 point, float allowedAngularError) Parameters Type Name Description Vector3 point Single allowedAngularError Returns Type Description Boolean"
+  },
+  "api/XiheFramework.Utility.Bezier.CurveType.html": {
+    "href": "api/XiheFramework.Utility.Bezier.CurveType.html",
+    "title": "Enum CurveType | Example Unity documentation",
+    "keywords": "Enum CurveType Namespace : XiheFramework.Utility.Bezier Assembly : cs.temp.dll.dll Syntax public enum CurveType Fields Name Description Linear Quadratic"
+  },
+  "api/XiheFramework.Utility.Bezier.html": {
+    "href": "api/XiheFramework.Utility.Bezier.html",
+    "title": "Namespace XiheFramework.Utility.Bezier | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Bezier Classes BezierHelper BezierPath BezierPath.CurveInfo Structs TransformInfo Enums CurveType"
+  },
+  "api/XiheFramework.Utility.Bezier.TransformInfo.html": {
+    "href": "api/XiheFramework.Utility.Bezier.TransformInfo.html",
+    "title": "Struct TransformInfo | Example Unity documentation",
+    "keywords": "Struct TransformInfo Inherited Members ValueType.Equals(Object) ValueType.GetHashCode() ValueType.ToString() Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetType() Namespace : XiheFramework.Utility.Bezier Assembly : cs.temp.dll.dll Syntax public struct TransformInfo Constructors TransformInfo(Vector3, Quaternion, Vector3) Declaration public TransformInfo(Vector3 position, Quaternion rotation, Vector3 scale) Parameters Type Name Description Vector3 position Quaternion rotation Vector3 scale Fields position Declaration public Vector3 position Field Value Type Description Vector3 rotation Declaration public Quaternion rotation Field Value Type Description Quaternion scale Declaration public Vector3 scale Field Value Type Description Vector3 Methods CreateInstance() Declaration public static TransformInfo CreateInstance() Returns Type Description TransformInfo"
+  },
+  "api/XiheFramework.Utility.CantorPairUtility.html": {
+    "href": "api/XiheFramework.Utility.CantorPairUtility.html",
+    "title": "Class CantorPairUtility | Example Unity documentation",
+    "keywords": "Class CantorPairUtility Inheritance Object CantorPairUtility Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public static class CantorPairUtility Methods CantorPair(Int32, Int32) Declaration public static int CantorPair(int x, int y) Parameters Type Name Description Int32 x Int32 y Returns Type Description Int32 ReverseCantorPair(Int32, out Int32, out Int32) Declaration public static void ReverseCantorPair(int cantor, out int x, out int y) Parameters Type Name Description Int32 cantor Int32 x Int32 y SignedCantorPair(Int32, Int32) Declaration public static int SignedCantorPair(int x, int y) Parameters Type Name Description Int32 x Int32 y Returns Type Description Int32 SignedReverseCantorPair(Int32, out Int32, out Int32) Declaration public static void SignedReverseCantorPair(int cantor, out int x, out int y) Parameters Type Name Description Int32 cantor Int32 x Int32 y"
+  },
+  "api/XiheFramework.Utility.FlowCanvasUtil.html": {
+    "href": "api/XiheFramework.Utility.FlowCanvasUtil.html",
+    "title": "Class FlowCanvasUtil | Example Unity documentation",
+    "keywords": "Class FlowCanvasUtil Inheritance Object FlowCanvasUtil Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public static class FlowCanvasUtil Methods StartFlowBehaviour(GameObject, FlowScript) Declaration public static void StartFlowBehaviour(GameObject gameObject, FlowScript flowScript) Parameters Type Name Description GameObject gameObject FlowScript flowScript"
+  },
+  "api/XiheFramework.Utility.GameObjectArray.ArrayModifier.html": {
+    "href": "api/XiheFramework.Utility.GameObjectArray.ArrayModifier.html",
+    "title": "Class ArrayModifier | Example Unity documentation",
+    "keywords": "Class ArrayModifier Inheritance Object ArrayModifier Namespace : XiheFramework.Utility.GameObjectArray Assembly : cs.temp.dll.dll Syntax public class ArrayModifier : MonoBehaviour"
+  },
+  "api/XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor.html": {
+    "href": "api/XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor.html",
+    "title": "Class ArrayModifierEditor | Example Unity documentation",
+    "keywords": "Class ArrayModifierEditor Inheritance Object ArrayModifierEditor Namespace : XiheFramework.Utility.GameObjectArray.Editor Assembly : cs.temp.dll.dll Syntax public class ArrayModifierEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/XiheFramework.Utility.GameObjectArray.Editor.html": {
+    "href": "api/XiheFramework.Utility.GameObjectArray.Editor.html",
+    "title": "Namespace XiheFramework.Utility.GameObjectArray.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.GameObjectArray.Editor Classes ArrayModifierEditor"
+  },
+  "api/XiheFramework.Utility.GameObjectArray.html": {
+    "href": "api/XiheFramework.Utility.GameObjectArray.html",
+    "title": "Namespace XiheFramework.Utility.GameObjectArray | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.GameObjectArray Classes ArrayModifier"
+  },
+  "api/XiheFramework.Utility.html": {
+    "href": "api/XiheFramework.Utility.html",
+    "title": "Namespace XiheFramework.Utility | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility Classes CantorPairUtility FlowCanvasUtil InitializeGameData MultiDictionary<TKey, TValue> RigidBodyHelper Singleton<T> SystemUtil TreeNode<T> UnityEngineExtension VectorMathHelper Enums V2ToV3Type V3ToV2Type"
+  },
+  "api/XiheFramework.Utility.IK.html": {
+    "href": "api/XiheFramework.Utility.IK.html",
+    "title": "Namespace XiheFramework.Utility.IK | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.IK Classes IKLeafBone"
+  },
+  "api/XiheFramework.Utility.IK.IKLeafBone.html": {
+    "href": "api/XiheFramework.Utility.IK.IKLeafBone.html",
+    "title": "Class IKLeafBone | Example Unity documentation",
+    "keywords": "Class IKLeafBone Inheritance Object IKLeafBone Namespace : XiheFramework.Utility.IK Assembly : cs.temp.dll.dll Syntax public class IKLeafBone : MonoBehaviour Fields chainLength Declaration public int chainLength Field Value Type Description Int32 handleSize Declaration public float handleSize Field Value Type Description Single isActive Declaration public bool isActive Field Value Type Description Boolean iterations Declaration public int iterations Field Value Type Description Int32 pole Declaration public Transform pole Field Value Type Description Transform snapBackStrength Declaration public float snapBackStrength Field Value Type Description Single target Declaration public Transform target Field Value Type Description Transform tolerance Declaration public float tolerance Field Value Type Description Single"
+  },
+  "api/XiheFramework.Utility.InitializeGameData.html": {
+    "href": "api/XiheFramework.Utility.InitializeGameData.html",
+    "title": "Class InitializeGameData | Example Unity documentation",
+    "keywords": "Class InitializeGameData Inheritance Object InitializeGameData Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public class InitializeGameData : MonoBehaviour Fields blackboard Declaration public Blackboard blackboard Field Value Type Description Blackboard"
+  },
+  "api/XiheFramework.Utility.MultiDictionary-2.html": {
+    "href": "api/XiheFramework.Utility.MultiDictionary-2.html",
+    "title": "Class MultiDictionary<TKey, TValue> | Example Unity documentation",
+    "keywords": "Class MultiDictionary<TKey, TValue> Inheritance Object MultiDictionary<TKey, TValue> Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public class MultiDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, List<TValue>>> Type Parameters Name Description TKey TValue Constructors MultiDictionary() Declaration public MultiDictionary() Properties Count Declaration public int Count { get; } Property Value Type Description Int32 Item[TKey] Declaration public List<TValue> this[TKey key] { get; } Parameters Type Name Description TKey key Property Value Type Description List <TValue> Keys Declaration public Dictionary<TKey, List<TValue>>.KeyCollection Keys { get; } Property Value Type Description Dictionary.KeyCollection <> Values Declaration public Dictionary<TKey, List<TValue>>.ValueCollection Values { get; } Property Value Type Description Dictionary.ValueCollection <> Methods Add(TKey, TValue) Declaration public void Add(TKey key, TValue value) Parameters Type Name Description TKey key TValue value Clear() Declaration public void Clear() ContainsKey(TKey) Declaration public bool ContainsKey(TKey key) Parameters Type Name Description TKey key Returns Type Description Boolean ContainsValue(TKey, TValue) Declaration public bool ContainsValue(TKey key, TValue value) Parameters Type Name Description TKey key TValue value Returns Type Description Boolean GetEnumerator() Declaration public IEnumerator<KeyValuePair<TKey, List<TValue>>> GetEnumerator() Returns Type Description IEnumerator < KeyValuePair <TKey, List <TValue>>> GetList(TKey) Declaration public List<TValue> GetList(TKey key) Parameters Type Name Description TKey key Returns Type Description List <TValue> Remove(TKey, TValue) Declaration public void Remove(TKey key, TValue value) Parameters Type Name Description TKey key TValue value"
+  },
+  "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubble.html": {
+    "href": "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubble.html",
+    "title": "Class DialogueBubble | Example Unity documentation",
+    "keywords": "Class DialogueBubble Inheritance Object DialogueBubble Namespace : XiheFramework.Utility.Playables.DialogueBubble Assembly : cs.temp.dll.dll Syntax public class DialogueBubble : MonoBehaviour Fields edgeHeight Declaration public float edgeHeight Field Value Type Description Single edgeWidth Declaration public float edgeWidth Field Value Type Description Single image Declaration public Image image Field Value Type Description Image maxLetterPerLine Declaration public int maxLetterPerLine Field Value Type Description Int32 text Declaration public Text text Field Value Type Description Text totalHeight Declaration public float totalHeight Field Value Type Description Single Methods Create() Declaration public static DialogueBubble Create() Returns Type Description DialogueBubble SetSprite(Sprite) Declaration public void SetSprite(Sprite src) Parameters Type Name Description Sprite src SetText(String) Declaration public void SetText(string src) Parameters Type Name Description String src UpdateSize() Declaration public void UpdateSize()"
+  },
+  "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleBehaviour.html",
+    "title": "Class DialogueBubbleBehaviour | Example Unity documentation",
+    "keywords": "Class DialogueBubbleBehaviour Inheritance Object DialogueBubbleBehaviour Namespace : XiheFramework.Utility.Playables.DialogueBubble Assembly : cs.temp.dll.dll Syntax public class DialogueBubbleBehaviour : PlayableBehaviour Fields backgroundColor Declaration public Color backgroundColor Field Value Type Description Color isLeft Declaration public bool isLeft Field Value Type Description Boolean text Declaration public string text Field Value Type Description String"
+  },
+  "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleClip.html",
+    "title": "Class DialogueBubbleClip | Example Unity documentation",
+    "keywords": "Class DialogueBubbleClip Inheritance Object DialogueBubbleClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.DialogueBubble Assembly : cs.temp.dll.dll Syntax public class DialogueBubbleClip : PlayableAsset Fields template Declaration public DialogueBubbleBehaviour template Field Value Type Description DialogueBubbleBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleMixerBehaviour.html",
+    "title": "Class DialogueBubbleMixerBehaviour | Example Unity documentation",
+    "keywords": "Class DialogueBubbleMixerBehaviour Inheritance Object DialogueBubbleMixerBehaviour Namespace : XiheFramework.Utility.Playables.DialogueBubble Assembly : cs.temp.dll.dll Syntax public class DialogueBubbleMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleTrack.html",
+    "title": "Class DialogueBubbleTrack | Example Unity documentation",
+    "keywords": "Class DialogueBubbleTrack Inheritance Object DialogueBubbleTrack Namespace : XiheFramework.Utility.Playables.DialogueBubble Assembly : cs.temp.dll.dll Syntax public class DialogueBubbleTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.DialogueBubble.html": {
+    "href": "api/XiheFramework.Utility.Playables.DialogueBubble.html",
+    "title": "Namespace XiheFramework.Utility.Playables.DialogueBubble | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.DialogueBubble Classes DialogueBubble DialogueBubbleBehaviour DialogueBubbleClip DialogueBubbleMixerBehaviour DialogueBubbleTrack"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.html",
+    "title": "Namespace XiheFramework.Utility.Playables.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.Editor Classes TimelinePlayableWizard TimelinePlayableWizard.UsableProperty TimelinePlayableWizard.UsableType TimelinePlayableWizard.Variable Enums TimelinePlayableWizard.CreationError TimelinePlayableWizard.UsableProperty.Usability TimelinePlayableWizard.UsableProperty.UsablePropertyType"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError.html",
+    "title": "Enum TimelinePlayableWizard.CreationError | Example Unity documentation",
+    "keywords": "Enum TimelinePlayableWizard.CreationError Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public enum CreationError Fields Name Description NoError PlayableAssetAlreadyExists PlayableBehaviourAlreadyExists PlayableBehaviourMixerAlreadyExists PlayableDrawerAlreadyExists TrackAssetAlreadyExists"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.html",
+    "title": "Class TimelinePlayableWizard | Example Unity documentation",
+    "keywords": "Class TimelinePlayableWizard Inheritance Object TimelinePlayableWizard Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public class TimelinePlayableWizard : EditorWindow Fields clipCaps Declaration public ClipCaps clipCaps Field Value Type Description ClipCaps defaultValuesComponent Declaration public Component defaultValuesComponent Field Value Type Description Component exposedReferences Declaration public List<TimelinePlayableWizard.Variable> exposedReferences Field Value Type Description List < TimelinePlayableWizard.Variable > isStandardBlendPlayable Declaration public bool isStandardBlendPlayable Field Value Type Description Boolean playableBehaviourVariables Declaration public List<TimelinePlayableWizard.Variable> playableBehaviourVariables Field Value Type Description List < TimelinePlayableWizard.Variable > playableName Declaration public string playableName Field Value Type Description String showHelpBoxes Declaration public bool showHelpBoxes Field Value Type Description Boolean standardBlendPlayableProperties Declaration public List<TimelinePlayableWizard.UsableProperty> standardBlendPlayableProperties Field Value Type Description List < TimelinePlayableWizard.UsableProperty > trackBinding Declaration public TimelinePlayableWizard.UsableType trackBinding Field Value Type Description TimelinePlayableWizard.UsableType trackColor Declaration public Color trackColor Field Value Type Description Color"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.html",
+    "title": "Class TimelinePlayableWizard.UsableProperty | Example Unity documentation",
+    "keywords": "Class TimelinePlayableWizard.UsableProperty Inheritance Object TimelinePlayableWizard.UsableProperty Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public class UsableProperty : IComparable Constructors UsableProperty(FieldInfo) Declaration public UsableProperty(FieldInfo fieldInfo) Parameters Type Name Description FieldInfo fieldInfo UsableProperty(PropertyInfo) Declaration public UsableProperty(PropertyInfo propertyInfo) Parameters Type Name Description PropertyInfo propertyInfo Fields defaultValue Declaration public string defaultValue Field Value Type Description String fieldInfo Declaration public FieldInfo fieldInfo Field Value Type Description FieldInfo name Declaration public string name Field Value Type Description String propertyInfo Declaration public PropertyInfo propertyInfo Field Value Type Description PropertyInfo type Declaration public string type Field Value Type Description String usability Declaration public TimelinePlayableWizard.UsableProperty.Usability usability Field Value Type Description TimelinePlayableWizard.UsableProperty.Usability usablePropertyType Declaration public TimelinePlayableWizard.UsableProperty.UsablePropertyType usablePropertyType Field Value Type Description TimelinePlayableWizard.UsableProperty.UsablePropertyType Properties NameAsLocalBlended Declaration public string NameAsLocalBlended { get; } Property Value Type Description String NameAsLocalSerializedProperty Declaration public string NameAsLocalSerializedProperty { get; } Property Value Type Description String NameAsPrivate Declaration public string NameAsPrivate { get; } Property Value Type Description String NameAsPrivateAssigned Declaration public string NameAsPrivateAssigned { get; } Property Value Type Description String NameAsPrivateDefault Declaration public string NameAsPrivateDefault { get; } Property Value Type Description String NameWithCaptial Declaration public string NameWithCaptial { get; } Property Value Type Description String Methods CompareTo(Object) Declaration public int CompareTo(object obj) Parameters Type Name Description Object obj Returns Type Description Int32 CreateSettingDefaultValueString(Component) Declaration public void CreateSettingDefaultValueString(Component defaultValuesComponent) Parameters Type Name Description Component defaultValuesComponent GetDuplicate() Declaration public TimelinePlayableWizard.UsableProperty GetDuplicate() Returns Type Description TimelinePlayableWizard.UsableProperty GetNameWithSortingArray(List<TimelinePlayableWizard.UsableProperty>) Declaration public static string[] GetNameWithSortingArray(List<TimelinePlayableWizard.UsableProperty> usableProperties) Parameters Type Name Description List < TimelinePlayableWizard.UsableProperty > usableProperties Returns Type Description String [] GUI(List<TimelinePlayableWizard.UsableProperty>) Declaration public bool GUI(List<TimelinePlayableWizard.UsableProperty> allUsableProperties) Parameters Type Name Description List < TimelinePlayableWizard.UsableProperty > allUsableProperties Returns Type Description Boolean ZeroValueAsString() Declaration public string ZeroValueAsString() Returns Type Description String"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability.html",
+    "title": "Enum TimelinePlayableWizard.UsableProperty.Usability | Example Unity documentation",
+    "keywords": "Enum TimelinePlayableWizard.UsableProperty.Usability Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public enum Usability Fields Name Description Assignable Blendable Not"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType.html",
+    "title": "Enum TimelinePlayableWizard.UsableProperty.UsablePropertyType | Example Unity documentation",
+    "keywords": "Enum TimelinePlayableWizard.UsableProperty.UsablePropertyType Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public enum UsablePropertyType Fields Name Description Field Property"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.html",
+    "title": "Class TimelinePlayableWizard.UsableType | Example Unity documentation",
+    "keywords": "Class TimelinePlayableWizard.UsableType Inheritance Object TimelinePlayableWizard.UsableType Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public class UsableType : IComparable Constructors UsableType(String) Declaration public UsableType(string name) Parameters Type Name Description String name UsableType(Type) Declaration public UsableType(Type usableType) Parameters Type Name Description Type usableType Fields additionalNamespace Declaration public readonly string additionalNamespace Field Value Type Description String blankAdditionalNamespace Declaration public const string blankAdditionalNamespace = \"\" Field Value Type Description String guiContentWithSorting Declaration public readonly GUIContent guiContentWithSorting Field Value Type Description GUIContent name Declaration public readonly string name Field Value Type Description String nameWithSorting Declaration public readonly string nameWithSorting Field Value Type Description String type Declaration public readonly Type type Field Value Type Description Type unrequiredNamespaces Declaration public readonly string[] unrequiredNamespaces Field Value Type Description String [] Methods AmalgamateUsableTypes(TimelinePlayableWizard.UsableType[], TimelinePlayableWizard.UsableType[]) Declaration public static TimelinePlayableWizard.UsableType[] AmalgamateUsableTypes(TimelinePlayableWizard.UsableType[] usableTypeArray, params TimelinePlayableWizard.UsableType[] usableTypes) Parameters Type Name Description TimelinePlayableWizard.UsableType [] usableTypeArray TimelinePlayableWizard.UsableType [] usableTypes Returns Type Description TimelinePlayableWizard.UsableType [] CompareTo(Object) Declaration public int CompareTo(object obj) Parameters Type Name Description Object obj Returns Type Description Int32 GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType[]) Declaration public static string[] GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType[] usableTypes) Parameters Type Name Description TimelinePlayableWizard.UsableType [] usableTypes Returns Type Description String [] GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType[]) Declaration public static GUIContent[] GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType[] usableTypes) Parameters Type Name Description TimelinePlayableWizard.UsableType [] usableTypes Returns Type Description GUIContent [] GetNamewithSortingArray(TimelinePlayableWizard.UsableType[]) Declaration public static string[] GetNamewithSortingArray(TimelinePlayableWizard.UsableType[] usableTypes) Parameters Type Name Description TimelinePlayableWizard.UsableType [] usableTypes Returns Type Description String [] GetUsableTypeArray(Type[], TimelinePlayableWizard.UsableType[]) Declaration public static TimelinePlayableWizard.UsableType[] GetUsableTypeArray(Type[] types, params TimelinePlayableWizard.UsableType[] additionalUsableTypes) Parameters Type Name Description Type [] types TimelinePlayableWizard.UsableType [] additionalUsableTypes Returns Type Description TimelinePlayableWizard.UsableType []"
+  },
+  "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable.html": {
+    "href": "api/XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable.html",
+    "title": "Class TimelinePlayableWizard.Variable | Example Unity documentation",
+    "keywords": "Class TimelinePlayableWizard.Variable Inheritance Object TimelinePlayableWizard.Variable Namespace : XiheFramework.Utility.Playables.Editor Assembly : cs.temp.dll.dll Syntax public class Variable : IComparable Constructors Variable(String, TimelinePlayableWizard.UsableType) Declaration public Variable(string name, TimelinePlayableWizard.UsableType usableType) Parameters Type Name Description String name TimelinePlayableWizard.UsableType usableType Fields name Declaration public string name Field Value Type Description String usableType Declaration public TimelinePlayableWizard.UsableType usableType Field Value Type Description TimelinePlayableWizard.UsableType Methods CompareTo(Object) Declaration public int CompareTo(object obj) Parameters Type Name Description Object obj Returns Type Description Int32 GetUsableTypesFromVariableArray(TimelinePlayableWizard.Variable[]) Declaration public static TimelinePlayableWizard.UsableType[] GetUsableTypesFromVariableArray(TimelinePlayableWizard.Variable[] variables) Parameters Type Name Description TimelinePlayableWizard.Variable [] variables Returns Type Description TimelinePlayableWizard.UsableType [] GUI(TimelinePlayableWizard.UsableType[]) Declaration public bool GUI(TimelinePlayableWizard.UsableType[] usableTypes) Parameters Type Name Description TimelinePlayableWizard.UsableType [] usableTypes Returns Type Description Boolean"
+  },
+  "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.html",
+    "title": "Class EventEmitterBehaviour | Example Unity documentation",
+    "keywords": "Class EventEmitterBehaviour Inheritance Object EventEmitterBehaviour Namespace : XiheFramework.Utility.Playables.EventEmitter Assembly : cs.temp.dll.dll Syntax public class EventEmitterBehaviour : PlayableBehaviour Fields argument Declaration public string argument Field Value Type Description String eventName Declaration public string eventName Field Value Type Description String"
+  },
+  "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.html",
+    "title": "Class EventEmitterClip | Example Unity documentation",
+    "keywords": "Class EventEmitterClip Inheritance Object EventEmitterClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.EventEmitter Assembly : cs.temp.dll.dll Syntax public class EventEmitterClip : PlayableAsset Fields template Declaration public EventEmitterBehaviour template Field Value Type Description EventEmitterBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour.html",
+    "title": "Class EventEmitterMixerBehaviour | Example Unity documentation",
+    "keywords": "Class EventEmitterMixerBehaviour Inheritance Object EventEmitterMixerBehaviour Namespace : XiheFramework.Utility.Playables.EventEmitter Assembly : cs.temp.dll.dll Syntax public class EventEmitterMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack.html",
+    "title": "Class EventEmitterTrack | Example Unity documentation",
+    "keywords": "Class EventEmitterTrack Inheritance Object EventEmitterTrack Namespace : XiheFramework.Utility.Playables.EventEmitter Assembly : cs.temp.dll.dll Syntax public class EventEmitterTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.EventEmitter.html": {
+    "href": "api/XiheFramework.Utility.Playables.EventEmitter.html",
+    "title": "Namespace XiheFramework.Utility.Playables.EventEmitter | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.EventEmitter Classes EventEmitterBehaviour EventEmitterClip EventEmitterMixerBehaviour EventEmitterTrack"
+  },
+  "api/XiheFramework.Utility.Playables.ImageSwitcher.html": {
+    "href": "api/XiheFramework.Utility.Playables.ImageSwitcher.html",
+    "title": "Namespace XiheFramework.Utility.Playables.ImageSwitcher | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.ImageSwitcher Classes ImageSwitcherBehaviour ImageSwitcherClip ImageSwitcherMixerBehaviour ImageSwitcherTrack"
+  },
+  "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour.html",
+    "title": "Class ImageSwitcherBehaviour | Example Unity documentation",
+    "keywords": "Class ImageSwitcherBehaviour Inheritance Object ImageSwitcherBehaviour Namespace : XiheFramework.Utility.Playables.ImageSwitcher Assembly : cs.temp.dll.dll Syntax public class ImageSwitcherBehaviour : PlayableBehaviour Fields color Declaration public Color color Field Value Type Description Color image Declaration public Sprite image Field Value Type Description Sprite"
+  },
+  "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.html",
+    "title": "Class ImageSwitcherClip | Example Unity documentation",
+    "keywords": "Class ImageSwitcherClip Inheritance Object ImageSwitcherClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.ImageSwitcher Assembly : cs.temp.dll.dll Syntax public class ImageSwitcherClip : PlayableAsset Fields template Declaration public ImageSwitcherBehaviour template Field Value Type Description ImageSwitcherBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour.html",
+    "title": "Class ImageSwitcherMixerBehaviour | Example Unity documentation",
+    "keywords": "Class ImageSwitcherMixerBehaviour Inheritance Object ImageSwitcherMixerBehaviour Namespace : XiheFramework.Utility.Playables.ImageSwitcher Assembly : cs.temp.dll.dll Syntax public class ImageSwitcherMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack.html",
+    "title": "Class ImageSwitcherTrack | Example Unity documentation",
+    "keywords": "Class ImageSwitcherTrack Inheritance Object ImageSwitcherTrack Namespace : XiheFramework.Utility.Playables.ImageSwitcher Assembly : cs.temp.dll.dll Syntax public class ImageSwitcherTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.Editor.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.Editor.html",
+    "title": "Namespace XiheFramework.Utility.Playables.LightControl.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.LightControl.Editor Classes LightControlDrawer"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer.html",
+    "title": "Class LightControlDrawer | Example Unity documentation",
+    "keywords": "Class LightControlDrawer Inheritance Object LightControlDrawer Namespace : XiheFramework.Utility.Playables.LightControl.Editor Assembly : cs.temp.dll.dll Syntax public class LightControlDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.html",
+    "title": "Namespace XiheFramework.Utility.Playables.LightControl | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.LightControl Classes LightControlBehaviour LightControlClip LightControlMixerBehaviour LightControlTrack"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.LightControlBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.LightControlBehaviour.html",
+    "title": "Class LightControlBehaviour | Example Unity documentation",
+    "keywords": "Class LightControlBehaviour Inheritance Object LightControlBehaviour Namespace : XiheFramework.Utility.Playables.LightControl Assembly : cs.temp.dll.dll Syntax public class LightControlBehaviour : PlayableBehaviour Fields bounceIntensity Declaration public float bounceIntensity Field Value Type Description Single color Declaration public Color color Field Value Type Description Color intensity Declaration public float intensity Field Value Type Description Single range Declaration public float range Field Value Type Description Single"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.LightControlClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.LightControlClip.html",
+    "title": "Class LightControlClip | Example Unity documentation",
+    "keywords": "Class LightControlClip Inheritance Object LightControlClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.LightControl Assembly : cs.temp.dll.dll Syntax public class LightControlClip : PlayableAsset Fields template Declaration public LightControlBehaviour template Field Value Type Description LightControlBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.LightControlMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.LightControlMixerBehaviour.html",
+    "title": "Class LightControlMixerBehaviour | Example Unity documentation",
+    "keywords": "Class LightControlMixerBehaviour Inheritance Object LightControlMixerBehaviour Namespace : XiheFramework.Utility.Playables.LightControl Assembly : cs.temp.dll.dll Syntax public class LightControlMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.LightControl.LightControlTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.LightControl.LightControlTrack.html",
+    "title": "Class LightControlTrack | Example Unity documentation",
+    "keywords": "Class LightControlTrack Inheritance Object LightControlTrack Namespace : XiheFramework.Utility.Playables.LightControl Assembly : cs.temp.dll.dll Syntax public class LightControlTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.MaterialSwitcher.html": {
+    "href": "api/XiheFramework.Utility.Playables.MaterialSwitcher.html",
+    "title": "Namespace XiheFramework.Utility.Playables.MaterialSwitcher | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.MaterialSwitcher Classes MaterialSwitcherBehaviour MaterialSwitcherClip MaterialSwitcherMixerBehaviour MaterialSwitcherTrack"
+  },
+  "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherBehaviour.html",
+    "title": "Class MaterialSwitcherBehaviour | Example Unity documentation",
+    "keywords": "Class MaterialSwitcherBehaviour Inheritance Object MaterialSwitcherBehaviour Namespace : XiheFramework.Utility.Playables.MaterialSwitcher Assembly : cs.temp.dll.dll Syntax public class MaterialSwitcherBehaviour : PlayableBehaviour Fields color Declaration public Color color Field Value Type Description Color material Declaration public Material material Field Value Type Description Material"
+  },
+  "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherClip.html",
+    "title": "Class MaterialSwitcherClip | Example Unity documentation",
+    "keywords": "Class MaterialSwitcherClip Inheritance Object MaterialSwitcherClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.MaterialSwitcher Assembly : cs.temp.dll.dll Syntax public class MaterialSwitcherClip : PlayableAsset Fields template Declaration public MaterialSwitcherBehaviour template Field Value Type Description MaterialSwitcherBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.html",
+    "title": "Class MaterialSwitcherMixerBehaviour | Example Unity documentation",
+    "keywords": "Class MaterialSwitcherMixerBehaviour Inheritance Object MaterialSwitcherMixerBehaviour Namespace : XiheFramework.Utility.Playables.MaterialSwitcher Assembly : cs.temp.dll.dll Syntax public class MaterialSwitcherMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherTrack.html",
+    "title": "Class MaterialSwitcherTrack | Example Unity documentation",
+    "keywords": "Class MaterialSwitcherTrack Inheritance Object MaterialSwitcherTrack Namespace : XiheFramework.Utility.Playables.MaterialSwitcher Assembly : cs.temp.dll.dll Syntax public class MaterialSwitcherTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.NavMeshAgentControl.html": {
+    "href": "api/XiheFramework.Utility.Playables.NavMeshAgentControl.html",
+    "title": "Namespace XiheFramework.Utility.Playables.NavMeshAgentControl | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.NavMeshAgentControl Classes NavMeshAgentControlBehaviour NavMeshAgentControlClip NavMeshAgentControlMixerBehaviour NavMeshAgentControlTrack"
+  },
+  "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour.html",
+    "title": "Class NavMeshAgentControlBehaviour | Example Unity documentation",
+    "keywords": "Class NavMeshAgentControlBehaviour Inheritance Object NavMeshAgentControlBehaviour Namespace : XiheFramework.Utility.Playables.NavMeshAgentControl Assembly : cs.temp.dll.dll Syntax public class NavMeshAgentControlBehaviour : PlayableBehaviour Fields destination Declaration public Transform destination Field Value Type Description Transform destinationSet Declaration public bool destinationSet Field Value Type Description Boolean Methods OnPlayableCreate(Playable) Declaration public override void OnPlayableCreate(Playable playable) Parameters Type Name Description Playable playable"
+  },
+  "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip.html",
+    "title": "Class NavMeshAgentControlClip | Example Unity documentation",
+    "keywords": "Class NavMeshAgentControlClip Inheritance Object NavMeshAgentControlClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.NavMeshAgentControl Assembly : cs.temp.dll.dll Syntax public class NavMeshAgentControlClip : PlayableAsset Fields destination Declaration public ExposedReference<Transform> destination Field Value Type Description ExposedReference < Transform > template Declaration public NavMeshAgentControlBehaviour template Field Value Type Description NavMeshAgentControlBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour.html",
+    "title": "Class NavMeshAgentControlMixerBehaviour | Example Unity documentation",
+    "keywords": "Class NavMeshAgentControlMixerBehaviour Inheritance Object NavMeshAgentControlMixerBehaviour Namespace : XiheFramework.Utility.Playables.NavMeshAgentControl Assembly : cs.temp.dll.dll Syntax public class NavMeshAgentControlMixerBehaviour : PlayableBehaviour Methods ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack.html",
+    "title": "Class NavMeshAgentControlTrack | Example Unity documentation",
+    "keywords": "Class NavMeshAgentControlTrack Inheritance Object NavMeshAgentControlTrack Namespace : XiheFramework.Utility.Playables.NavMeshAgentControl Assembly : cs.temp.dll.dll Syntax public class NavMeshAgentControlTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.Editor.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.Editor.html",
+    "title": "Namespace XiheFramework.Utility.Playables.ScreenFader.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.ScreenFader.Editor Classes ScreenFaderDrawer"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer.html",
+    "title": "Class ScreenFaderDrawer | Example Unity documentation",
+    "keywords": "Class ScreenFaderDrawer Inheritance Object ScreenFaderDrawer Namespace : XiheFramework.Utility.Playables.ScreenFader.Editor Assembly : cs.temp.dll.dll Syntax public class ScreenFaderDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.html",
+    "title": "Namespace XiheFramework.Utility.Playables.ScreenFader | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.ScreenFader Classes ScreenFaderBehaviour ScreenFaderClip ScreenFaderMixerBehaviour ScreenFaderTrack"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour.html",
+    "title": "Class ScreenFaderBehaviour | Example Unity documentation",
+    "keywords": "Class ScreenFaderBehaviour Inheritance Object ScreenFaderBehaviour Namespace : XiheFramework.Utility.Playables.ScreenFader Assembly : cs.temp.dll.dll Syntax public class ScreenFaderBehaviour : PlayableBehaviour Fields color Declaration public Color color Field Value Type Description Color"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.html",
+    "title": "Class ScreenFaderClip | Example Unity documentation",
+    "keywords": "Class ScreenFaderClip Inheritance Object ScreenFaderClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.ScreenFader Assembly : cs.temp.dll.dll Syntax public class ScreenFaderClip : PlayableAsset Fields template Declaration public ScreenFaderBehaviour template Field Value Type Description ScreenFaderBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour.html",
+    "title": "Class ScreenFaderMixerBehaviour | Example Unity documentation",
+    "keywords": "Class ScreenFaderMixerBehaviour Inheritance Object ScreenFaderMixerBehaviour Namespace : XiheFramework.Utility.Playables.ScreenFader Assembly : cs.temp.dll.dll Syntax public class ScreenFaderMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.ScreenFader.ScreenFaderTrack.html",
+    "title": "Class ScreenFaderTrack | Example Unity documentation",
+    "keywords": "Class ScreenFaderTrack Inheritance Object ScreenFaderTrack Namespace : XiheFramework.Utility.Playables.ScreenFader Assembly : cs.temp.dll.dll Syntax public class ScreenFaderTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.Editor.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.Editor.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TextSwitcher.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TextSwitcher.Editor Classes TextSwitcherDrawer"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.Editor.TextSwitcherDrawer.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.Editor.TextSwitcherDrawer.html",
+    "title": "Class TextSwitcherDrawer | Example Unity documentation",
+    "keywords": "Class TextSwitcherDrawer Inheritance Object TextSwitcherDrawer Namespace : XiheFramework.Utility.Playables.TextSwitcher.Editor Assembly : cs.temp.dll.dll Syntax public class TextSwitcherDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TextSwitcher | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TextSwitcher Classes TextSwitcherBehaviour TextSwitcherClip TextSwitcherMixerBehaviour TextSwitcherTrack"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour.html",
+    "title": "Class TextSwitcherBehaviour | Example Unity documentation",
+    "keywords": "Class TextSwitcherBehaviour Inheritance Object TextSwitcherBehaviour Namespace : XiheFramework.Utility.Playables.TextSwitcher Assembly : cs.temp.dll.dll Syntax public class TextSwitcherBehaviour : PlayableBehaviour Fields color Declaration public Color color Field Value Type Description Color fontSize Declaration public int fontSize Field Value Type Description Int32 localized Declaration public bool localized Field Value Type Description Boolean progression Declaration public float progression Field Value Type Description Single speed Declaration public float speed Field Value Type Description Single text Declaration public string text Field Value Type Description String"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip.html",
+    "title": "Class TextSwitcherClip | Example Unity documentation",
+    "keywords": "Class TextSwitcherClip Inheritance Object TextSwitcherClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.TextSwitcher Assembly : cs.temp.dll.dll Syntax public class TextSwitcherClip : PlayableAsset Fields template Declaration public TextSwitcherBehaviour template Field Value Type Description TextSwitcherBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherMixerBehaviour.html",
+    "title": "Class TextSwitcherMixerBehaviour | Example Unity documentation",
+    "keywords": "Class TextSwitcherMixerBehaviour Inheritance Object TextSwitcherMixerBehaviour Namespace : XiheFramework.Utility.Playables.TextSwitcher Assembly : cs.temp.dll.dll Syntax public class TextSwitcherMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherTrack.html",
+    "title": "Class TextSwitcherTrack | Example Unity documentation",
+    "keywords": "Class TextSwitcherTrack Inheritance Object TextSwitcherTrack Namespace : XiheFramework.Utility.Playables.TextSwitcher Assembly : cs.temp.dll.dll Syntax public class TextSwitcherTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.TimeControl.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeControl.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TimeControl | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TimeControl Classes TimeControlBehaviour TimeControlClip TimeControlMixerBehaviour TimeControlTrack"
+  },
+  "api/XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour.html",
+    "title": "Class TimeControlBehaviour | Example Unity documentation",
+    "keywords": "Class TimeControlBehaviour Inheritance Object TimeControlBehaviour Namespace : XiheFramework.Utility.Playables.TimeControl Assembly : cs.temp.dll.dll Syntax public class TimeControlBehaviour : PlayableBehaviour"
+  },
+  "api/XiheFramework.Utility.Playables.TimeControl.TimeControlClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeControl.TimeControlClip.html",
+    "title": "Class TimeControlClip | Example Unity documentation",
+    "keywords": "Class TimeControlClip Inheritance Object TimeControlClip Namespace : XiheFramework.Utility.Playables.TimeControl Assembly : cs.temp.dll.dll Syntax public class TimeControlClip : MonoBehaviour"
+  },
+  "api/XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour.html",
+    "title": "Class TimeControlMixerBehaviour | Example Unity documentation",
+    "keywords": "Class TimeControlMixerBehaviour Inheritance Object TimeControlMixerBehaviour Namespace : XiheFramework.Utility.Playables.TimeControl Assembly : cs.temp.dll.dll Syntax public class TimeControlMixerBehaviour : MonoBehaviour"
+  },
+  "api/XiheFramework.Utility.Playables.TimeControl.TimeControlTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeControl.TimeControlTrack.html",
+    "title": "Class TimeControlTrack | Example Unity documentation",
+    "keywords": "Class TimeControlTrack Inheritance Object TimeControlTrack Namespace : XiheFramework.Utility.Playables.TimeControl Assembly : cs.temp.dll.dll Syntax public class TimeControlTrack : MonoBehaviour"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.Editor.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.Editor.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TimeDilation.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TimeDilation.Editor Classes TimeDilationDrawer"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.Editor.TimeDilationDrawer.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.Editor.TimeDilationDrawer.html",
+    "title": "Class TimeDilationDrawer | Example Unity documentation",
+    "keywords": "Class TimeDilationDrawer Inheritance Object TimeDilationDrawer Namespace : XiheFramework.Utility.Playables.TimeDilation.Editor Assembly : cs.temp.dll.dll Syntax public class TimeDilationDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TimeDilation | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TimeDilation Classes TimeDilationBehaviour TimeDilationClip TimeDilationMixerBehaviour TimeDilationTrack"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour.html",
+    "title": "Class TimeDilationBehaviour | Example Unity documentation",
+    "keywords": "Class TimeDilationBehaviour Inheritance Object TimeDilationBehaviour Namespace : XiheFramework.Utility.Playables.TimeDilation Assembly : cs.temp.dll.dll Syntax public class TimeDilationBehaviour : PlayableBehaviour Fields timeScale Declaration public float timeScale Field Value Type Description Single"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip.html",
+    "title": "Class TimeDilationClip | Example Unity documentation",
+    "keywords": "Class TimeDilationClip Inheritance Object TimeDilationClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.TimeDilation Assembly : cs.temp.dll.dll Syntax public class TimeDilationClip : PlayableAsset Fields template Declaration public TimeDilationBehaviour template Field Value Type Description TimeDilationBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour.html",
+    "title": "Class TimeDilationMixerBehaviour | Example Unity documentation",
+    "keywords": "Class TimeDilationMixerBehaviour Inheritance Object TimeDilationMixerBehaviour Namespace : XiheFramework.Utility.Playables.TimeDilation Assembly : cs.temp.dll.dll Syntax public class TimeDilationMixerBehaviour : PlayableBehaviour Methods OnBehaviourPause(Playable, FrameData) Declaration public override void OnBehaviourPause(Playable playable, FrameData info) Parameters Type Name Description Playable playable FrameData info OnGraphStop(Playable) Declaration public override void OnGraphStop(Playable playable) Parameters Type Name Description Playable playable OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack.html",
+    "title": "Class TimeDilationTrack | Example Unity documentation",
+    "keywords": "Class TimeDilationTrack Inheritance Object TimeDilationTrack Namespace : XiheFramework.Utility.Playables.TimeDilation Assembly : cs.temp.dll.dll Syntax public class TimeDilationTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.Editor.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.Editor.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TransformTween.Editor | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TransformTween.Editor Classes TransformTweenDrawer"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.html",
+    "title": "Class TransformTweenDrawer | Example Unity documentation",
+    "keywords": "Class TransformTweenDrawer Inheritance Object TransformTweenDrawer Namespace : XiheFramework.Utility.Playables.TransformTween.Editor Assembly : cs.temp.dll.dll Syntax public class TransformTweenDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.html",
+    "title": "Namespace XiheFramework.Utility.Playables.TransformTween | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.TransformTween Classes TransformTweenBehaviour TransformTweenClip TransformTweenMixerBehaviour TransformTweenTrack Enums TransformTweenBehaviour.TweenType"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.html",
+    "title": "Class TransformTweenBehaviour | Example Unity documentation",
+    "keywords": "Class TransformTweenBehaviour Inheritance Object TransformTweenBehaviour Namespace : XiheFramework.Utility.Playables.TransformTween Assembly : cs.temp.dll.dll Syntax public class TransformTweenBehaviour : PlayableBehaviour Fields customCurve Declaration public AnimationCurve customCurve Field Value Type Description AnimationCurve endLocation Declaration public Transform endLocation Field Value Type Description Transform startingPosition Declaration public Vector3 startingPosition Field Value Type Description Vector3 startingRotation Declaration public Quaternion startingRotation Field Value Type Description Quaternion startLocation Declaration public Transform startLocation Field Value Type Description Transform tweenPosition Declaration public bool tweenPosition Field Value Type Description Boolean tweenRotation Declaration public bool tweenRotation Field Value Type Description Boolean tweenType Declaration public TransformTweenBehaviour.TweenType tweenType Field Value Type Description TransformTweenBehaviour.TweenType Methods EvaluateCurrentCurve(Single) Declaration public float EvaluateCurrentCurve(float time) Parameters Type Name Description Single time Returns Type Description Single PrepareFrame(Playable, FrameData) Declaration public override void PrepareFrame(Playable playable, FrameData info) Parameters Type Name Description Playable playable FrameData info"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType.html",
+    "title": "Enum TransformTweenBehaviour.TweenType | Example Unity documentation",
+    "keywords": "Enum TransformTweenBehaviour.TweenType Namespace : XiheFramework.Utility.Playables.TransformTween Assembly : cs.temp.dll.dll Syntax public enum TweenType Fields Name Description Custom Deceleration Harmonic Linear"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.html",
+    "title": "Class TransformTweenClip | Example Unity documentation",
+    "keywords": "Class TransformTweenClip Inheritance Object TransformTweenClip Implements ITimelineClipAsset Namespace : XiheFramework.Utility.Playables.TransformTween Assembly : cs.temp.dll.dll Syntax public class TransformTweenClip : PlayableAsset Fields endLocation Declaration public ExposedReference<Transform> endLocation Field Value Type Description ExposedReference < Transform > startLocation Declaration public ExposedReference<Transform> startLocation Field Value Type Description ExposedReference < Transform > template Declaration public TransformTweenBehaviour template Field Value Type Description TransformTweenBehaviour Properties clipCaps Declaration public ClipCaps clipCaps { get; } Property Value Type Description ClipCaps Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable Implements ITimelineClipAsset"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenMixerBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenMixerBehaviour.html",
+    "title": "Class TransformTweenMixerBehaviour | Example Unity documentation",
+    "keywords": "Class TransformTweenMixerBehaviour Inheritance Object TransformTweenMixerBehaviour Namespace : XiheFramework.Utility.Playables.TransformTween Assembly : cs.temp.dll.dll Syntax public class TransformTweenMixerBehaviour : PlayableBehaviour Methods OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.TransformTween.TransformTweenTrack.html",
+    "title": "Class TransformTweenTrack | Example Unity documentation",
+    "keywords": "Class TransformTweenTrack Inheritance Object TransformTweenTrack Namespace : XiheFramework.Utility.Playables.TransformTween Assembly : cs.temp.dll.dll Syntax public class TransformTweenTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable GatherProperties(PlayableDirector, IPropertyCollector) Declaration public override void GatherProperties(PlayableDirector director, IPropertyCollector driver) Parameters Type Name Description PlayableDirector director IPropertyCollector driver"
+  },
+  "api/XiheFramework.Utility.Playables.Video.html": {
+    "href": "api/XiheFramework.Utility.Playables.Video.html",
+    "title": "Namespace XiheFramework.Utility.Playables.Video | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.Playables.Video Classes VideoPlayableBehaviour VideoSchedulerPlayableBehaviour VideoScriptPlayableAsset VideoScriptPlayableTrack"
+  },
+  "api/XiheFramework.Utility.Playables.Video.VideoPlayableBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.Video.VideoPlayableBehaviour.html",
+    "title": "Class VideoPlayableBehaviour | Example Unity documentation",
+    "keywords": "Class VideoPlayableBehaviour Inheritance Object VideoPlayableBehaviour Namespace : XiheFramework.Utility.Playables.Video Assembly : cs.temp.dll.dll Syntax public class VideoPlayableBehaviour : PlayableBehaviour Fields clipInTime Declaration public double clipInTime Field Value Type Description Double loop Declaration public bool loop Field Value Type Description Boolean mute Declaration public bool mute Field Value Type Description Boolean preloadTime Declaration public double preloadTime Field Value Type Description Double videoClip Declaration public VideoClip videoClip Field Value Type Description VideoClip videoPlayer Declaration public VideoPlayer videoPlayer Field Value Type Description VideoPlayer Methods OnBehaviourPause(Playable, FrameData) Declaration public override void OnBehaviourPause(Playable playable, FrameData info) Parameters Type Name Description Playable playable FrameData info OnBehaviourPlay(Playable, FrameData) Declaration public override void OnBehaviourPlay(Playable playable, FrameData info) Parameters Type Name Description Playable playable FrameData info OnGraphStart(Playable) Declaration public override void OnGraphStart(Playable playable) Parameters Type Name Description Playable playable OnGraphStop(Playable) Declaration public override void OnGraphStop(Playable playable) Parameters Type Name Description Playable playable OnPlayableDestroy(Playable) Declaration public override void OnPlayableDestroy(Playable playable) Parameters Type Name Description Playable playable PauseVideo() Declaration public void PauseVideo() PlayVideo() Declaration public void PlayVideo() PrepareFrame(Playable, FrameData) Declaration public override void PrepareFrame(Playable playable, FrameData info) Parameters Type Name Description Playable playable FrameData info PrepareVideo() Declaration public void PrepareVideo() ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData StopVideo() Declaration public void StopVideo()"
+  },
+  "api/XiheFramework.Utility.Playables.Video.VideoSchedulerPlayableBehaviour.html": {
+    "href": "api/XiheFramework.Utility.Playables.Video.VideoSchedulerPlayableBehaviour.html",
+    "title": "Class VideoSchedulerPlayableBehaviour | Example Unity documentation",
+    "keywords": "Class VideoSchedulerPlayableBehaviour Inheritance Object VideoSchedulerPlayableBehaviour Namespace : XiheFramework.Utility.Playables.Video Assembly : cs.temp.dll.dll Syntax public sealed class VideoSchedulerPlayableBehaviour : PlayableBehaviour Methods ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/XiheFramework.Utility.Playables.Video.VideoScriptPlayableAsset.html": {
+    "href": "api/XiheFramework.Utility.Playables.Video.VideoScriptPlayableAsset.html",
+    "title": "Class VideoScriptPlayableAsset | Example Unity documentation",
+    "keywords": "Class VideoScriptPlayableAsset Inheritance Object VideoScriptPlayableAsset Namespace : XiheFramework.Utility.Playables.Video Assembly : cs.temp.dll.dll Syntax public class VideoScriptPlayableAsset : PlayableAsset Fields clipInTime Declaration public double clipInTime Field Value Type Description Double loop Declaration public bool loop Field Value Type Description Boolean mute Declaration public bool mute Field Value Type Description Boolean preloadTime Declaration public double preloadTime Field Value Type Description Double videoClip Declaration public VideoClip videoClip Field Value Type Description VideoClip videoPlayer Declaration public ExposedReference<VideoPlayer> videoPlayer Field Value Type Description ExposedReference < VideoPlayer > Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject go) Parameters Type Name Description PlayableGraph graph GameObject go Returns Type Description Playable"
+  },
+  "api/XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.html": {
+    "href": "api/XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack.html",
+    "title": "Class VideoScriptPlayableTrack | Example Unity documentation",
+    "keywords": "Class VideoScriptPlayableTrack Inheritance Object VideoScriptPlayableTrack Namespace : XiheFramework.Utility.Playables.Video Assembly : cs.temp.dll.dll Syntax public class VideoScriptPlayableTrack : TrackAsset Methods CreateTrackMixer(PlayableGraph, GameObject, Int32) Declaration public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount) Parameters Type Name Description PlayableGraph graph GameObject go Int32 inputCount Returns Type Description Playable"
+  },
+  "api/XiheFramework.Utility.RigidBodyHelper.html": {
+    "href": "api/XiheFramework.Utility.RigidBodyHelper.html",
+    "title": "Class RigidBodyHelper | Example Unity documentation",
+    "keywords": "Class RigidBodyHelper Inheritance Object RigidBodyHelper Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public static class RigidBodyHelper Methods GetDrag(Single, Single) Declaration public static float GetDrag(float aVelocityChange, float aFinalVelocity) Parameters Type Name Description Single aVelocityChange Single aFinalVelocity Returns Type Description Single GetDragFromAcceleration(Single, Single) Declaration public static float GetDragFromAcceleration(float aAcceleration, float aFinalVelocity) Parameters Type Name Description Single aAcceleration Single aFinalVelocity Returns Type Description Single GetFinalVelocity(Single, Single) Declaration public static float GetFinalVelocity(float aVelocityChange, float aDrag) Parameters Type Name Description Single aVelocityChange Single aDrag Returns Type Description Single GetFinalVelocityFromAcceleration(Single, Single) Declaration public static float GetFinalVelocityFromAcceleration(float aAcceleration, float aDrag) Parameters Type Name Description Single aAcceleration Single aDrag Returns Type Description Single GetRequiredAcceleraton(Single, Single) Declaration public static float GetRequiredAcceleraton(float aFinalSpeed, float aDrag) Parameters Type Name Description Single aFinalSpeed Single aDrag Returns Type Description Single GetRequiredVelocityChange(Single, Single) Declaration public static float GetRequiredVelocityChange(float aFinalSpeed, float aDrag) Parameters Type Name Description Single aFinalSpeed Single aDrag Returns Type Description Single"
+  },
+  "api/XiheFramework.Utility.ShapeKeyDriver.html": {
+    "href": "api/XiheFramework.Utility.ShapeKeyDriver.html",
+    "title": "Namespace XiheFramework.Utility.ShapeKeyDriver | Example Unity documentation",
+    "keywords": "Namespace XiheFramework.Utility.ShapeKeyDriver Classes ShapeKeyDriver Enums ShapeKeyDriver.Axis"
+  },
+  "api/XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.html": {
+    "href": "api/XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis.html",
+    "title": "Enum ShapeKeyDriver.Axis | Example Unity documentation",
+    "keywords": "Enum ShapeKeyDriver.Axis Namespace : XiheFramework.Utility.ShapeKeyDriver Assembly : cs.temp.dll.dll Syntax public enum Axis Fields Name Description X Y Z"
+  },
+  "api/XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.html": {
+    "href": "api/XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.html",
+    "title": "Class ShapeKeyDriver | Example Unity documentation",
+    "keywords": "Class ShapeKeyDriver Inheritance Object ShapeKeyDriver Namespace : XiheFramework.Utility.ShapeKeyDriver Assembly : cs.temp.dll.dll Syntax public class ShapeKeyDriver : MonoBehaviour Fields axis Declaration public ShapeKeyDriver.Axis axis Field Value Type Description ShapeKeyDriver.Axis blendShapeIndex Declaration public int blendShapeIndex Field Value Type Description Int32 maxRotation Declaration public float maxRotation Field Value Type Description Single minRotation Declaration public float minRotation Field Value Type Description Single targetBone Declaration public Transform targetBone Field Value Type Description Transform"
+  },
+  "api/XiheFramework.Utility.Singleton-1.html": {
+    "href": "api/XiheFramework.Utility.Singleton-1.html",
+    "title": "Class Singleton<T> | Example Unity documentation",
+    "keywords": "Class Singleton<T> Inheritance Object Singleton<T> Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Properties Instance Declaration protected static T Instance { get; } Property Value Type Description T"
+  },
+  "api/XiheFramework.Utility.SystemUtil.html": {
+    "href": "api/XiheFramework.Utility.SystemUtil.html",
+    "title": "Class SystemUtil | Example Unity documentation",
+    "keywords": "Class SystemUtil Inheritance Object SystemUtil Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public static class SystemUtil Methods AllIndexesOf(String, String, Boolean) Declaration public static int[] AllIndexesOf(this string str, string substr, bool ignoreCase = false) Parameters Type Name Description String str String substr Boolean ignoreCase Returns Type Description Int32 []"
+  },
+  "api/XiheFramework.Utility.TreeNode-1.html": {
+    "href": "api/XiheFramework.Utility.TreeNode-1.html",
+    "title": "Class TreeNode<T> | Example Unity documentation",
+    "keywords": "Class TreeNode<T> Inheritance Object TreeNode<T> Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public class TreeNode<T> Type Parameters Name Description T Constructors TreeNode(T) Declaration public TreeNode(T value) Parameters Type Name Description T value Properties Children Declaration public ReadOnlyCollection<TreeNode<T>> Children { get; } Property Value Type Description ReadOnlyCollection < TreeNode <T>> Item[Int32] Declaration public TreeNode<T> this[int i] { get; } Parameters Type Name Description Int32 i Property Value Type Description TreeNode <T> Parent Declaration public TreeNode<T> Parent { get; } Property Value Type Description TreeNode <T> Value Declaration public T Value { get; set; } Property Value Type Description T Methods AddChild(T) Declaration public TreeNode<T> AddChild(T value) Parameters Type Name Description T value Returns Type Description TreeNode <T> AddChildren(T[]) Declaration public TreeNode<T>[] AddChildren(params T[] values) Parameters Type Name Description T[] values Returns Type Description TreeNode <T>[] Flatten() Declaration public IEnumerable<T> Flatten() Returns Type Description IEnumerable <T> RemoveChild(TreeNode<T>) Declaration public bool RemoveChild(TreeNode<T> node) Parameters Type Name Description TreeNode <T> node Returns Type Description Boolean Traverse(Action<T>) Declaration public void Traverse(Action<T> action) Parameters Type Name Description Action <T> action"
+  },
+  "api/XiheFramework.Utility.UnityEngineExtension.html": {
+    "href": "api/XiheFramework.Utility.UnityEngineExtension.html",
+    "title": "Class UnityEngineExtension | Example Unity documentation",
+    "keywords": "Class UnityEngineExtension Inheritance Object UnityEngineExtension Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public static class UnityEngineExtension Methods Clamp(Vector2, Single, Single) Declaration public static Vector2 Clamp(this Vector2 vector2, float min, float max) Parameters Type Name Description Vector2 vector2 Single min Single max Returns Type Description Vector2 Clamp(Vector2, Vector2, Vector2) Declaration public static Vector2 Clamp(this Vector2 vector2, Vector2 min, Vector2 max) Parameters Type Name Description Vector2 vector2 Vector2 min Vector2 max Returns Type Description Vector2 Clamp(Vector2, Vector4) Declaration public static Vector2 Clamp(this Vector2 vector2, Vector4 bound) Parameters Type Name Description Vector2 vector2 Vector4 bound Returns Type Description Vector2 ClampProportional(Vector3, Single, Single) Declaration public static Vector3 ClampProportional(this Vector3 vector3, float min, float max) Parameters Type Name Description Vector3 vector3 Single min Single max Returns Type Description Vector3 Contain(Vector4, Vector2) Declaration public static bool Contain(this Vector4 area, Vector2 target) Parameters Type Name Description Vector4 area Vector2 target Returns Type Description Boolean Contains(LayerMask, Int32) Declaration public static bool Contains(this LayerMask mask, int layer) Parameters Type Name Description LayerMask mask Int32 layer Returns Type Description Boolean GetAnimationClipLength(Animator, String) Declaration public static float GetAnimationClipLength(this Animator animator, string name) Parameters Type Name Description Animator animator String name Returns Type Description Single GetNearestPointFromOutside(Vector2, Vector4) Declaration public static Vector2 GetNearestPointFromOutside(this Vector2 origin, Vector4 area) Parameters Type Name Description Vector2 origin Vector4 area Returns Type Description Vector2 GetOrAddComponent<T>(GameObject) Declaration public static T GetOrAddComponent<T>(this GameObject gameObject) where T : Component Parameters Type Name Description GameObject gameObject Returns Type Description T Type Parameters Name Description T SetLightIntensitySmooth(Light, MonoBehaviour, Single, Single) Declaration public static void SetLightIntensitySmooth(this Light light, MonoBehaviour owner, float targetIntensity, float duration) Parameters Type Name Description Light light MonoBehaviour owner Single targetIntensity Single duration ToVector2(Vector3, V3ToV2Type) Declaration public static Vector2 ToVector2(this Vector3 vector3, V3ToV2Type convertType = V3ToV2Type.XZ) Parameters Type Name Description Vector3 vector3 V3ToV2Type convertType Returns Type Description Vector2 ToVector3(Vector2, V2ToV3Type) Declaration public static Vector3 ToVector3(this Vector2 vector2, V2ToV3Type convertType = V2ToV3Type.XZ) Parameters Type Name Description Vector2 vector2 V2ToV3Type convertType Returns Type Description Vector3"
+  },
+  "api/XiheFramework.Utility.V2ToV3Type.html": {
+    "href": "api/XiheFramework.Utility.V2ToV3Type.html",
+    "title": "Enum V2ToV3Type | Example Unity documentation",
+    "keywords": "Enum V2ToV3Type Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public enum V2ToV3Type Fields Name Description XY XZ YZ"
+  },
+  "api/XiheFramework.Utility.V3ToV2Type.html": {
+    "href": "api/XiheFramework.Utility.V3ToV2Type.html",
+    "title": "Enum V3ToV2Type | Example Unity documentation",
+    "keywords": "Enum V3ToV2Type Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public enum V3ToV2Type Fields Name Description XY XZ YZ"
+  },
+  "api/XiheFramework.Utility.VectorMathHelper.html": {
+    "href": "api/XiheFramework.Utility.VectorMathHelper.html",
+    "title": "Class VectorMathHelper | Example Unity documentation",
+    "keywords": "Class VectorMathHelper Inheritance Object VectorMathHelper Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : XiheFramework.Utility Assembly : cs.temp.dll.dll Syntax public static class VectorMathHelper Methods GetRandomPointWithinCircle(Single, Vector2) Declaration public static Vector2 GetRandomPointWithinCircle(float radius, Vector2 origin = null) Parameters Type Name Description Single radius Vector2 origin Returns Type Description Vector2 GetRandomPointWithinCircleUniformly(Single, Vector2) Declaration public static Vector2 GetRandomPointWithinCircleUniformly(float radius, Vector2 origin = null) Parameters Type Name Description Single radius Vector2 origin Returns Type Description Vector2"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "XiheFramework Document | Example Unity documentation",
+    "keywords": "XiheFramework Document A Unity-based game framework for agile development designed to be used by small teams (1-10). Uses names instead of IDs to prevent you from filling a bunch of excel tables :) Main Features Core Modules 1. Audio Encapsulation of Unity Audio Source and Audio Mixer. Output audio into different channels (Planning to change to FMod instead) 2. Blackboard Runtime Variable Pool. 3. Event Runtime Event Pool. 4. FSM(Finite State Machine) Runtime FSM Pool. Indexing by name 5. Input Encapsulation of Unity Legacy Iput System. Provide useful features like Keyboard remapping and useful functions like GetMouseDelta(get mouse direction and speed) 6. Localization Get text and assets(textures, models) that match the current Language setting. 7. Serialization Serialize runtime data into binary data to save the game progress. 8. UI Manage all UI Canvas states. (Active/Deactive) Name-based indexing Core Modules usually uses names instead of IDs as keys to indexing. FlowCanvas Intergration Functions can be used as nodes inside FlowCanvas via Service layer. Tips Create your own Game class as a partial class in your own project to get custom modules faster. Create your own GameString class as a constant string manager(e.g. event names, blackboard variable names). ## Add to your Unity project Add Git Submodule Path: Assets/XiheFramework"
+  },
+  "manual/CustomModule.html": {
+    "href": "manual/CustomModule.html",
+    "title": "Create a Custom GameModule | Example Unity documentation",
+    "keywords": "Create a Custom GameModule Create a C# class import XiheFramework.Modules.Base inherit from GameModule override functions from GameModule (Note: Setup() is optional) using UnityEngine; using XiheFramework.Modules.Base; public class ExampleGameModule : GameModule { public void HelloWorld() { Debug.Log(\"HelloWorld!\"); } internal override void Setup() { //TODO: Setup data, Setup() is called after all modules are ready } internal override void OnUpdate() { //TODO: treated as a regular Unity Update() function } internal override void OnFixedUpdate() { } internal override void OnLateUpdate() { } internal override void ShutDown(ShutDownType shutDownType) { //TODO: any logic before the framework is being shutdown or restarted } } Place It in the Framework Prefab Use the Custom GameModule Option 1: Create Custom Game Static Class Note All Game classes must be put inside XiheFramework namespace. using XiheFramework.Modules.Base; namespace XiheFramework { public static partial class Game { public static ExampleGameModule Example => GameManager.GetModule<ExampleGameModule>(); } } using UnityEngine; using XiheFramework; public class UsingExampleModule : MonoBehaviour { private void Start() { Game.Example.HelloWorld(); } } Option 2: Get Game Module (Slower) using UnityEngine; using XiheFramework; public class UsingExampleModule : MonoBehaviour { private void Start() { Game.GetModule<ExampleGameModule>().HelloWorld(); } }"
+  },
+  "manual/getstarted.html": {
+    "href": "manual/getstarted.html",
+    "title": "Get Start | Example Unity documentation",
+    "keywords": "Get Start Prerequisites FlowCanvas Amplify Shader Editor (Optional) Import XiheFramework via Git Submodule To import XiheFramework into your Unity project, open a terminal window from the project root directory and run the following command: git submodule add https://github.com/sky-haihai/XiheFramework.git Assets/XiheFramework Framework Setup Drag the XiheFramework.prefab into any scene from path Assets/XiheFramework [Optional] Create a empty GameObject named \"Custom\"(Or any name you want) under XiheFramework. This is the place where you can place your custom GameModule Drag the prefab back to your preferred directory (e.g. Assets/Prefabs) as a Prefab Variant ."
+  }
+}

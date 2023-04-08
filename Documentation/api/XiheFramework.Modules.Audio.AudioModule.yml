@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Audio.AudioModule
+  commentId: T:XiheFramework.Modules.Audio.AudioModule
+  id: AudioModule
+  parent: XiheFramework.Modules.Audio
+  children:
+  - XiheFramework.Modules.Audio.AudioModule.Play(AudioSource,XiheFramework.Modules.Audio.AudioChannelTypes,AudioClip,System.Single,System.Boolean)
+  - XiheFramework.Modules.Audio.AudioModule.SetPause(AudioSource,System.Boolean)
+  - XiheFramework.Modules.Audio.AudioModule.SetPauseAll(System.Boolean)
+  - XiheFramework.Modules.Audio.AudioModule.Stop(AudioSource)
+  - XiheFramework.Modules.Audio.AudioModule.StopAll
+  langs:
+  - csharp
+  - vb
+  name: AudioModule
+  nameWithType: AudioModule
+  fullName: XiheFramework.Modules.Audio.AudioModule
+  type: Class
+  source:
+    id: AudioModule
+    path: ''
+    startLine: 58
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Audio
+  syntax:
+    content: 'public class AudioModule : GameModule'
+    content.vb: >-
+      Public Class AudioModule
+          Inherits GameModule
+  inheritance:
+  - System.Object
+  - XiheFramework.Modules.Base.GameModule
+  inheritedMembers:
+  - XiheFramework.Modules.Base.GameModule.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.Audio.AudioModule.Play(AudioSource,XiheFramework.Modules.Audio.AudioChannelTypes,AudioClip,System.Single,System.Boolean)
+  commentId: M:XiheFramework.Modules.Audio.AudioModule.Play(AudioSource,XiheFramework.Modules.Audio.AudioChannelTypes,AudioClip,System.Single,System.Boolean)
+  id: Play(AudioSource,XiheFramework.Modules.Audio.AudioChannelTypes,AudioClip,System.Single,System.Boolean)
+  parent: XiheFramework.Modules.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: Play(AudioSource, AudioChannelTypes, AudioClip, Single, Boolean)
+  nameWithType: AudioModule.Play(AudioSource, AudioChannelTypes, AudioClip, Single, Boolean)
+  fullName: XiheFramework.Modules.Audio.AudioModule.Play(AudioSource, XiheFramework.Modules.Audio.AudioChannelTypes, AudioClip, System.Single, System.Boolean)
+  type: Method
+  source:
+    id: Play
+    path: ''
+    startLine: 82
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Audio
+  summary: "\nPlay Audio \n"
+  example: []
+  syntax:
+    content: public AudioSource Play(AudioSource audioSource, AudioChannelTypes channelType, AudioClip audioClip, float volume, bool loop)
+    parameters:
+    - id: audioSource
+      type: Global.AudioSource
+      description: target audio source, can be Null
+    - id: channelType
+      type: XiheFramework.Modules.Audio.AudioChannelTypes
+      description: ''
+    - id: audioClip
+      type: Global.AudioClip
+      description: ''
+    - id: volume
+      type: System.Single
+      description: '0-1 '
+    - id: loop
+      type: System.Boolean
+      description: ''
+    return:
+      type: Global.AudioSource
+      description: ''
+    content.vb: Public Function Play(audioSource As AudioSource, channelType As AudioChannelTypes, audioClip As AudioClip, volume As Single, loop As Boolean) As AudioSource
+  overload: XiheFramework.Modules.Audio.AudioModule.Play*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Audio.AudioModule.SetPause(AudioSource,System.Boolean)
+  commentId: M:XiheFramework.Modules.Audio.AudioModule.SetPause(AudioSource,System.Boolean)
+  id: SetPause(AudioSource,System.Boolean)
+  parent: XiheFramework.Modules.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: SetPause(AudioSource, Boolean)
+  nameWithType: AudioModule.SetPause(AudioSource, Boolean)
+  fullName: XiheFramework.Modules.Audio.AudioModule.SetPause(AudioSource, System.Boolean)
+  type: Method
+  source:
+    id: SetPause
+    path: ''
+    startLine: 124
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Audio
+  syntax:
+    content: public void SetPause(AudioSource audioSource, bool pause)
+    parameters:
+    - id: audioSource
+      type: Global.AudioSource
+    - id: pause
+      type: System.Boolean
+    content.vb: Public Sub SetPause(audioSource As AudioSource, pause As Boolean)
+  overload: XiheFramework.Modules.Audio.AudioModule.SetPause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Audio.AudioModule.SetPauseAll(System.Boolean)
+  commentId: M:XiheFramework.Modules.Audio.AudioModule.SetPauseAll(System.Boolean)
+  id: SetPauseAll(System.Boolean)
+  parent: XiheFramework.Modules.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: SetPauseAll(Boolean)
+  nameWithType: AudioModule.SetPauseAll(Boolean)
+  fullName: XiheFramework.Modules.Audio.AudioModule.SetPauseAll(System.Boolean)
+  type: Method
+  source:
+    id: SetPauseAll
+    path: ''
+    startLine: 131
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Audio
+  syntax:
+    content: public void SetPauseAll(bool pause)
+    parameters:
+    - id: pause
+      type: System.Boolean
+    content.vb: Public Sub SetPauseAll(pause As Boolean)
+  overload: XiheFramework.Modules.Audio.AudioModule.SetPauseAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Audio.AudioModule.Stop(AudioSource)
+  commentId: M:XiheFramework.Modules.Audio.AudioModule.Stop(AudioSource)
+  id: Stop(AudioSource)
+  parent: XiheFramework.Modules.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: Stop(AudioSource)
+  nameWithType: AudioModule.Stop(AudioSource)
+  fullName: XiheFramework.Modules.Audio.AudioModule.Stop(AudioSource)
+  type: Method
+  source:
+    id: Stop
+    path: ''
+    startLine: 135
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Audio
+  syntax:
+    content: public void Stop(AudioSource audioSource)
+    parameters:
+    - id: audioSource
+      type: Global.AudioSource
+    content.vb: Public Sub Stop(audioSource As AudioSource)
+  overload: XiheFramework.Modules.Audio.AudioModule.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Audio.AudioModule.StopAll
+  commentId: M:XiheFramework.Modules.Audio.AudioModule.StopAll
+  id: StopAll
+  parent: XiheFramework.Modules.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: StopAll()
+  nameWithType: AudioModule.StopAll()
+  fullName: XiheFramework.Modules.Audio.AudioModule.StopAll()
+  type: Method
+  source:
+    id: StopAll
+    path: ''
+    startLine: 142
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Audio
+  summary: "\nDestroy all temporary AudioSource under the framework audio root\n"
+  example: []
+  syntax:
+    content: public void StopAll()
+    content.vb: Public Sub StopAll
+  overload: XiheFramework.Modules.Audio.AudioModule.StopAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Modules.Audio
+  commentId: N:XiheFramework.Modules.Audio
+  name: XiheFramework.Modules.Audio
+  nameWithType: XiheFramework.Modules.Audio
+  fullName: XiheFramework.Modules.Audio
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: XiheFramework.Modules.Base.GameModule
+  commentId: T:XiheFramework.Modules.Base.GameModule
+  parent: XiheFramework.Modules.Base
+  name: GameModule
+  nameWithType: GameModule
+  fullName: XiheFramework.Modules.Base.GameModule
+- uid: XiheFramework.Modules.Base.GameModule.Awake
+  commentId: M:XiheFramework.Modules.Base.GameModule.Awake
+  parent: XiheFramework.Modules.Base.GameModule
+  name: Awake()
+  nameWithType: GameModule.Awake()
+  fullName: XiheFramework.Modules.Base.GameModule.Awake()
+  spec.csharp:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: XiheFramework.Modules.Audio.AudioModule.Play*
+  commentId: Overload:XiheFramework.Modules.Audio.AudioModule.Play
+  name: Play
+  nameWithType: AudioModule.Play
+  fullName: XiheFramework.Modules.Audio.AudioModule.Play
+- uid: Global.AudioSource
+  isExternal: true
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: AudioSource
+- uid: XiheFramework.Modules.Audio.AudioChannelTypes
+  commentId: T:XiheFramework.Modules.Audio.AudioChannelTypes
+  parent: XiheFramework.Modules.Audio
+  name: AudioChannelTypes
+  nameWithType: AudioChannelTypes
+  fullName: XiheFramework.Modules.Audio.AudioChannelTypes
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: XiheFramework.Modules.Audio.AudioModule.SetPause*
+  commentId: Overload:XiheFramework.Modules.Audio.AudioModule.SetPause
+  name: SetPause
+  nameWithType: AudioModule.SetPause
+  fullName: XiheFramework.Modules.Audio.AudioModule.SetPause
+- uid: XiheFramework.Modules.Audio.AudioModule.SetPauseAll*
+  commentId: Overload:XiheFramework.Modules.Audio.AudioModule.SetPauseAll
+  name: SetPauseAll
+  nameWithType: AudioModule.SetPauseAll
+  fullName: XiheFramework.Modules.Audio.AudioModule.SetPauseAll
+- uid: XiheFramework.Modules.Audio.AudioModule.Stop*
+  commentId: Overload:XiheFramework.Modules.Audio.AudioModule.Stop
+  name: Stop
+  nameWithType: AudioModule.Stop
+  fullName: XiheFramework.Modules.Audio.AudioModule.Stop
+- uid: XiheFramework.Modules.Audio.AudioModule.StopAll*
+  commentId: Overload:XiheFramework.Modules.Audio.AudioModule.StopAll
+  name: StopAll
+  nameWithType: AudioModule.StopAll
+  fullName: XiheFramework.Modules.Audio.AudioModule.StopAll

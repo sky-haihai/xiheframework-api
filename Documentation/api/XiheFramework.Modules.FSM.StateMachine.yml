@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.FSM.StateMachine
+  commentId: T:XiheFramework.Modules.FSM.StateMachine
+  id: StateMachine
+  parent: XiheFramework.Modules.FSM
+  children:
+  - XiheFramework.Modules.FSM.StateMachine.AddState(System.String,XiheFramework.Modules.FSM.BaseState)
+  - XiheFramework.Modules.FSM.StateMachine.ChangeState(System.String)
+  - XiheFramework.Modules.FSM.StateMachine.Create
+  - XiheFramework.Modules.FSM.StateMachine.Create(System.String)
+  - XiheFramework.Modules.FSM.StateMachine.GetCurrentState
+  - XiheFramework.Modules.FSM.StateMachine.RemoveState(System.String)
+  - XiheFramework.Modules.FSM.StateMachine.SetDefaultState(System.String)
+  - XiheFramework.Modules.FSM.StateMachine.Start
+  - XiheFramework.Modules.FSM.StateMachine.Stop
+  - XiheFramework.Modules.FSM.StateMachine.Update
+  langs:
+  - csharp
+  - vb
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: XiheFramework.Modules.FSM.StateMachine
+  type: Class
+  source:
+    id: StateMachine
+    path: ''
+    startLine: 903
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public class StateMachine
+    content.vb: Public Class StateMachine
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.FSM.StateMachine.Create(System.String)
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.Create(System.String)
+  id: Create(System.String)
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: StateMachine.Create(String)
+  fullName: XiheFramework.Modules.FSM.StateMachine.Create(System.String)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 912
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public static StateMachine Create(string defaultState)
+    parameters:
+    - id: defaultState
+      type: System.String
+    return:
+      type: XiheFramework.Modules.FSM.StateMachine
+    content.vb: Public Shared Function Create(defaultState As String) As StateMachine
+  overload: XiheFramework.Modules.FSM.StateMachine.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Modules.FSM.StateMachine.Create
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.Create
+  id: Create
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Create()
+  nameWithType: StateMachine.Create()
+  fullName: XiheFramework.Modules.FSM.StateMachine.Create()
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 918
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public static StateMachine Create()
+    return:
+      type: XiheFramework.Modules.FSM.StateMachine
+    content.vb: Public Shared Function Create As StateMachine
+  overload: XiheFramework.Modules.FSM.StateMachine.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Modules.FSM.StateMachine.SetDefaultState(System.String)
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.SetDefaultState(System.String)
+  id: SetDefaultState(System.String)
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultState(String)
+  nameWithType: StateMachine.SetDefaultState(String)
+  fullName: XiheFramework.Modules.FSM.StateMachine.SetDefaultState(System.String)
+  type: Method
+  source:
+    id: SetDefaultState
+    path: ''
+    startLine: 922
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public void SetDefaultState(string stateName)
+    parameters:
+    - id: stateName
+      type: System.String
+    content.vb: Public Sub SetDefaultState(stateName As String)
+  overload: XiheFramework.Modules.FSM.StateMachine.SetDefaultState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.GetCurrentState
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.GetCurrentState
+  id: GetCurrentState
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentState()
+  nameWithType: StateMachine.GetCurrentState()
+  fullName: XiheFramework.Modules.FSM.StateMachine.GetCurrentState()
+  type: Method
+  source:
+    id: GetCurrentState
+    path: ''
+    startLine: 926
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public string GetCurrentState()
+    return:
+      type: System.String
+    content.vb: Public Function GetCurrentState As String
+  overload: XiheFramework.Modules.FSM.StateMachine.GetCurrentState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.AddState(System.String,XiheFramework.Modules.FSM.BaseState)
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.AddState(System.String,XiheFramework.Modules.FSM.BaseState)
+  id: AddState(System.String,XiheFramework.Modules.FSM.BaseState)
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: AddState(String, BaseState)
+  nameWithType: StateMachine.AddState(String, BaseState)
+  fullName: XiheFramework.Modules.FSM.StateMachine.AddState(System.String, XiheFramework.Modules.FSM.BaseState)
+  type: Method
+  source:
+    id: AddState
+    path: ''
+    startLine: 930
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public void AddState(string stateName, BaseState state)
+    parameters:
+    - id: stateName
+      type: System.String
+    - id: state
+      type: XiheFramework.Modules.FSM.BaseState
+    content.vb: Public Sub AddState(stateName As String, state As BaseState)
+  overload: XiheFramework.Modules.FSM.StateMachine.AddState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.RemoveState(System.String)
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.RemoveState(System.String)
+  id: RemoveState(System.String)
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: RemoveState(String)
+  nameWithType: StateMachine.RemoveState(String)
+  fullName: XiheFramework.Modules.FSM.StateMachine.RemoveState(System.String)
+  type: Method
+  source:
+    id: RemoveState
+    path: ''
+    startLine: 937
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public void RemoveState(string stateName)
+    parameters:
+    - id: stateName
+      type: System.String
+    content.vb: Public Sub RemoveState(stateName As String)
+  overload: XiheFramework.Modules.FSM.StateMachine.RemoveState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.Start
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.Start
+  id: Start
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: StateMachine.Start()
+  fullName: XiheFramework.Modules.FSM.StateMachine.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 941
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: XiheFramework.Modules.FSM.StateMachine.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.ChangeState(System.String)
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.ChangeState(System.String)
+  id: ChangeState(System.String)
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: ChangeState(String)
+  nameWithType: StateMachine.ChangeState(String)
+  fullName: XiheFramework.Modules.FSM.StateMachine.ChangeState(System.String)
+  type: Method
+  source:
+    id: ChangeState
+    path: ''
+    startLine: 950
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public void ChangeState(string targetState)
+    parameters:
+    - id: targetState
+      type: System.String
+    content.vb: Public Sub ChangeState(targetState As String)
+  overload: XiheFramework.Modules.FSM.StateMachine.ChangeState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.Update
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.Update
+  id: Update
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: StateMachine.Update()
+  fullName: XiheFramework.Modules.FSM.StateMachine.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 962
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: XiheFramework.Modules.FSM.StateMachine.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FSM.StateMachine.Stop
+  commentId: M:XiheFramework.Modules.FSM.StateMachine.Stop
+  id: Stop
+  parent: XiheFramework.Modules.FSM.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: StateMachine.Stop()
+  fullName: XiheFramework.Modules.FSM.StateMachine.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: ''
+    startLine: 993
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FSM
+  summary: "\nshutdown fsm\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: XiheFramework.Modules.FSM.StateMachine.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Modules.FSM
+  commentId: N:XiheFramework.Modules.FSM
+  name: XiheFramework.Modules.FSM
+  nameWithType: XiheFramework.Modules.FSM
+  fullName: XiheFramework.Modules.FSM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Modules.FSM.StateMachine.Create*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.Create
+  name: Create
+  nameWithType: StateMachine.Create
+  fullName: XiheFramework.Modules.FSM.StateMachine.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: XiheFramework.Modules.FSM.StateMachine
+  commentId: T:XiheFramework.Modules.FSM.StateMachine
+  parent: XiheFramework.Modules.FSM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: XiheFramework.Modules.FSM.StateMachine
+- uid: XiheFramework.Modules.FSM.StateMachine.SetDefaultState*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.SetDefaultState
+  name: SetDefaultState
+  nameWithType: StateMachine.SetDefaultState
+  fullName: XiheFramework.Modules.FSM.StateMachine.SetDefaultState
+- uid: XiheFramework.Modules.FSM.StateMachine.GetCurrentState*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.GetCurrentState
+  name: GetCurrentState
+  nameWithType: StateMachine.GetCurrentState
+  fullName: XiheFramework.Modules.FSM.StateMachine.GetCurrentState
+- uid: XiheFramework.Modules.FSM.StateMachine.AddState*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.AddState
+  name: AddState
+  nameWithType: StateMachine.AddState
+  fullName: XiheFramework.Modules.FSM.StateMachine.AddState
+- uid: XiheFramework.Modules.FSM.BaseState
+  commentId: T:XiheFramework.Modules.FSM.BaseState
+  parent: XiheFramework.Modules.FSM
+  name: BaseState
+  nameWithType: BaseState
+  fullName: XiheFramework.Modules.FSM.BaseState
+- uid: XiheFramework.Modules.FSM.StateMachine.RemoveState*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.RemoveState
+  name: RemoveState
+  nameWithType: StateMachine.RemoveState
+  fullName: XiheFramework.Modules.FSM.StateMachine.RemoveState
+- uid: XiheFramework.Modules.FSM.StateMachine.Start*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.Start
+  name: Start
+  nameWithType: StateMachine.Start
+  fullName: XiheFramework.Modules.FSM.StateMachine.Start
+- uid: XiheFramework.Modules.FSM.StateMachine.ChangeState*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.ChangeState
+  name: ChangeState
+  nameWithType: StateMachine.ChangeState
+  fullName: XiheFramework.Modules.FSM.StateMachine.ChangeState
+- uid: XiheFramework.Modules.FSM.StateMachine.Update*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.Update
+  name: Update
+  nameWithType: StateMachine.Update
+  fullName: XiheFramework.Modules.FSM.StateMachine.Update
+- uid: XiheFramework.Modules.FSM.StateMachine.Stop*
+  commentId: Overload:XiheFramework.Modules.FSM.StateMachine.Stop
+  name: Stop
+  nameWithType: StateMachine.Stop
+  fullName: XiheFramework.Modules.FSM.StateMachine.Stop

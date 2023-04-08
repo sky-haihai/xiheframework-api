@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  id: EventEmitterBehaviour
+  parent: XiheFramework.Utility.Playables.EventEmitter
+  children:
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.argument
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.eventName
+  langs:
+  - csharp
+  - vb
+  name: EventEmitterBehaviour
+  nameWithType: EventEmitterBehaviour
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  type: Class
+  source:
+    id: EventEmitterBehaviour
+    path: ''
+    startLine: 5501
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: 'public class EventEmitterBehaviour : PlayableBehaviour'
+    content.vb: >-
+      Public Class EventEmitterBehaviour
+          Inherits PlayableBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.eventName
+  commentId: F:XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.eventName
+  id: eventName
+  parent: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  langs:
+  - csharp
+  - vb
+  name: eventName
+  nameWithType: EventEmitterBehaviour.eventName
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.eventName
+  type: Field
+  source:
+    id: eventName
+    path: ''
+    startLine: 5503
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: public string eventName
+    return:
+      type: System.String
+    content.vb: Public eventName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.argument
+  commentId: F:XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.argument
+  id: argument
+  parent: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  langs:
+  - csharp
+  - vb
+  name: argument
+  nameWithType: EventEmitterBehaviour.argument
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour.argument
+  type: Field
+  source:
+    id: argument
+    path: ''
+    startLine: 5504
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: public string argument
+    return:
+      type: System.String
+    content.vb: Public argument As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Utility.Playables.EventEmitter
+  commentId: N:XiheFramework.Utility.Playables.EventEmitter
+  name: XiheFramework.Utility.Playables.EventEmitter
+  nameWithType: XiheFramework.Utility.Playables.EventEmitter
+  fullName: XiheFramework.Utility.Playables.EventEmitter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

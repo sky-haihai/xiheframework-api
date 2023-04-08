@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility
+  commentId: N:XiheFramework.Utility
+  id: XiheFramework.Utility
+  children:
+  - XiheFramework.Utility.CantorPairUtility
+  - XiheFramework.Utility.FlowCanvasUtil
+  - XiheFramework.Utility.InitializeGameData
+  - XiheFramework.Utility.MultiDictionary`2
+  - XiheFramework.Utility.RigidBodyHelper
+  - XiheFramework.Utility.Singleton`1
+  - XiheFramework.Utility.SystemUtil
+  - XiheFramework.Utility.TreeNode`1
+  - XiheFramework.Utility.UnityEngineExtension
+  - XiheFramework.Utility.V2ToV3Type
+  - XiheFramework.Utility.V3ToV2Type
+  - XiheFramework.Utility.VectorMathHelper
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility
+  nameWithType: XiheFramework.Utility
+  fullName: XiheFramework.Utility
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.CantorPairUtility
+  commentId: T:XiheFramework.Utility.CantorPairUtility
+  name: CantorPairUtility
+  nameWithType: CantorPairUtility
+  fullName: XiheFramework.Utility.CantorPairUtility
+- uid: XiheFramework.Utility.FlowCanvasUtil
+  commentId: T:XiheFramework.Utility.FlowCanvasUtil
+  name: FlowCanvasUtil
+  nameWithType: FlowCanvasUtil
+  fullName: XiheFramework.Utility.FlowCanvasUtil
+- uid: XiheFramework.Utility.InitializeGameData
+  commentId: T:XiheFramework.Utility.InitializeGameData
+  name: InitializeGameData
+  nameWithType: InitializeGameData
+  fullName: XiheFramework.Utility.InitializeGameData
+- uid: XiheFramework.Utility.MultiDictionary`2
+  commentId: T:XiheFramework.Utility.MultiDictionary`2
+  name: MultiDictionary<TKey, TValue>
+  nameWithType: MultiDictionary<TKey, TValue>
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>
+  nameWithType.vb: MultiDictionary(Of TKey, TValue)
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue)
+  name.vb: MultiDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: XiheFramework.Utility.MultiDictionary`2
+    name: MultiDictionary
+    nameWithType: MultiDictionary
+    fullName: XiheFramework.Utility.MultiDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: XiheFramework.Utility.MultiDictionary`2
+    name: MultiDictionary
+    nameWithType: MultiDictionary
+    fullName: XiheFramework.Utility.MultiDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.RigidBodyHelper
+  commentId: T:XiheFramework.Utility.RigidBodyHelper
+  name: RigidBodyHelper
+  nameWithType: RigidBodyHelper
+  fullName: XiheFramework.Utility.RigidBodyHelper
+- uid: XiheFramework.Utility.Singleton`1
+  commentId: T:XiheFramework.Utility.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: XiheFramework.Utility.Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: XiheFramework.Utility.Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: XiheFramework.Utility.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: XiheFramework.Utility.Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: XiheFramework.Utility.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: XiheFramework.Utility.Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.SystemUtil
+  commentId: T:XiheFramework.Utility.SystemUtil
+  name: SystemUtil
+  nameWithType: SystemUtil
+  fullName: XiheFramework.Utility.SystemUtil
+- uid: XiheFramework.Utility.TreeNode`1
+  commentId: T:XiheFramework.Utility.TreeNode`1
+  parent: XiheFramework.Utility
+  name: TreeNode<T>
+  nameWithType: TreeNode<T>
+  fullName: XiheFramework.Utility.TreeNode<T>
+  nameWithType.vb: TreeNode(Of T)
+  fullName.vb: XiheFramework.Utility.TreeNode(Of T)
+  name.vb: TreeNode(Of T)
+  spec.csharp:
+  - uid: XiheFramework.Utility.TreeNode`1
+    name: TreeNode
+    nameWithType: TreeNode
+    fullName: XiheFramework.Utility.TreeNode
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: XiheFramework.Utility.TreeNode`1
+    name: TreeNode
+    nameWithType: TreeNode
+    fullName: XiheFramework.Utility.TreeNode
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.UnityEngineExtension
+  commentId: T:XiheFramework.Utility.UnityEngineExtension
+  name: UnityEngineExtension
+  nameWithType: UnityEngineExtension
+  fullName: XiheFramework.Utility.UnityEngineExtension
+- uid: XiheFramework.Utility.V3ToV2Type
+  commentId: T:XiheFramework.Utility.V3ToV2Type
+  parent: XiheFramework.Utility
+  name: V3ToV2Type
+  nameWithType: V3ToV2Type
+  fullName: XiheFramework.Utility.V3ToV2Type
+- uid: XiheFramework.Utility.V2ToV3Type
+  commentId: T:XiheFramework.Utility.V2ToV3Type
+  parent: XiheFramework.Utility
+  name: V2ToV3Type
+  nameWithType: V2ToV3Type
+  fullName: XiheFramework.Utility.V2ToV3Type
+- uid: XiheFramework.Utility.VectorMathHelper
+  commentId: T:XiheFramework.Utility.VectorMathHelper
+  name: VectorMathHelper
+  nameWithType: VectorMathHelper
+  fullName: XiheFramework.Utility.VectorMathHelper
+- uid: XiheFramework.Utility
+  commentId: N:XiheFramework.Utility
+  name: XiheFramework.Utility
+  nameWithType: XiheFramework.Utility
+  fullName: XiheFramework.Utility

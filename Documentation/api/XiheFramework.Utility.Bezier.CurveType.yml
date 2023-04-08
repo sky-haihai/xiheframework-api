@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Bezier.CurveType
+  commentId: T:XiheFramework.Utility.Bezier.CurveType
+  id: CurveType
+  parent: XiheFramework.Utility.Bezier
+  children:
+  - XiheFramework.Utility.Bezier.CurveType.Linear
+  - XiheFramework.Utility.Bezier.CurveType.Quadratic
+  langs:
+  - csharp
+  - vb
+  name: CurveType
+  nameWithType: CurveType
+  fullName: XiheFramework.Utility.Bezier.CurveType
+  type: Enum
+  source:
+    id: CurveType
+    path: ''
+    startLine: 2945
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Bezier
+  syntax:
+    content: public enum CurveType
+    content.vb: Public Enum CurveType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: XiheFramework.Utility.Bezier.CurveType.Linear
+  commentId: F:XiheFramework.Utility.Bezier.CurveType.Linear
+  id: Linear
+  parent: XiheFramework.Utility.Bezier.CurveType
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: CurveType.Linear
+  fullName: XiheFramework.Utility.Bezier.CurveType.Linear
+  type: Field
+  source:
+    id: Linear
+    path: ''
+    startLine: 2946
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Bezier
+  syntax:
+    content: Linear = 0
+    return:
+      type: XiheFramework.Utility.Bezier.CurveType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.Bezier.CurveType.Quadratic
+  commentId: F:XiheFramework.Utility.Bezier.CurveType.Quadratic
+  id: Quadratic
+  parent: XiheFramework.Utility.Bezier.CurveType
+  langs:
+  - csharp
+  - vb
+  name: Quadratic
+  nameWithType: CurveType.Quadratic
+  fullName: XiheFramework.Utility.Bezier.CurveType.Quadratic
+  type: Field
+  source:
+    id: Quadratic
+    path: ''
+    startLine: 2948
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Bezier
+  syntax:
+    content: Quadratic = 1
+    return:
+      type: XiheFramework.Utility.Bezier.CurveType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: XiheFramework.Utility.Bezier
+  commentId: N:XiheFramework.Utility.Bezier
+  name: XiheFramework.Utility.Bezier
+  nameWithType: XiheFramework.Utility.Bezier
+  fullName: XiheFramework.Utility.Bezier
+- uid: XiheFramework.Utility.Bezier.CurveType
+  commentId: T:XiheFramework.Utility.Bezier.CurveType
+  parent: XiheFramework.Utility.Bezier
+  name: CurveType
+  nameWithType: CurveType
+  fullName: XiheFramework.Utility.Bezier.CurveType

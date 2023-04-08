@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlClip
+  commentId: T:XiheFramework.Utility.Playables.LightControl.LightControlClip
+  id: LightControlClip
+  parent: XiheFramework.Utility.Playables.LightControl
+  children:
+  - XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps
+  - XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable(PlayableGraph,GameObject)
+  - XiheFramework.Utility.Playables.LightControl.LightControlClip.template
+  langs:
+  - csharp
+  - vb
+  name: LightControlClip
+  nameWithType: LightControlClip
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlClip
+  type: Class
+  source:
+    id: LightControlClip
+    path: ''
+    startLine: 5785
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: 'public class LightControlClip : PlayableAsset'
+    content.vb: >-
+      Public Class LightControlClip
+          Inherits PlayableAsset
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITimelineClipAsset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlClip.template
+  commentId: F:XiheFramework.Utility.Playables.LightControl.LightControlClip.template
+  id: template
+  parent: XiheFramework.Utility.Playables.LightControl.LightControlClip
+  langs:
+  - csharp
+  - vb
+  name: template
+  nameWithType: LightControlClip.template
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlClip.template
+  type: Field
+  source:
+    id: template
+    path: ''
+    startLine: 5787
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: public LightControlBehaviour template
+    return:
+      type: XiheFramework.Utility.Playables.LightControl.LightControlBehaviour
+    content.vb: Public template As LightControlBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps
+  commentId: P:XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps
+  id: clipCaps
+  parent: XiheFramework.Utility.Playables.LightControl.LightControlClip
+  langs:
+  - csharp
+  - vb
+  name: clipCaps
+  nameWithType: LightControlClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps
+  type: Property
+  source:
+    id: clipCaps
+    path: ''
+    startLine: 5789
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: public ClipCaps clipCaps { get; }
+    parameters: []
+    return:
+      type: Global.ClipCaps
+    content.vb: Public ReadOnly Property clipCaps As ClipCaps
+  overload: XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable(PlayableGraph,GameObject)
+  commentId: M:XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable(PlayableGraph,GameObject)
+  id: CreatePlayable(PlayableGraph,GameObject)
+  parent: XiheFramework.Utility.Playables.LightControl.LightControlClip
+  langs:
+  - csharp
+  - vb
+  name: CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: LightControlClip.CreatePlayable(PlayableGraph, GameObject)
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable(PlayableGraph, GameObject)
+  type: Method
+  source:
+    id: CreatePlayable
+    path: ''
+    startLine: 5791
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: owner
+      type: Global.GameObject
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreatePlayable(graph As PlayableGraph, owner As GameObject) As Playable
+  overload: XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.LightControl
+  commentId: N:XiheFramework.Utility.Playables.LightControl
+  name: XiheFramework.Utility.Playables.LightControl
+  nameWithType: XiheFramework.Utility.Playables.LightControl
+  fullName: XiheFramework.Utility.Playables.LightControl
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ITimelineClipAsset
+  isExternal: true
+  name: ITimelineClipAsset
+  nameWithType: ITimelineClipAsset
+  fullName: ITimelineClipAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlBehaviour
+  commentId: T:XiheFramework.Utility.Playables.LightControl.LightControlBehaviour
+  parent: XiheFramework.Utility.Playables.LightControl
+  name: LightControlBehaviour
+  nameWithType: LightControlBehaviour
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlBehaviour
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps*
+  commentId: Overload:XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps
+  name: clipCaps
+  nameWithType: LightControlClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlClip.clipCaps
+- uid: Global.ClipCaps
+  isExternal: true
+  name: ClipCaps
+  nameWithType: ClipCaps
+  fullName: ClipCaps
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable*
+  commentId: Overload:XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable
+  name: CreatePlayable
+  nameWithType: LightControlClip.CreatePlayable
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlClip.CreatePlayable
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

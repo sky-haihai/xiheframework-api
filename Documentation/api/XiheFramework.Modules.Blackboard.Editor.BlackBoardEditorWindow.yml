@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+  commentId: T:XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+  id: BlackBoardEditorWindow
+  parent: XiheFramework.Modules.Blackboard.Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BlackBoardEditorWindow
+  nameWithType: BlackBoardEditorWindow
+  fullName: XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+  type: Class
+  source:
+    id: BlackBoardEditorWindow
+    path: ''
+    startLine: 496
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Blackboard.Editor
+  syntax:
+    content: 'public class BlackBoardEditorWindow : EditorWindow'
+    content.vb: >-
+      Public Class BlackBoardEditorWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: XiheFramework.Modules.Blackboard.Editor
+  commentId: N:XiheFramework.Modules.Blackboard.Editor
+  name: XiheFramework.Modules.Blackboard.Editor
+  nameWithType: XiheFramework.Modules.Blackboard.Editor
+  fullName: XiheFramework.Modules.Blackboard.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

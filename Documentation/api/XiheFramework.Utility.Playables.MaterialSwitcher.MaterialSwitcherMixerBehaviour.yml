@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour
+  id: MaterialSwitcherMixerBehaviour
+  parent: XiheFramework.Utility.Playables.MaterialSwitcher
+  children:
+  - XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  - XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: MaterialSwitcherMixerBehaviour
+  nameWithType: MaterialSwitcherMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour
+  type: Class
+  source:
+    id: MaterialSwitcherMixerBehaviour
+    path: ''
+    startLine: 5961
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.MaterialSwitcher
+  syntax:
+    content: 'public class MaterialSwitcherMixerBehaviour : PlayableBehaviour'
+    content.vb: >-
+      Public Class MaterialSwitcherMixerBehaviour
+          Inherits PlayableBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  commentId: M:XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame(Playable,FrameData,System.Object)
+  id: ProcessFrame(Playable,FrameData,System.Object)
+  parent: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour
+  langs:
+  - csharp
+  - vb
+  name: ProcessFrame(Playable, FrameData, Object)
+  nameWithType: MaterialSwitcherMixerBehaviour.ProcessFrame(Playable, FrameData, Object)
+  fullName: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame(Playable, FrameData, System.Object)
+  type: Method
+  source:
+    id: ProcessFrame
+    path: ''
+    startLine: 5973
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.MaterialSwitcher
+  syntax:
+    content: public override void ProcessFrame(Playable playable, FrameData info, object playerData)
+    parameters:
+    - id: playable
+      type: Global.Playable
+    - id: info
+      type: Global.FrameData
+    - id: playerData
+      type: System.Object
+    content.vb: Public Overrides Sub ProcessFrame(playable As Playable, info As FrameData, playerData As Object)
+  overload: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  commentId: M:XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  id: OnPlayableDestroy(Playable)
+  parent: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnPlayableDestroy(Playable)
+  nameWithType: MaterialSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  fullName: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy(Playable)
+  type: Method
+  source:
+    id: OnPlayableDestroy
+    path: ''
+    startLine: 6031
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.MaterialSwitcher
+  syntax:
+    content: public override void OnPlayableDestroy(Playable playable)
+    parameters:
+    - id: playable
+      type: Global.Playable
+    content.vb: Public Overrides Sub OnPlayableDestroy(playable As Playable)
+  overload: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher
+  commentId: N:XiheFramework.Utility.Playables.MaterialSwitcher
+  name: XiheFramework.Utility.Playables.MaterialSwitcher
+  nameWithType: XiheFramework.Utility.Playables.MaterialSwitcher
+  fullName: XiheFramework.Utility.Playables.MaterialSwitcher
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame*
+  commentId: Overload:XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame
+  name: ProcessFrame
+  nameWithType: MaterialSwitcherMixerBehaviour.ProcessFrame
+  fullName: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.ProcessFrame
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable
+- uid: Global.FrameData
+  isExternal: true
+  name: FrameData
+  nameWithType: FrameData
+  fullName: FrameData
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy*
+  commentId: Overload:XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy
+  name: OnPlayableDestroy
+  nameWithType: MaterialSwitcherMixerBehaviour.OnPlayableDestroy
+  fullName: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour.OnPlayableDestroy

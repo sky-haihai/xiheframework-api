@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TimeControl
+  commentId: N:XiheFramework.Utility.Playables.TimeControl
+  id: XiheFramework.Utility.Playables.TimeControl
+  children:
+  - XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+  - XiheFramework.Utility.Playables.TimeControl.TimeControlClip
+  - XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+  - XiheFramework.Utility.Playables.TimeControl.TimeControlTrack
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.TimeControl
+  nameWithType: XiheFramework.Utility.Playables.TimeControl
+  fullName: XiheFramework.Utility.Playables.TimeControl
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+  name: TimeControlBehaviour
+  nameWithType: TimeControlBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+- uid: XiheFramework.Utility.Playables.TimeControl.TimeControlClip
+  commentId: T:XiheFramework.Utility.Playables.TimeControl.TimeControlClip
+  name: TimeControlClip
+  nameWithType: TimeControlClip
+  fullName: XiheFramework.Utility.Playables.TimeControl.TimeControlClip
+- uid: XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+  name: TimeControlMixerBehaviour
+  nameWithType: TimeControlMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+- uid: XiheFramework.Utility.Playables.TimeControl.TimeControlTrack
+  commentId: T:XiheFramework.Utility.Playables.TimeControl.TimeControlTrack
+  name: TimeControlTrack
+  nameWithType: TimeControlTrack
+  fullName: XiheFramework.Utility.Playables.TimeControl.TimeControlTrack

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.GameObjectArray.ArrayModifier
+  commentId: T:XiheFramework.Utility.GameObjectArray.ArrayModifier
+  id: ArrayModifier
+  parent: XiheFramework.Utility.GameObjectArray
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ArrayModifier
+  nameWithType: ArrayModifier
+  fullName: XiheFramework.Utility.GameObjectArray.ArrayModifier
+  type: Class
+  source:
+    id: ArrayModifier
+    path: ''
+    startLine: 2978
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.GameObjectArray
+  syntax:
+    content: 'public class ArrayModifier : MonoBehaviour'
+    content.vb: >-
+      Public Class ArrayModifier
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: XiheFramework.Utility.GameObjectArray
+  commentId: N:XiheFramework.Utility.GameObjectArray
+  name: XiheFramework.Utility.GameObjectArray
+  nameWithType: XiheFramework.Utility.GameObjectArray
+  fullName: XiheFramework.Utility.GameObjectArray
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

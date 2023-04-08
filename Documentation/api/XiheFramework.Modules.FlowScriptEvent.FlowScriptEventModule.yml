@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  commentId: T:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  id: FlowScriptEventModule
+  parent: XiheFramework.Modules.FlowScriptEvent
+  children:
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.allEvents
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent(System.String,System.Single)
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent(System.String)
+  - XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FlowScriptEventModule
+  nameWithType: FlowScriptEventModule
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  type: Class
+  source:
+    id: FlowScriptEventModule
+    path: ''
+    startLine: 777
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FlowScriptEvent
+  syntax:
+    content: 'public class FlowScriptEventModule : GameModule'
+    content.vb: >-
+      Public Class FlowScriptEventModule
+          Inherits GameModule
+  inheritance:
+  - System.Object
+  - XiheFramework.Modules.Base.GameModule
+  inheritedMembers:
+  - XiheFramework.Modules.Base.GameModule.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.allEvents
+  commentId: F:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.allEvents
+  id: allEvents
+  parent: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  langs:
+  - csharp
+  - vb
+  name: allEvents
+  nameWithType: FlowScriptEventModule.allEvents
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.allEvents
+  type: Field
+  source:
+    id: allEvents
+    path: ''
+    startLine: 778
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FlowScriptEvent
+  syntax:
+    content: public List<FlowScriptEvent> allEvents
+    return:
+      type: Global.List{XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent}
+    content.vb: Public allEvents As List(Of FlowScriptEvent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent(System.String)
+  commentId: M:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent(System.String)
+  id: StartEvent(System.String)
+  parent: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  langs:
+  - csharp
+  - vb
+  name: StartEvent(String)
+  nameWithType: FlowScriptEventModule.StartEvent(String)
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent(System.String)
+  type: Method
+  source:
+    id: StartEvent
+    path: ''
+    startLine: 794
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FlowScriptEvent
+  syntax:
+    content: public void StartEvent(string eventName)
+    parameters:
+    - id: eventName
+      type: System.String
+    content.vb: Public Sub StartEvent(eventName As String)
+  overload: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent(System.String,System.Single)
+  commentId: M:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent(System.String,System.Single)
+  id: DestroyEvent(System.String,System.Single)
+  parent: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  langs:
+  - csharp
+  - vb
+  name: DestroyEvent(String, Single)
+  nameWithType: FlowScriptEventModule.DestroyEvent(String, Single)
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent(System.String, System.Single)
+  type: Method
+  source:
+    id: DestroyEvent
+    path: ''
+    startLine: 807
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FlowScriptEvent
+  syntax:
+    content: public void DestroyEvent(string eventName, float delay)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: delay
+      type: System.Single
+    content.vb: Public Sub DestroyEvent(eventName As String, delay As Single)
+  overload: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent(System.String)
+  commentId: M:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent(System.String)
+  id: GetEvent(System.String)
+  parent: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+  langs:
+  - csharp
+  - vb
+  name: GetEvent(String)
+  nameWithType: FlowScriptEventModule.GetEvent(String)
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent(System.String)
+  type: Method
+  source:
+    id: GetEvent
+    path: ''
+    startLine: 823
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.FlowScriptEvent
+  syntax:
+    content: public FlowScriptEvent GetEvent(string eventName)
+    parameters:
+    - id: eventName
+      type: System.String
+    return:
+      type: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+    content.vb: Public Function GetEvent(eventName As String) As FlowScriptEvent
+  overload: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Modules.FlowScriptEvent
+  commentId: N:XiheFramework.Modules.FlowScriptEvent
+  name: XiheFramework.Modules.FlowScriptEvent
+  nameWithType: XiheFramework.Modules.FlowScriptEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: XiheFramework.Modules.Base.GameModule
+  commentId: T:XiheFramework.Modules.Base.GameModule
+  parent: XiheFramework.Modules.Base
+  name: GameModule
+  nameWithType: GameModule
+  fullName: XiheFramework.Modules.Base.GameModule
+- uid: XiheFramework.Modules.Base.GameModule.Awake
+  commentId: M:XiheFramework.Modules.Base.GameModule.Awake
+  parent: XiheFramework.Modules.Base.GameModule
+  name: Awake()
+  nameWithType: GameModule.Awake()
+  fullName: XiheFramework.Modules.Base.GameModule.Awake()
+  spec.csharp:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: Global.List{XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent}
+  commentId: '!:Global.List{XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent}'
+  definition: Global.List`1
+  name: List<FlowScriptEvent>
+  nameWithType: List<FlowScriptEvent>
+  fullName: List<XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent>
+  nameWithType.vb: List(Of FlowScriptEvent)
+  fullName.vb: List(Of XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent)
+  name.vb: List(Of FlowScriptEvent)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+    name: FlowScriptEvent
+    nameWithType: FlowScriptEvent
+    fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+    name: FlowScriptEvent
+    nameWithType: FlowScriptEvent
+    fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent*
+  commentId: Overload:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent
+  name: StartEvent
+  nameWithType: FlowScriptEventModule.StartEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.StartEvent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent*
+  commentId: Overload:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent
+  name: DestroyEvent
+  nameWithType: FlowScriptEventModule.DestroyEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.DestroyEvent
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent*
+  commentId: Overload:XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent
+  name: GetEvent
+  nameWithType: FlowScriptEventModule.GetEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule.GetEvent
+- uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  commentId: T:XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+  parent: XiheFramework.Modules.FlowScriptEvent
+  name: FlowScriptEvent
+  nameWithType: FlowScriptEvent
+  fullName: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent

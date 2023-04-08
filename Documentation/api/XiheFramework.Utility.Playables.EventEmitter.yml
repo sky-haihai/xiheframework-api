@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.EventEmitter
+  commentId: N:XiheFramework.Utility.Playables.EventEmitter
+  id: XiheFramework.Utility.Playables.EventEmitter
+  children:
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.EventEmitter
+  nameWithType: XiheFramework.Utility.Playables.EventEmitter
+  fullName: XiheFramework.Utility.Playables.EventEmitter
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  parent: XiheFramework.Utility.Playables.EventEmitter
+  name: EventEmitterBehaviour
+  nameWithType: EventEmitterBehaviour
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  name: EventEmitterClip
+  nameWithType: EventEmitterClip
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour
+  name: EventEmitterMixerBehaviour
+  nameWithType: EventEmitterMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack
+  name: EventEmitterTrack
+  nameWithType: EventEmitterTrack
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack
+- uid: XiheFramework.Utility.Playables.EventEmitter
+  commentId: N:XiheFramework.Utility.Playables.EventEmitter
+  name: XiheFramework.Utility.Playables.EventEmitter
+  nameWithType: XiheFramework.Utility.Playables.EventEmitter
+  fullName: XiheFramework.Utility.Playables.EventEmitter

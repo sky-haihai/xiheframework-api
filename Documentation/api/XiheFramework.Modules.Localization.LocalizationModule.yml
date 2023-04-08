@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Localization.LocalizationModule
+  commentId: T:XiheFramework.Modules.Localization.LocalizationModule
+  id: LocalizationModule
+  parent: XiheFramework.Modules.Localization
+  children:
+  - XiheFramework.Modules.Localization.LocalizationModule.GetValue(System.String)
+  - XiheFramework.Modules.Localization.LocalizationModule.language
+  - XiheFramework.Modules.Localization.LocalizationModule.streamingPath
+  langs:
+  - csharp
+  - vb
+  name: LocalizationModule
+  nameWithType: LocalizationModule
+  fullName: XiheFramework.Modules.Localization.LocalizationModule
+  type: Class
+  source:
+    id: LocalizationModule
+    path: ''
+    startLine: 1456
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Localization
+  syntax:
+    content: 'public class LocalizationModule : GameModule'
+    content.vb: >-
+      Public Class LocalizationModule
+          Inherits GameModule
+  inheritance:
+  - System.Object
+  - XiheFramework.Modules.Base.GameModule
+  inheritedMembers:
+  - XiheFramework.Modules.Base.GameModule.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.Localization.LocalizationModule.language
+  commentId: F:XiheFramework.Modules.Localization.LocalizationModule.language
+  id: language
+  parent: XiheFramework.Modules.Localization.LocalizationModule
+  langs:
+  - csharp
+  - vb
+  name: language
+  nameWithType: LocalizationModule.language
+  fullName: XiheFramework.Modules.Localization.LocalizationModule.language
+  type: Field
+  source:
+    id: language
+    path: ''
+    startLine: 1457
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Localization
+  syntax:
+    content: public Languages language
+    return:
+      type: XiheFramework.Modules.Localization.Languages
+    content.vb: Public language As Languages
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Localization.LocalizationModule.streamingPath
+  commentId: F:XiheFramework.Modules.Localization.LocalizationModule.streamingPath
+  id: streamingPath
+  parent: XiheFramework.Modules.Localization.LocalizationModule
+  langs:
+  - csharp
+  - vb
+  name: streamingPath
+  nameWithType: LocalizationModule.streamingPath
+  fullName: XiheFramework.Modules.Localization.LocalizationModule.streamingPath
+  type: Field
+  source:
+    id: streamingPath
+    path: ''
+    startLine: 1459
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Localization
+  syntax:
+    content: public string streamingPath
+    return:
+      type: System.String
+    content.vb: Public streamingPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Localization.LocalizationModule.GetValue(System.String)
+  commentId: M:XiheFramework.Modules.Localization.LocalizationModule.GetValue(System.String)
+  id: GetValue(System.String)
+  parent: XiheFramework.Modules.Localization.LocalizationModule
+  langs:
+  - csharp
+  - vb
+  name: GetValue(String)
+  nameWithType: LocalizationModule.GetValue(String)
+  fullName: XiheFramework.Modules.Localization.LocalizationModule.GetValue(System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 1468
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Localization
+  syntax:
+    content: public string GetValue(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetValue(key As String) As String
+  overload: XiheFramework.Modules.Localization.LocalizationModule.GetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Modules.Localization
+  commentId: N:XiheFramework.Modules.Localization
+  name: XiheFramework.Modules.Localization
+  nameWithType: XiheFramework.Modules.Localization
+  fullName: XiheFramework.Modules.Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: XiheFramework.Modules.Base.GameModule
+  commentId: T:XiheFramework.Modules.Base.GameModule
+  parent: XiheFramework.Modules.Base
+  name: GameModule
+  nameWithType: GameModule
+  fullName: XiheFramework.Modules.Base.GameModule
+- uid: XiheFramework.Modules.Base.GameModule.Awake
+  commentId: M:XiheFramework.Modules.Base.GameModule.Awake
+  parent: XiheFramework.Modules.Base.GameModule
+  name: Awake()
+  nameWithType: GameModule.Awake()
+  fullName: XiheFramework.Modules.Base.GameModule.Awake()
+  spec.csharp:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: XiheFramework.Modules.Localization.Languages
+  commentId: T:XiheFramework.Modules.Localization.Languages
+  parent: XiheFramework.Modules.Localization
+  name: Languages
+  nameWithType: Languages
+  fullName: XiheFramework.Modules.Localization.Languages
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: XiheFramework.Modules.Localization.LocalizationModule.GetValue*
+  commentId: Overload:XiheFramework.Modules.Localization.LocalizationModule.GetValue
+  name: GetValue
+  nameWithType: LocalizationModule.GetValue
+  fullName: XiheFramework.Modules.Localization.LocalizationModule.GetValue

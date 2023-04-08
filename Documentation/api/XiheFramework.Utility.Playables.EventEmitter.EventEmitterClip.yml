@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  id: EventEmitterClip
+  parent: XiheFramework.Utility.Playables.EventEmitter
+  children:
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable(PlayableGraph,GameObject)
+  - XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.template
+  langs:
+  - csharp
+  - vb
+  name: EventEmitterClip
+  nameWithType: EventEmitterClip
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  type: Class
+  source:
+    id: EventEmitterClip
+    path: ''
+    startLine: 5513
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: 'public class EventEmitterClip : PlayableAsset'
+    content.vb: >-
+      Public Class EventEmitterClip
+          Inherits PlayableAsset
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITimelineClipAsset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.template
+  commentId: F:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.template
+  id: template
+  parent: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  langs:
+  - csharp
+  - vb
+  name: template
+  nameWithType: EventEmitterClip.template
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.template
+  type: Field
+  source:
+    id: template
+    path: ''
+    startLine: 5515
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: public EventEmitterBehaviour template
+    return:
+      type: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+    content.vb: Public template As EventEmitterBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps
+  commentId: P:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps
+  id: clipCaps
+  parent: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  langs:
+  - csharp
+  - vb
+  name: clipCaps
+  nameWithType: EventEmitterClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps
+  type: Property
+  source:
+    id: clipCaps
+    path: ''
+    startLine: 5517
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: public ClipCaps clipCaps { get; }
+    parameters: []
+    return:
+      type: Global.ClipCaps
+    content.vb: Public ReadOnly Property clipCaps As ClipCaps
+  overload: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable(PlayableGraph,GameObject)
+  commentId: M:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable(PlayableGraph,GameObject)
+  id: CreatePlayable(PlayableGraph,GameObject)
+  parent: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+  langs:
+  - csharp
+  - vb
+  name: CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: EventEmitterClip.CreatePlayable(PlayableGraph, GameObject)
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable(PlayableGraph, GameObject)
+  type: Method
+  source:
+    id: CreatePlayable
+    path: ''
+    startLine: 5519
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.EventEmitter
+  syntax:
+    content: public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: owner
+      type: Global.GameObject
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreatePlayable(graph As PlayableGraph, owner As GameObject) As Playable
+  overload: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.EventEmitter
+  commentId: N:XiheFramework.Utility.Playables.EventEmitter
+  name: XiheFramework.Utility.Playables.EventEmitter
+  nameWithType: XiheFramework.Utility.Playables.EventEmitter
+  fullName: XiheFramework.Utility.Playables.EventEmitter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ITimelineClipAsset
+  isExternal: true
+  name: ITimelineClipAsset
+  nameWithType: ITimelineClipAsset
+  fullName: ITimelineClipAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  commentId: T:XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+  parent: XiheFramework.Utility.Playables.EventEmitter
+  name: EventEmitterBehaviour
+  nameWithType: EventEmitterBehaviour
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps*
+  commentId: Overload:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps
+  name: clipCaps
+  nameWithType: EventEmitterClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.clipCaps
+- uid: Global.ClipCaps
+  isExternal: true
+  name: ClipCaps
+  nameWithType: ClipCaps
+  fullName: ClipCaps
+- uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable*
+  commentId: Overload:XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable
+  name: CreatePlayable
+  nameWithType: EventEmitterClip.CreatePlayable
+  fullName: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip.CreatePlayable
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

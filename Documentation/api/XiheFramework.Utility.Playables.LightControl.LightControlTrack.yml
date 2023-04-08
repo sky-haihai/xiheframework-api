@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlTrack
+  commentId: T:XiheFramework.Utility.Playables.LightControl.LightControlTrack
+  id: LightControlTrack
+  parent: XiheFramework.Utility.Playables.LightControl
+  children:
+  - XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  - XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties(PlayableDirector,IPropertyCollector)
+  langs:
+  - csharp
+  - vb
+  name: LightControlTrack
+  nameWithType: LightControlTrack
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlTrack
+  type: Class
+  source:
+    id: LightControlTrack
+    path: ''
+    startLine: 5875
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: 'public class LightControlTrack : TrackAsset'
+    content.vb: >-
+      Public Class LightControlTrack
+          Inherits TrackAsset
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  commentId: M:XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  id: CreateTrackMixer(PlayableGraph,GameObject,System.Int32)
+  parent: XiheFramework.Utility.Playables.LightControl.LightControlTrack
+  langs:
+  - csharp
+  - vb
+  name: CreateTrackMixer(PlayableGraph, GameObject, Int32)
+  nameWithType: LightControlTrack.CreateTrackMixer(PlayableGraph, GameObject, Int32)
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer(PlayableGraph, GameObject, System.Int32)
+  type: Method
+  source:
+    id: CreateTrackMixer
+    path: ''
+    startLine: 5879
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: go
+      type: Global.GameObject
+    - id: inputCount
+      type: System.Int32
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreateTrackMixer(graph As PlayableGraph, go As GameObject, inputCount As Integer) As Playable
+  overload: XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties(PlayableDirector,IPropertyCollector)
+  commentId: M:XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties(PlayableDirector,IPropertyCollector)
+  id: GatherProperties(PlayableDirector,IPropertyCollector)
+  parent: XiheFramework.Utility.Playables.LightControl.LightControlTrack
+  langs:
+  - csharp
+  - vb
+  name: GatherProperties(PlayableDirector, IPropertyCollector)
+  nameWithType: LightControlTrack.GatherProperties(PlayableDirector, IPropertyCollector)
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties(PlayableDirector, IPropertyCollector)
+  type: Method
+  source:
+    id: GatherProperties
+    path: ''
+    startLine: 5883
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.LightControl
+  syntax:
+    content: public override void GatherProperties(PlayableDirector director, IPropertyCollector driver)
+    parameters:
+    - id: director
+      type: Global.PlayableDirector
+    - id: driver
+      type: Global.IPropertyCollector
+    content.vb: Public Overrides Sub GatherProperties(director As PlayableDirector, driver As IPropertyCollector)
+  overload: XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.LightControl
+  commentId: N:XiheFramework.Utility.Playables.LightControl
+  name: XiheFramework.Utility.Playables.LightControl
+  nameWithType: XiheFramework.Utility.Playables.LightControl
+  fullName: XiheFramework.Utility.Playables.LightControl
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer*
+  commentId: Overload:XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer
+  name: CreateTrackMixer
+  nameWithType: LightControlTrack.CreateTrackMixer
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlTrack.CreateTrackMixer
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable
+- uid: XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties*
+  commentId: Overload:XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties
+  name: GatherProperties
+  nameWithType: LightControlTrack.GatherProperties
+  fullName: XiheFramework.Utility.Playables.LightControl.LightControlTrack.GatherProperties
+- uid: Global.PlayableDirector
+  isExternal: true
+  name: PlayableDirector
+  nameWithType: PlayableDirector
+  fullName: PlayableDirector
+- uid: Global.IPropertyCollector
+  isExternal: true
+  name: IPropertyCollector
+  nameWithType: IPropertyCollector
+  fullName: IPropertyCollector

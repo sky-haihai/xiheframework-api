@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.IK
+  commentId: N:XiheFramework.Utility.IK
+  id: XiheFramework.Utility.IK
+  children:
+  - XiheFramework.Utility.IK.IKLeafBone
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.IK
+  nameWithType: XiheFramework.Utility.IK
+  fullName: XiheFramework.Utility.IK
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.IK.IKLeafBone
+  commentId: T:XiheFramework.Utility.IK.IKLeafBone
+  name: IKLeafBone
+  nameWithType: IKLeafBone
+  fullName: XiheFramework.Utility.IK.IKLeafBone

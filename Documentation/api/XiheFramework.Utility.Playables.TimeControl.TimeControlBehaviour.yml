@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+  id: TimeControlBehaviour
+  parent: XiheFramework.Utility.Playables.TimeControl
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TimeControlBehaviour
+  nameWithType: TimeControlBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+  type: Class
+  source:
+    id: TimeControlBehaviour
+    path: ''
+    startLine: 6488
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TimeControl
+  syntax:
+    content: 'public class TimeControlBehaviour : PlayableBehaviour'
+    content.vb: >-
+      Public Class TimeControlBehaviour
+          Inherits PlayableBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: XiheFramework.Utility.Playables.TimeControl
+  commentId: N:XiheFramework.Utility.Playables.TimeControl
+  name: XiheFramework.Utility.Playables.TimeControl
+  nameWithType: XiheFramework.Utility.Playables.TimeControl
+  fullName: XiheFramework.Utility.Playables.TimeControl
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

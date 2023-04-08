@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Audio
+  commentId: N:XiheFramework.Modules.Audio
+  id: XiheFramework.Modules.Audio
+  children:
+  - XiheFramework.Modules.Audio.AudioChannelTypes
+  - XiheFramework.Modules.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.Audio
+  nameWithType: XiheFramework.Modules.Audio
+  fullName: XiheFramework.Modules.Audio
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.Audio.AudioChannelTypes
+  commentId: T:XiheFramework.Modules.Audio.AudioChannelTypes
+  parent: XiheFramework.Modules.Audio
+  name: AudioChannelTypes
+  nameWithType: AudioChannelTypes
+  fullName: XiheFramework.Modules.Audio.AudioChannelTypes
+- uid: XiheFramework.Modules.Audio.AudioModule
+  commentId: T:XiheFramework.Modules.Audio.AudioModule
+  parent: XiheFramework.Modules.Audio
+  name: AudioModule
+  nameWithType: AudioModule
+  fullName: XiheFramework.Modules.Audio.AudioModule
+- uid: XiheFramework.Modules.Audio
+  commentId: N:XiheFramework.Modules.Audio
+  name: XiheFramework.Modules.Audio
+  nameWithType: XiheFramework.Modules.Audio
+  fullName: XiheFramework.Modules.Audio

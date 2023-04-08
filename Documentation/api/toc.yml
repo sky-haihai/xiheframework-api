@@ -1,0 +1,391 @@
+### YamlMime:TableOfContent
+- uid: XiheFramework
+  name: XiheFramework
+  items:
+  - uid: XiheFramework.Game
+    name: Game
+- uid: XiheFramework.Modules.Audio
+  name: XiheFramework.Modules.Audio
+  items:
+  - uid: XiheFramework.Modules.Audio.AudioChannelTypes
+    name: AudioChannelTypes
+  - uid: XiheFramework.Modules.Audio.AudioModule
+    name: AudioModule
+- uid: XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  items:
+  - uid: XiheFramework.Modules.Base.GameManager
+    name: GameManager
+  - uid: XiheFramework.Modules.Base.GameModule
+    name: GameModule
+  - uid: XiheFramework.Modules.Base.ShutDownType
+    name: ShutDownType
+  - uid: XiheFramework.Modules.Base.XiheKeywords
+    name: XiheKeywords
+- uid: XiheFramework.Modules.Blackboard
+  name: XiheFramework.Modules.Blackboard
+  items:
+  - uid: XiheFramework.Modules.Blackboard.BlackBoardDataType
+    name: BlackBoardDataType
+  - uid: XiheFramework.Modules.Blackboard.BlackboardModule
+    name: BlackboardModule
+  - uid: XiheFramework.Modules.Blackboard.BlackBoardObject
+    name: BlackBoardObject
+- uid: XiheFramework.Modules.Blackboard.Editor
+  name: XiheFramework.Modules.Blackboard.Editor
+  items:
+  - uid: XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+    name: BlackBoardEditorWindow
+- uid: XiheFramework.Modules.Entity
+  name: XiheFramework.Modules.Entity
+  items:
+  - uid: XiheFramework.Modules.Entity.Entity
+    name: Entity
+  - uid: XiheFramework.Modules.Entity.EntityModule
+    name: EntityModule
+- uid: XiheFramework.Modules.Event
+  name: XiheFramework.Modules.Event
+  items:
+  - uid: XiheFramework.Modules.Event.EventModule
+    name: EventModule
+- uid: XiheFramework.Modules.FlowScriptEvent
+  name: XiheFramework.Modules.FlowScriptEvent
+  items:
+  - uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEvent
+    name: FlowScriptEvent
+  - uid: XiheFramework.Modules.FlowScriptEvent.FlowScriptEventModule
+    name: FlowScriptEventModule
+- uid: XiheFramework.Modules.FSM
+  name: XiheFramework.Modules.FSM
+  items:
+  - uid: XiheFramework.Modules.FSM.BaseState
+    name: BaseState
+  - uid: XiheFramework.Modules.FSM.FlowState
+    name: FlowState
+  - uid: XiheFramework.Modules.FSM.State`1
+    name: State<T>
+    name.vb: State(Of T)
+  - uid: XiheFramework.Modules.FSM.StateMachine
+    name: StateMachine
+  - uid: XiheFramework.Modules.FSM.StateMachineModule
+    name: StateMachineModule
+- uid: XiheFramework.Modules.FSM.Editor
+  name: XiheFramework.Modules.FSM.Editor
+  items:
+  - uid: XiheFramework.Modules.FSM.Editor.FsmEditorWindow
+    name: FsmEditorWindow
+- uid: XiheFramework.Modules.Input
+  name: XiheFramework.Modules.Input
+  items:
+  - uid: XiheFramework.Modules.Input.InputModule
+    name: InputModule
+  - uid: XiheFramework.Modules.Input.InputModule.ActionKeyPair
+    name: InputModule.ActionKeyPair
+  - uid: XiheFramework.Modules.Input.InputModule.TwoDirectionalKeySet
+    name: InputModule.TwoDirectionalKeySet
+  - uid: XiheFramework.Modules.Input.KeyActionTypes
+    name: KeyActionTypes
+- uid: XiheFramework.Modules.Localization
+  name: XiheFramework.Modules.Localization
+  items:
+  - uid: XiheFramework.Modules.Localization.Languages
+    name: Languages
+  - uid: XiheFramework.Modules.Localization.LocalizationModule
+    name: LocalizationModule
+- uid: XiheFramework.Modules.Serialization
+  name: XiheFramework.Modules.Serialization
+  items:
+  - uid: XiheFramework.Modules.Serialization.BaseSaveData
+    name: BaseSaveData
+  - uid: XiheFramework.Modules.Serialization.SaveData
+    name: SaveData
+  - uid: XiheFramework.Modules.Serialization.SerializationModule
+    name: SerializationModule
+  - uid: XiheFramework.Modules.Serialization.SerializationUtil
+    name: SerializationUtil
+- uid: XiheFramework.Modules.UI
+  name: XiheFramework.Modules.UI
+  items:
+  - uid: XiheFramework.Modules.UI.UIBehaviour
+    name: UIBehaviour
+  - uid: XiheFramework.Modules.UI.UIModule
+    name: UIModule
+- uid: XiheFramework.Services
+  name: XiheFramework.Services
+  items:
+  - uid: XiheFramework.Services.AudioSvc
+    name: AudioSvc
+  - uid: XiheFramework.Services.BlackBoardSvc
+    name: BlackBoardSvc
+  - uid: XiheFramework.Services.EntitySvc
+    name: EntitySvc
+  - uid: XiheFramework.Services.EventSvc
+    name: EventSvc
+  - uid: XiheFramework.Services.FlowEventSvc
+    name: FlowEventSvc
+  - uid: XiheFramework.Services.FsmSvc
+    name: FsmSvc
+  - uid: XiheFramework.Services.InputSvc
+    name: InputSvc
+  - uid: XiheFramework.Services.LocalizationSvc
+    name: LocalizationSvc
+  - uid: XiheFramework.Services.SceneSvc
+    name: SceneSvc
+  - uid: XiheFramework.Services.SerializationSvc
+    name: SerializationSvc
+  - uid: XiheFramework.Services.UISvc
+    name: UISvc
+  - uid: XiheFramework.Services.UtilSvc
+    name: UtilSvc
+- uid: XiheFramework.Utility
+  name: XiheFramework.Utility
+  items:
+  - uid: XiheFramework.Utility.CantorPairUtility
+    name: CantorPairUtility
+  - uid: XiheFramework.Utility.FlowCanvasUtil
+    name: FlowCanvasUtil
+  - uid: XiheFramework.Utility.InitializeGameData
+    name: InitializeGameData
+  - uid: XiheFramework.Utility.MultiDictionary`2
+    name: MultiDictionary<TKey, TValue>
+    name.vb: MultiDictionary(Of TKey, TValue)
+  - uid: XiheFramework.Utility.RigidBodyHelper
+    name: RigidBodyHelper
+  - uid: XiheFramework.Utility.Singleton`1
+    name: Singleton<T>
+    name.vb: Singleton(Of T)
+  - uid: XiheFramework.Utility.SystemUtil
+    name: SystemUtil
+  - uid: XiheFramework.Utility.TreeNode`1
+    name: TreeNode<T>
+    name.vb: TreeNode(Of T)
+  - uid: XiheFramework.Utility.UnityEngineExtension
+    name: UnityEngineExtension
+  - uid: XiheFramework.Utility.V2ToV3Type
+    name: V2ToV3Type
+  - uid: XiheFramework.Utility.V3ToV2Type
+    name: V3ToV2Type
+  - uid: XiheFramework.Utility.VectorMathHelper
+    name: VectorMathHelper
+- uid: XiheFramework.Utility.AStar
+  name: XiheFramework.Utility.AStar
+  items:
+  - uid: XiheFramework.Utility.AStar.AStar
+    name: AStar
+  - uid: XiheFramework.Utility.AStar.AStarGrid
+    name: AStarGrid
+  - uid: XiheFramework.Utility.AStar.AStarNode
+    name: AStarNode
+- uid: XiheFramework.Utility.Bezier
+  name: XiheFramework.Utility.Bezier
+  items:
+  - uid: XiheFramework.Utility.Bezier.BezierHelper
+    name: BezierHelper
+  - uid: XiheFramework.Utility.Bezier.BezierPath
+    name: BezierPath
+  - uid: XiheFramework.Utility.Bezier.BezierPath.CurveInfo
+    name: BezierPath.CurveInfo
+  - uid: XiheFramework.Utility.Bezier.CurveType
+    name: CurveType
+  - uid: XiheFramework.Utility.Bezier.TransformInfo
+    name: TransformInfo
+- uid: XiheFramework.Utility.GameObjectArray
+  name: XiheFramework.Utility.GameObjectArray
+  items:
+  - uid: XiheFramework.Utility.GameObjectArray.ArrayModifier
+    name: ArrayModifier
+- uid: XiheFramework.Utility.GameObjectArray.Editor
+  name: XiheFramework.Utility.GameObjectArray.Editor
+  items:
+  - uid: XiheFramework.Utility.GameObjectArray.Editor.ArrayModifierEditor
+    name: ArrayModifierEditor
+- uid: XiheFramework.Utility.IK
+  name: XiheFramework.Utility.IK
+  items:
+  - uid: XiheFramework.Utility.IK.IKLeafBone
+    name: IKLeafBone
+- uid: XiheFramework.Utility.Playables.DialogueBubble
+  name: XiheFramework.Utility.Playables.DialogueBubble
+  items:
+  - uid: XiheFramework.Utility.Playables.DialogueBubble.DialogueBubble
+    name: DialogueBubble
+  - uid: XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleBehaviour
+    name: DialogueBubbleBehaviour
+  - uid: XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleClip
+    name: DialogueBubbleClip
+  - uid: XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleMixerBehaviour
+    name: DialogueBubbleMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.DialogueBubble.DialogueBubbleTrack
+    name: DialogueBubbleTrack
+- uid: XiheFramework.Utility.Playables.Editor
+  name: XiheFramework.Utility.Playables.Editor
+  items:
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard
+    name: TimelinePlayableWizard
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.CreationError
+    name: TimelinePlayableWizard.CreationError
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty
+    name: TimelinePlayableWizard.UsableProperty
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.Usability
+    name: TimelinePlayableWizard.UsableProperty.Usability
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableProperty.UsablePropertyType
+    name: TimelinePlayableWizard.UsableProperty.UsablePropertyType
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+    name: TimelinePlayableWizard.UsableType
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.Variable
+    name: TimelinePlayableWizard.Variable
+- uid: XiheFramework.Utility.Playables.EventEmitter
+  name: XiheFramework.Utility.Playables.EventEmitter
+  items:
+  - uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterBehaviour
+    name: EventEmitterBehaviour
+  - uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterClip
+    name: EventEmitterClip
+  - uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterMixerBehaviour
+    name: EventEmitterMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.EventEmitter.EventEmitterTrack
+    name: EventEmitterTrack
+- uid: XiheFramework.Utility.Playables.ImageSwitcher
+  name: XiheFramework.Utility.Playables.ImageSwitcher
+  items:
+  - uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+    name: ImageSwitcherBehaviour
+  - uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+    name: ImageSwitcherClip
+  - uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherMixerBehaviour
+    name: ImageSwitcherMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherTrack
+    name: ImageSwitcherTrack
+- uid: XiheFramework.Utility.Playables.LightControl
+  name: XiheFramework.Utility.Playables.LightControl
+  items:
+  - uid: XiheFramework.Utility.Playables.LightControl.LightControlBehaviour
+    name: LightControlBehaviour
+  - uid: XiheFramework.Utility.Playables.LightControl.LightControlClip
+    name: LightControlClip
+  - uid: XiheFramework.Utility.Playables.LightControl.LightControlMixerBehaviour
+    name: LightControlMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.LightControl.LightControlTrack
+    name: LightControlTrack
+- uid: XiheFramework.Utility.Playables.LightControl.Editor
+  name: XiheFramework.Utility.Playables.LightControl.Editor
+  items:
+  - uid: XiheFramework.Utility.Playables.LightControl.Editor.LightControlDrawer
+    name: LightControlDrawer
+- uid: XiheFramework.Utility.Playables.MaterialSwitcher
+  name: XiheFramework.Utility.Playables.MaterialSwitcher
+  items:
+  - uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherBehaviour
+    name: MaterialSwitcherBehaviour
+  - uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherClip
+    name: MaterialSwitcherClip
+  - uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherMixerBehaviour
+    name: MaterialSwitcherMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.MaterialSwitcher.MaterialSwitcherTrack
+    name: MaterialSwitcherTrack
+- uid: XiheFramework.Utility.Playables.NavMeshAgentControl
+  name: XiheFramework.Utility.Playables.NavMeshAgentControl
+  items:
+  - uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlBehaviour
+    name: NavMeshAgentControlBehaviour
+  - uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlClip
+    name: NavMeshAgentControlClip
+  - uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlMixerBehaviour
+    name: NavMeshAgentControlMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.NavMeshAgentControl.NavMeshAgentControlTrack
+    name: NavMeshAgentControlTrack
+- uid: XiheFramework.Utility.Playables.ScreenFader
+  name: XiheFramework.Utility.Playables.ScreenFader
+  items:
+  - uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour
+    name: ScreenFaderBehaviour
+  - uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+    name: ScreenFaderClip
+  - uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderMixerBehaviour
+    name: ScreenFaderMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderTrack
+    name: ScreenFaderTrack
+- uid: XiheFramework.Utility.Playables.ScreenFader.Editor
+  name: XiheFramework.Utility.Playables.ScreenFader.Editor
+  items:
+  - uid: XiheFramework.Utility.Playables.ScreenFader.Editor.ScreenFaderDrawer
+    name: ScreenFaderDrawer
+- uid: XiheFramework.Utility.Playables.TextSwitcher
+  name: XiheFramework.Utility.Playables.TextSwitcher
+  items:
+  - uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherBehaviour
+    name: TextSwitcherBehaviour
+  - uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherClip
+    name: TextSwitcherClip
+  - uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherMixerBehaviour
+    name: TextSwitcherMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.TextSwitcher.TextSwitcherTrack
+    name: TextSwitcherTrack
+- uid: XiheFramework.Utility.Playables.TextSwitcher.Editor
+  name: XiheFramework.Utility.Playables.TextSwitcher.Editor
+  items:
+  - uid: XiheFramework.Utility.Playables.TextSwitcher.Editor.TextSwitcherDrawer
+    name: TextSwitcherDrawer
+- uid: XiheFramework.Utility.Playables.TimeControl
+  name: XiheFramework.Utility.Playables.TimeControl
+  items:
+  - uid: XiheFramework.Utility.Playables.TimeControl.TimeControlBehaviour
+    name: TimeControlBehaviour
+  - uid: XiheFramework.Utility.Playables.TimeControl.TimeControlClip
+    name: TimeControlClip
+  - uid: XiheFramework.Utility.Playables.TimeControl.TimeControlMixerBehaviour
+    name: TimeControlMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.TimeControl.TimeControlTrack
+    name: TimeControlTrack
+- uid: XiheFramework.Utility.Playables.TimeDilation
+  name: XiheFramework.Utility.Playables.TimeDilation
+  items:
+  - uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+    name: TimeDilationBehaviour
+  - uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip
+    name: TimeDilationClip
+  - uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour
+    name: TimeDilationMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack
+    name: TimeDilationTrack
+- uid: XiheFramework.Utility.Playables.TimeDilation.Editor
+  name: XiheFramework.Utility.Playables.TimeDilation.Editor
+  items:
+  - uid: XiheFramework.Utility.Playables.TimeDilation.Editor.TimeDilationDrawer
+    name: TimeDilationDrawer
+- uid: XiheFramework.Utility.Playables.TransformTween
+  name: XiheFramework.Utility.Playables.TransformTween
+  items:
+  - uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour
+    name: TransformTweenBehaviour
+  - uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour.TweenType
+    name: TransformTweenBehaviour.TweenType
+  - uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+    name: TransformTweenClip
+  - uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenMixerBehaviour
+    name: TransformTweenMixerBehaviour
+  - uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenTrack
+    name: TransformTweenTrack
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor
+  name: XiheFramework.Utility.Playables.TransformTween.Editor
+  items:
+  - uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+    name: TransformTweenDrawer
+- uid: XiheFramework.Utility.Playables.Video
+  name: XiheFramework.Utility.Playables.Video
+  items:
+  - uid: XiheFramework.Utility.Playables.Video.VideoPlayableBehaviour
+    name: VideoPlayableBehaviour
+  - uid: XiheFramework.Utility.Playables.Video.VideoSchedulerPlayableBehaviour
+    name: VideoSchedulerPlayableBehaviour
+  - uid: XiheFramework.Utility.Playables.Video.VideoScriptPlayableAsset
+    name: VideoScriptPlayableAsset
+  - uid: XiheFramework.Utility.Playables.Video.VideoScriptPlayableTrack
+    name: VideoScriptPlayableTrack
+- uid: XiheFramework.Utility.ShapeKeyDriver
+  name: XiheFramework.Utility.ShapeKeyDriver
+  items:
+  - uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+    name: ShapeKeyDriver
+  - uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+    name: ShapeKeyDriver.Axis

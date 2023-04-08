@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Services.EntitySvc
+  commentId: T:XiheFramework.Services.EntitySvc
+  id: EntitySvc
+  parent: XiheFramework.Services
+  children:
+  - XiheFramework.Services.EntitySvc.GetEntity(System.String)
+  - XiheFramework.Services.EntitySvc.SetupEntity(GameObject,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EntitySvc
+  nameWithType: EntitySvc
+  fullName: XiheFramework.Services.EntitySvc
+  type: Class
+  source:
+    id: EntitySvc
+    path: ''
+    startLine: 1769
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static class EntitySvc
+    content.vb: Public Module EntitySvc
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: XiheFramework.Services.EntitySvc.GetEntity(System.String)
+  commentId: M:XiheFramework.Services.EntitySvc.GetEntity(System.String)
+  id: GetEntity(System.String)
+  parent: XiheFramework.Services.EntitySvc
+  langs:
+  - csharp
+  - vb
+  name: GetEntity(String)
+  nameWithType: EntitySvc.GetEntity(String)
+  fullName: XiheFramework.Services.EntitySvc.GetEntity(System.String)
+  type: Method
+  source:
+    id: GetEntity
+    path: ''
+    startLine: 1770
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static Entity GetEntity(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: XiheFramework.Modules.Entity.Entity
+    content.vb: Public Shared Function GetEntity(entityName As String) As Entity
+  overload: XiheFramework.Services.EntitySvc.GetEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.EntitySvc.SetupEntity(GameObject,System.String)
+  commentId: M:XiheFramework.Services.EntitySvc.SetupEntity(GameObject,System.String)
+  id: SetupEntity(GameObject,System.String)
+  parent: XiheFramework.Services.EntitySvc
+  langs:
+  - csharp
+  - vb
+  name: SetupEntity(GameObject, String)
+  nameWithType: EntitySvc.SetupEntity(GameObject, String)
+  fullName: XiheFramework.Services.EntitySvc.SetupEntity(GameObject, System.String)
+  type: Method
+  source:
+    id: SetupEntity
+    path: ''
+    startLine: 1774
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static void SetupEntity(GameObject owner, string entityName)
+    parameters:
+    - id: owner
+      type: Global.GameObject
+    - id: entityName
+      type: System.String
+    content.vb: Public Shared Sub SetupEntity(owner As GameObject, entityName As String)
+  overload: XiheFramework.Services.EntitySvc.SetupEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: XiheFramework.Services
+  commentId: N:XiheFramework.Services
+  name: XiheFramework.Services
+  nameWithType: XiheFramework.Services
+  fullName: XiheFramework.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Services.EntitySvc.GetEntity*
+  commentId: Overload:XiheFramework.Services.EntitySvc.GetEntity
+  name: GetEntity
+  nameWithType: EntitySvc.GetEntity
+  fullName: XiheFramework.Services.EntitySvc.GetEntity
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: XiheFramework.Modules.Entity.Entity
+  commentId: T:XiheFramework.Modules.Entity.Entity
+  parent: XiheFramework.Modules.Entity
+  name: Entity
+  nameWithType: Entity
+  fullName: XiheFramework.Modules.Entity.Entity
+- uid: XiheFramework.Modules.Entity
+  commentId: N:XiheFramework.Modules.Entity
+  name: XiheFramework.Modules.Entity
+  nameWithType: XiheFramework.Modules.Entity
+  fullName: XiheFramework.Modules.Entity
+- uid: XiheFramework.Services.EntitySvc.SetupEntity*
+  commentId: Overload:XiheFramework.Services.EntitySvc.SetupEntity
+  name: SetupEntity
+  nameWithType: EntitySvc.SetupEntity
+  fullName: XiheFramework.Services.EntitySvc.SetupEntity
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

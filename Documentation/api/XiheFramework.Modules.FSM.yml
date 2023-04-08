@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.FSM
+  commentId: N:XiheFramework.Modules.FSM
+  id: XiheFramework.Modules.FSM
+  children:
+  - XiheFramework.Modules.FSM.BaseState
+  - XiheFramework.Modules.FSM.FlowState
+  - XiheFramework.Modules.FSM.State`1
+  - XiheFramework.Modules.FSM.StateMachine
+  - XiheFramework.Modules.FSM.StateMachineModule
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.FSM
+  nameWithType: XiheFramework.Modules.FSM
+  fullName: XiheFramework.Modules.FSM
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.FSM.BaseState
+  commentId: T:XiheFramework.Modules.FSM.BaseState
+  parent: XiheFramework.Modules.FSM
+  name: BaseState
+  nameWithType: BaseState
+  fullName: XiheFramework.Modules.FSM.BaseState
+- uid: XiheFramework.Modules.FSM.FlowState
+  commentId: T:XiheFramework.Modules.FSM.FlowState
+  name: FlowState
+  nameWithType: FlowState
+  fullName: XiheFramework.Modules.FSM.FlowState
+- uid: XiheFramework.Modules.FSM.State`1
+  commentId: T:XiheFramework.Modules.FSM.State`1
+  name: State<T>
+  nameWithType: State<T>
+  fullName: XiheFramework.Modules.FSM.State<T>
+  nameWithType.vb: State(Of T)
+  fullName.vb: XiheFramework.Modules.FSM.State(Of T)
+  name.vb: State(Of T)
+  spec.csharp:
+  - uid: XiheFramework.Modules.FSM.State`1
+    name: State
+    nameWithType: State
+    fullName: XiheFramework.Modules.FSM.State
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: XiheFramework.Modules.FSM.State`1
+    name: State
+    nameWithType: State
+    fullName: XiheFramework.Modules.FSM.State
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Modules.FSM.StateMachine
+  commentId: T:XiheFramework.Modules.FSM.StateMachine
+  parent: XiheFramework.Modules.FSM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: XiheFramework.Modules.FSM.StateMachine
+- uid: XiheFramework.Modules.FSM.StateMachineModule
+  commentId: T:XiheFramework.Modules.FSM.StateMachineModule
+  parent: XiheFramework.Modules.FSM
+  name: StateMachineModule
+  nameWithType: StateMachineModule
+  fullName: XiheFramework.Modules.FSM.StateMachineModule
+- uid: XiheFramework.Modules.FSM
+  commentId: N:XiheFramework.Modules.FSM
+  name: XiheFramework.Modules.FSM
+  nameWithType: XiheFramework.Modules.FSM
+  fullName: XiheFramework.Modules.FSM

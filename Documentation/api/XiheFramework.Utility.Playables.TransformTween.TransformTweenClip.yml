@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  commentId: T:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  id: TransformTweenClip
+  parent: XiheFramework.Utility.Playables.TransformTween
+  children:
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable(PlayableGraph,GameObject)
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.endLocation
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.startLocation
+  - XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.template
+  langs:
+  - csharp
+  - vb
+  name: TransformTweenClip
+  nameWithType: TransformTweenClip
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  type: Class
+  source:
+    id: TransformTweenClip
+    path: ''
+    startLine: 6709
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: 'public class TransformTweenClip : PlayableAsset'
+    content.vb: >-
+      Public Class TransformTweenClip
+          Inherits PlayableAsset
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITimelineClipAsset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.template
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.template
+  id: template
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  langs:
+  - csharp
+  - vb
+  name: template
+  nameWithType: TransformTweenClip.template
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.template
+  type: Field
+  source:
+    id: template
+    path: ''
+    startLine: 6711
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: public TransformTweenBehaviour template
+    return:
+      type: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour
+    content.vb: Public template As TransformTweenBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.startLocation
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.startLocation
+  id: startLocation
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  langs:
+  - csharp
+  - vb
+  name: startLocation
+  nameWithType: TransformTweenClip.startLocation
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.startLocation
+  type: Field
+  source:
+    id: startLocation
+    path: ''
+    startLine: 6712
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: public ExposedReference<Transform> startLocation
+    return:
+      type: Global.ExposedReference{Transform}
+    content.vb: Public startLocation As ExposedReference(Of Transform)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.endLocation
+  commentId: F:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.endLocation
+  id: endLocation
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  langs:
+  - csharp
+  - vb
+  name: endLocation
+  nameWithType: TransformTweenClip.endLocation
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.endLocation
+  type: Field
+  source:
+    id: endLocation
+    path: ''
+    startLine: 6713
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: public ExposedReference<Transform> endLocation
+    return:
+      type: Global.ExposedReference{Transform}
+    content.vb: Public endLocation As ExposedReference(Of Transform)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps
+  commentId: P:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps
+  id: clipCaps
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  langs:
+  - csharp
+  - vb
+  name: clipCaps
+  nameWithType: TransformTweenClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps
+  type: Property
+  source:
+    id: clipCaps
+    path: ''
+    startLine: 6715
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: public ClipCaps clipCaps { get; }
+    parameters: []
+    return:
+      type: Global.ClipCaps
+    content.vb: Public ReadOnly Property clipCaps As ClipCaps
+  overload: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable(PlayableGraph,GameObject)
+  commentId: M:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable(PlayableGraph,GameObject)
+  id: CreatePlayable(PlayableGraph,GameObject)
+  parent: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip
+  langs:
+  - csharp
+  - vb
+  name: CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: TransformTweenClip.CreatePlayable(PlayableGraph, GameObject)
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable(PlayableGraph, GameObject)
+  type: Method
+  source:
+    id: CreatePlayable
+    path: ''
+    startLine: 6717
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween
+  syntax:
+    content: public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: owner
+      type: Global.GameObject
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreatePlayable(graph As PlayableGraph, owner As GameObject) As Playable
+  overload: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.TransformTween
+  commentId: N:XiheFramework.Utility.Playables.TransformTween
+  name: XiheFramework.Utility.Playables.TransformTween
+  nameWithType: XiheFramework.Utility.Playables.TransformTween
+  fullName: XiheFramework.Utility.Playables.TransformTween
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ITimelineClipAsset
+  isExternal: true
+  name: ITimelineClipAsset
+  nameWithType: ITimelineClipAsset
+  fullName: ITimelineClipAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour
+  parent: XiheFramework.Utility.Playables.TransformTween
+  name: TransformTweenBehaviour
+  nameWithType: TransformTweenBehaviour
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenBehaviour
+- uid: Global.ExposedReference{Transform}
+  commentId: '!:Global.ExposedReference{Transform}'
+  definition: Global.ExposedReference`1
+  name: ExposedReference<Transform>
+  nameWithType: ExposedReference<Transform>
+  fullName: ExposedReference<Transform>
+  nameWithType.vb: ExposedReference(Of Transform)
+  fullName.vb: ExposedReference(Of Transform)
+  name.vb: ExposedReference(Of Transform)
+  spec.csharp:
+  - uid: Global.ExposedReference`1
+    name: ExposedReference
+    nameWithType: ExposedReference
+    fullName: ExposedReference
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ExposedReference`1
+    name: ExposedReference
+    nameWithType: ExposedReference
+    fullName: ExposedReference
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ExposedReference`1
+  isExternal: true
+  name: ExposedReference<>
+  nameWithType: ExposedReference<>
+  fullName: ExposedReference<>
+  nameWithType.vb: ExposedReference(Of )
+  fullName.vb: ExposedReference(Of )
+  name.vb: ExposedReference(Of )
+  spec.csharp:
+  - uid: Global.ExposedReference`1
+    name: ExposedReference
+    nameWithType: ExposedReference
+    fullName: ExposedReference
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ExposedReference`1
+    name: ExposedReference
+    nameWithType: ExposedReference
+    fullName: ExposedReference
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps*
+  commentId: Overload:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps
+  name: clipCaps
+  nameWithType: TransformTweenClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.clipCaps
+- uid: Global.ClipCaps
+  isExternal: true
+  name: ClipCaps
+  nameWithType: ClipCaps
+  fullName: ClipCaps
+- uid: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable*
+  commentId: Overload:XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable
+  name: CreatePlayable
+  nameWithType: TransformTweenClip.CreatePlayable
+  fullName: XiheFramework.Utility.Playables.TransformTween.TransformTweenClip.CreatePlayable
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

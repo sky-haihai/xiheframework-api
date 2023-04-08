@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Blackboard.Editor
+  commentId: N:XiheFramework.Modules.Blackboard.Editor
+  id: XiheFramework.Modules.Blackboard.Editor
+  children:
+  - XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.Blackboard.Editor
+  nameWithType: XiheFramework.Modules.Blackboard.Editor
+  fullName: XiheFramework.Modules.Blackboard.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+  commentId: T:XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow
+  name: BlackBoardEditorWindow
+  nameWithType: BlackBoardEditorWindow
+  fullName: XiheFramework.Modules.Blackboard.Editor.BlackBoardEditorWindow

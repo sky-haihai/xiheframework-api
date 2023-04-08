@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+  commentId: T:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+  id: ScreenFaderClip
+  parent: XiheFramework.Utility.Playables.ScreenFader
+  children:
+  - XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps
+  - XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable(PlayableGraph,GameObject)
+  - XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.template
+  langs:
+  - csharp
+  - vb
+  name: ScreenFaderClip
+  nameWithType: ScreenFaderClip
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+  type: Class
+  source:
+    id: ScreenFaderClip
+    path: ''
+    startLine: 6178
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: 'public class ScreenFaderClip : PlayableAsset'
+    content.vb: >-
+      Public Class ScreenFaderClip
+          Inherits PlayableAsset
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITimelineClipAsset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.template
+  commentId: F:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.template
+  id: template
+  parent: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+  langs:
+  - csharp
+  - vb
+  name: template
+  nameWithType: ScreenFaderClip.template
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.template
+  type: Field
+  source:
+    id: template
+    path: ''
+    startLine: 6180
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: public ScreenFaderBehaviour template
+    return:
+      type: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour
+    content.vb: Public template As ScreenFaderBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps
+  commentId: P:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps
+  id: clipCaps
+  parent: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+  langs:
+  - csharp
+  - vb
+  name: clipCaps
+  nameWithType: ScreenFaderClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps
+  type: Property
+  source:
+    id: clipCaps
+    path: ''
+    startLine: 6182
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: public ClipCaps clipCaps { get; }
+    parameters: []
+    return:
+      type: Global.ClipCaps
+    content.vb: Public ReadOnly Property clipCaps As ClipCaps
+  overload: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable(PlayableGraph,GameObject)
+  commentId: M:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable(PlayableGraph,GameObject)
+  id: CreatePlayable(PlayableGraph,GameObject)
+  parent: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip
+  langs:
+  - csharp
+  - vb
+  name: CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: ScreenFaderClip.CreatePlayable(PlayableGraph, GameObject)
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable(PlayableGraph, GameObject)
+  type: Method
+  source:
+    id: CreatePlayable
+    path: ''
+    startLine: 6184
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ScreenFader
+  syntax:
+    content: public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: owner
+      type: Global.GameObject
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreatePlayable(graph As PlayableGraph, owner As GameObject) As Playable
+  overload: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.ScreenFader
+  commentId: N:XiheFramework.Utility.Playables.ScreenFader
+  name: XiheFramework.Utility.Playables.ScreenFader
+  nameWithType: XiheFramework.Utility.Playables.ScreenFader
+  fullName: XiheFramework.Utility.Playables.ScreenFader
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ITimelineClipAsset
+  isExternal: true
+  name: ITimelineClipAsset
+  nameWithType: ITimelineClipAsset
+  fullName: ITimelineClipAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour
+  commentId: T:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour
+  parent: XiheFramework.Utility.Playables.ScreenFader
+  name: ScreenFaderBehaviour
+  nameWithType: ScreenFaderBehaviour
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderBehaviour
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps*
+  commentId: Overload:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps
+  name: clipCaps
+  nameWithType: ScreenFaderClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.clipCaps
+- uid: Global.ClipCaps
+  isExternal: true
+  name: ClipCaps
+  nameWithType: ClipCaps
+  fullName: ClipCaps
+- uid: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable*
+  commentId: Overload:XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable
+  name: CreatePlayable
+  nameWithType: ScreenFaderClip.CreatePlayable
+  fullName: XiheFramework.Utility.Playables.ScreenFader.ScreenFaderClip.CreatePlayable
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

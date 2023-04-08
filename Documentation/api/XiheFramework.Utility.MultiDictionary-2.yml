@@ -1,0 +1,920 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.MultiDictionary`2
+  commentId: T:XiheFramework.Utility.MultiDictionary`2
+  id: MultiDictionary`2
+  parent: XiheFramework.Utility
+  children:
+  - XiheFramework.Utility.MultiDictionary`2.#ctor
+  - XiheFramework.Utility.MultiDictionary`2.Add(`0,`1)
+  - XiheFramework.Utility.MultiDictionary`2.Clear
+  - XiheFramework.Utility.MultiDictionary`2.ContainsKey(`0)
+  - XiheFramework.Utility.MultiDictionary`2.ContainsValue(`0,`1)
+  - XiheFramework.Utility.MultiDictionary`2.Count
+  - XiheFramework.Utility.MultiDictionary`2.GetEnumerator
+  - XiheFramework.Utility.MultiDictionary`2.GetList(`0)
+  - XiheFramework.Utility.MultiDictionary`2.Item(`0)
+  - XiheFramework.Utility.MultiDictionary`2.Keys
+  - XiheFramework.Utility.MultiDictionary`2.Remove(`0,`1)
+  - XiheFramework.Utility.MultiDictionary`2.Values
+  langs:
+  - csharp
+  - vb
+  name: MultiDictionary<TKey, TValue>
+  nameWithType: MultiDictionary<TKey, TValue>
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>
+  type: Class
+  source:
+    id: MultiDictionary
+    path: ''
+    startLine: 2036
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: 'public class MultiDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, List<TValue>>>'
+    typeParameters:
+    - id: TKey
+    - id: TValue
+    content.vb: >-
+      Public Class MultiDictionary(Of TKey, TValue)
+          Inherits IEnumerable(Of KeyValuePair(Of TKey, List(Of TValue)))
+  inheritance:
+  - System.Object
+  nameWithType.vb: MultiDictionary(Of TKey, TValue)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue)
+  name.vb: MultiDictionary(Of TKey, TValue)
+- uid: XiheFramework.Utility.MultiDictionary`2.#ctor
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.#ctor
+  id: '#ctor'
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiDictionary()
+  nameWithType: MultiDictionary<TKey, TValue>.MultiDictionary()
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.MultiDictionary()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2039
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public MultiDictionary()
+    content.vb: Public Sub New
+  overload: XiheFramework.Utility.MultiDictionary`2.#ctor*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).MultiDictionary()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).MultiDictionary()
+- uid: XiheFramework.Utility.MultiDictionary`2.Item(`0)
+  commentId: P:XiheFramework.Utility.MultiDictionary`2.Item(`0)
+  id: Item(`0)
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Item[TKey]
+  nameWithType: MultiDictionary<TKey, TValue>.Item[TKey]
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Item[TKey]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 2043
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public List<TValue> this[TKey key] { get; }
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: Global.List{{TValue}}
+    content.vb: Public ReadOnly Property Item(key As TKey) As List(Of TValue)
+  overload: XiheFramework.Utility.MultiDictionary`2.Item*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Item(TKey)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Item(TKey)
+  name.vb: Item(TKey)
+- uid: XiheFramework.Utility.MultiDictionary`2.Keys
+  commentId: P:XiheFramework.Utility.MultiDictionary`2.Keys
+  id: Keys
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: MultiDictionary<TKey, TValue>.Keys
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Keys
+  type: Property
+  source:
+    id: Keys
+    path: ''
+    startLine: 2045
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public Dictionary<TKey, List<TValue>>.KeyCollection Keys { get; }
+    parameters: []
+    return:
+      type: Global.Dictionary{{TKey},List{{TValue}}}.KeyCollection
+    content.vb: Public ReadOnly Property Keys As Dictionary(Of TKey, List(Of TValue)).KeyCollection
+  overload: XiheFramework.Utility.MultiDictionary`2.Keys*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Keys
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Keys
+- uid: XiheFramework.Utility.MultiDictionary`2.Values
+  commentId: P:XiheFramework.Utility.MultiDictionary`2.Values
+  id: Values
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: MultiDictionary<TKey, TValue>.Values
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Values
+  type: Property
+  source:
+    id: Values
+    path: ''
+    startLine: 2046
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public Dictionary<TKey, List<TValue>>.ValueCollection Values { get; }
+    parameters: []
+    return:
+      type: Global.Dictionary{{TKey},List{{TValue}}}.ValueCollection
+    content.vb: Public ReadOnly Property Values As Dictionary(Of TKey, List(Of TValue)).ValueCollection
+  overload: XiheFramework.Utility.MultiDictionary`2.Values*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Values
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Values
+- uid: XiheFramework.Utility.MultiDictionary`2.Count
+  commentId: P:XiheFramework.Utility.MultiDictionary`2.Count
+  id: Count
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: MultiDictionary<TKey, TValue>.Count
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Count
+  type: Property
+  source:
+    id: Count
+    path: ''
+    startLine: 2048
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: XiheFramework.Utility.MultiDictionary`2.Count*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Count
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Count
+- uid: XiheFramework.Utility.MultiDictionary`2.GetEnumerator
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.GetEnumerator
+  id: GetEnumerator
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: MultiDictionary<TKey, TValue>.GetEnumerator()
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: ''
+    startLine: 2050
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public IEnumerator<KeyValuePair<TKey, List<TValue>>> GetEnumerator()
+    return:
+      type: Global.IEnumerator{KeyValuePair{{TKey},List{{TValue}}}}
+    content.vb: Public Function GetEnumerator As IEnumerator(Of KeyValuePair(Of TKey, List(Of TValue)))
+  overload: XiheFramework.Utility.MultiDictionary`2.GetEnumerator*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).GetEnumerator()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).GetEnumerator()
+- uid: XiheFramework.Utility.MultiDictionary`2.Add(`0,`1)
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Add(TKey, TValue)
+  nameWithType: MultiDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Add(TKey, TValue)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 2058
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public void Add(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub Add(key As TKey, value As TValue)
+  overload: XiheFramework.Utility.MultiDictionary`2.Add*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Add(TKey, TValue)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Add(TKey, TValue)
+- uid: XiheFramework.Utility.MultiDictionary`2.Remove(`0,`1)
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.Remove(`0,`1)
+  id: Remove(`0,`1)
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(TKey, TValue)
+  nameWithType: MultiDictionary<TKey, TValue>.Remove(TKey, TValue)
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Remove(TKey, TValue)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 2078
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public void Remove(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub Remove(key As TKey, value As TValue)
+  overload: XiheFramework.Utility.MultiDictionary`2.Remove*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Remove(TKey, TValue)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Remove(TKey, TValue)
+- uid: XiheFramework.Utility.MultiDictionary`2.GetList(`0)
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.GetList(`0)
+  id: GetList(`0)
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetList(TKey)
+  nameWithType: MultiDictionary<TKey, TValue>.GetList(TKey)
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.GetList(TKey)
+  type: Method
+  source:
+    id: GetList
+    path: ''
+    startLine: 2103
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public List<TValue> GetList(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: Global.List{{TValue}}
+    content.vb: Public Function GetList(key As TKey) As List(Of TValue)
+  overload: XiheFramework.Utility.MultiDictionary`2.GetList*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).GetList(TKey)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).GetList(TKey)
+- uid: XiheFramework.Utility.MultiDictionary`2.ContainsKey(`0)
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.ContainsKey(`0)
+  id: ContainsKey(`0)
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(TKey)
+  nameWithType: MultiDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.ContainsKey(TKey)
+  type: Method
+  source:
+    id: ContainsKey
+    path: ''
+    startLine: 2112
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public bool ContainsKey(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function ContainsKey(key As TKey) As Boolean
+  overload: XiheFramework.Utility.MultiDictionary`2.ContainsKey*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).ContainsKey(TKey)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).ContainsKey(TKey)
+- uid: XiheFramework.Utility.MultiDictionary`2.ContainsValue(`0,`1)
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.ContainsValue(`0,`1)
+  id: ContainsValue(`0,`1)
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsValue(TKey, TValue)
+  nameWithType: MultiDictionary<TKey, TValue>.ContainsValue(TKey, TValue)
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.ContainsValue(TKey, TValue)
+  type: Method
+  source:
+    id: ContainsValue
+    path: ''
+    startLine: 2121
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public bool ContainsValue(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function ContainsValue(key As TKey, value As TValue) As Boolean
+  overload: XiheFramework.Utility.MultiDictionary`2.ContainsValue*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).ContainsValue(TKey, TValue)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).ContainsValue(TKey, TValue)
+- uid: XiheFramework.Utility.MultiDictionary`2.Clear
+  commentId: M:XiheFramework.Utility.MultiDictionary`2.Clear
+  id: Clear
+  parent: XiheFramework.Utility.MultiDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: MultiDictionary<TKey, TValue>.Clear()
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 2137
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: XiheFramework.Utility.MultiDictionary`2.Clear*
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Clear()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Clear()
+references:
+- uid: XiheFramework.Utility
+  commentId: N:XiheFramework.Utility
+  name: XiheFramework.Utility
+  nameWithType: XiheFramework.Utility
+  fullName: XiheFramework.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.MultiDictionary`2.#ctor*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.#ctor
+  name: MultiDictionary
+  nameWithType: MultiDictionary<TKey, TValue>.MultiDictionary
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.MultiDictionary
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).MultiDictionary
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).MultiDictionary
+- uid: XiheFramework.Utility.MultiDictionary`2.Item*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Item
+  name: Item
+  nameWithType: MultiDictionary<TKey, TValue>.Item
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Item
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Item
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Item
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: Global.List{{TValue}}
+  commentId: '!:Global.List{`1}'
+  definition: Global.List`1
+  name: List<TValue>
+  nameWithType: List<TValue>
+  fullName: List<TValue>
+  nameWithType.vb: List(Of TValue)
+  fullName.vb: List(Of TValue)
+  name.vb: List(Of TValue)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.MultiDictionary`2.Keys*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Keys
+  name: Keys
+  nameWithType: MultiDictionary<TKey, TValue>.Keys
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Keys
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Keys
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Keys
+- uid: Global.Dictionary{{TKey},List{{TValue}}}.KeyCollection
+  commentId: '!:Global.Dictionary{`0,List{`1}}.KeyCollection'
+  definition: Global.Dictionary{`0,List{`1}}.KeyCollection
+  name: Dictionary.KeyCollection<>
+  nameWithType: Dictionary.KeyCollection<>
+  fullName: Dictionary.KeyCollection<>
+  nameWithType.vb: Dictionary.KeyCollection(Of )
+  fullName.vb: Dictionary.KeyCollection(Of )
+  name.vb: Dictionary.KeyCollection(Of )
+  spec.csharp:
+  - uid: Global.Dictionary{`0,List{`1}}.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: Dictionary.KeyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary{`0,List{`1}}.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: Dictionary.KeyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary{`0,List{`1}}.KeyCollection
+  commentId: '!:Global.Dictionary{`0,List{`1}}.KeyCollection'
+  isExternal: true
+  name: Dictionary.KeyCollection<>
+  nameWithType: Dictionary.KeyCollection<>
+  fullName: Dictionary.KeyCollection<>
+  nameWithType.vb: Dictionary.KeyCollection(Of )
+  fullName.vb: Dictionary.KeyCollection(Of )
+  name.vb: Dictionary.KeyCollection(Of )
+  spec.csharp:
+  - uid: Global.Dictionary{`0,List{`1}}.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: Dictionary.KeyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary{`0,List{`1}}.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: Dictionary.KeyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.MultiDictionary`2.Values*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Values
+  name: Values
+  nameWithType: MultiDictionary<TKey, TValue>.Values
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Values
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Values
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Values
+- uid: Global.Dictionary{{TKey},List{{TValue}}}.ValueCollection
+  commentId: '!:Global.Dictionary{`0,List{`1}}.ValueCollection'
+  definition: Global.Dictionary{`0,List{`1}}.ValueCollection
+  name: Dictionary.ValueCollection<>
+  nameWithType: Dictionary.ValueCollection<>
+  fullName: Dictionary.ValueCollection<>
+  nameWithType.vb: Dictionary.ValueCollection(Of )
+  fullName.vb: Dictionary.ValueCollection(Of )
+  name.vb: Dictionary.ValueCollection(Of )
+  spec.csharp:
+  - uid: Global.Dictionary{`0,List{`1}}.ValueCollection
+    name: Dictionary.ValueCollection
+    nameWithType: Dictionary.ValueCollection
+    fullName: Dictionary.ValueCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary{`0,List{`1}}.ValueCollection
+    name: Dictionary.ValueCollection
+    nameWithType: Dictionary.ValueCollection
+    fullName: Dictionary.ValueCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary{`0,List{`1}}.ValueCollection
+  commentId: '!:Global.Dictionary{`0,List{`1}}.ValueCollection'
+  isExternal: true
+  name: Dictionary.ValueCollection<>
+  nameWithType: Dictionary.ValueCollection<>
+  fullName: Dictionary.ValueCollection<>
+  nameWithType.vb: Dictionary.ValueCollection(Of )
+  fullName.vb: Dictionary.ValueCollection(Of )
+  name.vb: Dictionary.ValueCollection(Of )
+  spec.csharp:
+  - uid: Global.Dictionary{`0,List{`1}}.ValueCollection
+    name: Dictionary.ValueCollection
+    nameWithType: Dictionary.ValueCollection
+    fullName: Dictionary.ValueCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary{`0,List{`1}}.ValueCollection
+    name: Dictionary.ValueCollection
+    nameWithType: Dictionary.ValueCollection
+    fullName: Dictionary.ValueCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.MultiDictionary`2.Count*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Count
+  name: Count
+  nameWithType: MultiDictionary<TKey, TValue>.Count
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Count
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Count
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: XiheFramework.Utility.MultiDictionary`2.GetEnumerator*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.GetEnumerator
+  name: GetEnumerator
+  nameWithType: MultiDictionary<TKey, TValue>.GetEnumerator
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.GetEnumerator
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).GetEnumerator
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).GetEnumerator
+- uid: Global.IEnumerator{KeyValuePair{{TKey},List{{TValue}}}}
+  commentId: '!:Global.IEnumerator{KeyValuePair{`0,List{`1}}}'
+  definition: Global.IEnumerator`1
+  name: IEnumerator<KeyValuePair<TKey, List<TValue>>>
+  nameWithType: IEnumerator<KeyValuePair<TKey, List<TValue>>>
+  fullName: IEnumerator<KeyValuePair<TKey, List<TValue>>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of TKey, List(Of TValue)))
+  fullName.vb: IEnumerator(Of KeyValuePair(Of TKey, List(Of TValue)))
+  name.vb: IEnumerator(Of KeyValuePair(Of TKey, List(Of TValue)))
+  spec.csharp:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IEnumerator`1
+  commentId: '!:Global.IEnumerator`1'
+  isExternal: true
+  name: IEnumerator<>
+  nameWithType: IEnumerator<>
+  fullName: IEnumerator<>
+  nameWithType.vb: IEnumerator(Of )
+  fullName.vb: IEnumerator(Of )
+  name.vb: IEnumerator(Of )
+  spec.csharp:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Utility.MultiDictionary`2.Add*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Add
+  name: Add
+  nameWithType: MultiDictionary<TKey, TValue>.Add
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Add
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Add
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Add
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: XiheFramework.Utility.MultiDictionary`2.Remove*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Remove
+  name: Remove
+  nameWithType: MultiDictionary<TKey, TValue>.Remove
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Remove
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Remove
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Remove
+- uid: XiheFramework.Utility.MultiDictionary`2.GetList*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.GetList
+  name: GetList
+  nameWithType: MultiDictionary<TKey, TValue>.GetList
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.GetList
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).GetList
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).GetList
+- uid: XiheFramework.Utility.MultiDictionary`2.ContainsKey*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.ContainsKey
+  name: ContainsKey
+  nameWithType: MultiDictionary<TKey, TValue>.ContainsKey
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.ContainsKey
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).ContainsKey
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).ContainsKey
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: XiheFramework.Utility.MultiDictionary`2.ContainsValue*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.ContainsValue
+  name: ContainsValue
+  nameWithType: MultiDictionary<TKey, TValue>.ContainsValue
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.ContainsValue
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).ContainsValue
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).ContainsValue
+- uid: XiheFramework.Utility.MultiDictionary`2.Clear*
+  commentId: Overload:XiheFramework.Utility.MultiDictionary`2.Clear
+  name: Clear
+  nameWithType: MultiDictionary<TKey, TValue>.Clear
+  fullName: XiheFramework.Utility.MultiDictionary<TKey, TValue>.Clear
+  nameWithType.vb: MultiDictionary(Of TKey, TValue).Clear
+  fullName.vb: XiheFramework.Utility.MultiDictionary(Of TKey, TValue).Clear

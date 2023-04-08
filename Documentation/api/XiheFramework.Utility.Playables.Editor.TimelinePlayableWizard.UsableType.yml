@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  commentId: T:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  id: TimelinePlayableWizard.UsableType
+  parent: XiheFramework.Utility.Playables.Editor
+  children:
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor(System.String)
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor(Type)
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.additionalNamespace
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.blankAdditionalNamespace
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo(System.Object)
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.guiContentWithSorting
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.name
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.nameWithSorting
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.type
+  - XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.unrequiredNamespaces
+  langs:
+  - csharp
+  - vb
+  name: TimelinePlayableWizard.UsableType
+  nameWithType: TimelinePlayableWizard.UsableType
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  type: Class
+  source:
+    id: UsableType
+    path: ''
+    startLine: 5196
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: 'public class UsableType : IComparable'
+    content.vb: >-
+      Public Class UsableType
+          Inherits IComparable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.blankAdditionalNamespace
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.blankAdditionalNamespace
+  id: blankAdditionalNamespace
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: blankAdditionalNamespace
+  nameWithType: TimelinePlayableWizard.UsableType.blankAdditionalNamespace
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.blankAdditionalNamespace
+  type: Field
+  source:
+    id: blankAdditionalNamespace
+    path: ''
+    startLine: 5197
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public const string blankAdditionalNamespace = ""
+    return:
+      type: System.String
+    content.vb: Public Const blankAdditionalNamespace As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.additionalNamespace
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.additionalNamespace
+  id: additionalNamespace
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: additionalNamespace
+  nameWithType: TimelinePlayableWizard.UsableType.additionalNamespace
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.additionalNamespace
+  type: Field
+  source:
+    id: additionalNamespace
+    path: ''
+    startLine: 5200
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public readonly string additionalNamespace
+    return:
+      type: System.String
+    content.vb: Public ReadOnly additionalNamespace As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.guiContentWithSorting
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.guiContentWithSorting
+  id: guiContentWithSorting
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: guiContentWithSorting
+  nameWithType: TimelinePlayableWizard.UsableType.guiContentWithSorting
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.guiContentWithSorting
+  type: Field
+  source:
+    id: guiContentWithSorting
+    path: ''
+    startLine: 5201
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public readonly GUIContent guiContentWithSorting
+    return:
+      type: Global.GUIContent
+    content.vb: Public ReadOnly guiContentWithSorting As GUIContent
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.name
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.name
+  id: name
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: TimelinePlayableWizard.UsableType.name
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 5202
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public readonly string name
+    return:
+      type: System.String
+    content.vb: Public ReadOnly name As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.nameWithSorting
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.nameWithSorting
+  id: nameWithSorting
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: nameWithSorting
+  nameWithType: TimelinePlayableWizard.UsableType.nameWithSorting
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.nameWithSorting
+  type: Field
+  source:
+    id: nameWithSorting
+    path: ''
+    startLine: 5203
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public readonly string nameWithSorting
+    return:
+      type: System.String
+    content.vb: Public ReadOnly nameWithSorting As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.type
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.type
+  id: type
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: TimelinePlayableWizard.UsableType.type
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 5204
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public readonly Type type
+    return:
+      type: Global.Type
+    content.vb: Public ReadOnly type As Type
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.unrequiredNamespaces
+  commentId: F:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.unrequiredNamespaces
+  id: unrequiredNamespaces
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: unrequiredNamespaces
+  nameWithType: TimelinePlayableWizard.UsableType.unrequiredNamespaces
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.unrequiredNamespaces
+  type: Field
+  source:
+    id: unrequiredNamespaces
+    path: ''
+    startLine: 5206
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public readonly string[] unrequiredNamespaces
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly unrequiredNamespaces As String()
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor(Type)
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor(Type)
+  id: '#ctor(Type)'
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: UsableType(Type)
+  nameWithType: TimelinePlayableWizard.UsableType.UsableType(Type)
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.UsableType(Type)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5212
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public UsableType(Type usableType)
+    parameters:
+    - id: usableType
+      type: Global.Type
+    content.vb: Public Sub New(usableType As Type)
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor(System.String)
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: UsableType(String)
+  nameWithType: TimelinePlayableWizard.UsableType.UsableType(String)
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.UsableType(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5229
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public UsableType(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo(System.Object)
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Object)
+  nameWithType: TimelinePlayableWizard.UsableType.CompareTo(Object)
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo(System.Object)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 5236
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public int CompareTo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(obj As Object) As Integer
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  id: GetUsableTypeArray(Type[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: GetUsableTypeArray(Type[], TimelinePlayableWizard.UsableType[])
+  nameWithType: TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type[], TimelinePlayableWizard.UsableType[])
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type[], XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  type: Method
+  source:
+    id: GetUsableTypeArray
+    path: ''
+    startLine: 5248
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public static TimelinePlayableWizard.UsableType[] GetUsableTypeArray(Type[] types, params TimelinePlayableWizard.UsableType[] additionalUsableTypes)
+    parameters:
+    - id: types
+      type: Global.Type[]
+    - id: additionalUsableTypes
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    return:
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    content.vb: Public Shared Function GetUsableTypeArray(types As Type(), ParamArray additionalUsableTypes As TimelinePlayableWizard.UsableType()) As TimelinePlayableWizard.UsableType()
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray*
+  nameWithType.vb: TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type(), TimelinePlayableWizard.UsableType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray(Type(), XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType())
+  name.vb: GetUsableTypeArray(Type(), TimelinePlayableWizard.UsableType())
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  id: AmalgamateUsableTypes(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[],XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: AmalgamateUsableTypes(TimelinePlayableWizard.UsableType[], TimelinePlayableWizard.UsableType[])
+  nameWithType: TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(TimelinePlayableWizard.UsableType[], TimelinePlayableWizard.UsableType[])
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[], XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  type: Method
+  source:
+    id: AmalgamateUsableTypes
+    path: ''
+    startLine: 5255
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public static TimelinePlayableWizard.UsableType[] AmalgamateUsableTypes(TimelinePlayableWizard.UsableType[] usableTypeArray, params TimelinePlayableWizard.UsableType[] usableTypes)
+    parameters:
+    - id: usableTypeArray
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    - id: usableTypes
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    return:
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    content.vb: Public Shared Function AmalgamateUsableTypes(usableTypeArray As TimelinePlayableWizard.UsableType(), ParamArray usableTypes As TimelinePlayableWizard.UsableType()) As TimelinePlayableWizard.UsableType()
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes*
+  nameWithType.vb: TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(TimelinePlayableWizard.UsableType(), TimelinePlayableWizard.UsableType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType(), XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType())
+  name.vb: AmalgamateUsableTypes(TimelinePlayableWizard.UsableType(), TimelinePlayableWizard.UsableType())
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  id: GetNamewithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: GetNamewithSortingArray(TimelinePlayableWizard.UsableType[])
+  nameWithType: TimelinePlayableWizard.UsableType.GetNamewithSortingArray(TimelinePlayableWizard.UsableType[])
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  type: Method
+  source:
+    id: GetNamewithSortingArray
+    path: ''
+    startLine: 5262
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public static string[] GetNamewithSortingArray(TimelinePlayableWizard.UsableType[] usableTypes)
+    parameters:
+    - id: usableTypes
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetNamewithSortingArray(usableTypes As TimelinePlayableWizard.UsableType()) As String()
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray*
+  nameWithType.vb: TimelinePlayableWizard.UsableType.GetNamewithSortingArray(TimelinePlayableWizard.UsableType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType())
+  name.vb: GetNamewithSortingArray(TimelinePlayableWizard.UsableType())
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  id: GetGUIContentWithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType[])
+  nameWithType: TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType[])
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  type: Method
+  source:
+    id: GetGUIContentWithSortingArray
+    path: ''
+    startLine: 5271
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public static GUIContent[] GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType[] usableTypes)
+    parameters:
+    - id: usableTypes
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    return:
+      type: Global.GUIContent[]
+    content.vb: Public Shared Function GetGUIContentWithSortingArray(usableTypes As TimelinePlayableWizard.UsableType()) As GUIContent()
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray*
+  nameWithType.vb: TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType())
+  name.vb: GetGUIContentWithSortingArray(TimelinePlayableWizard.UsableType())
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  commentId: M:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  id: GetDistinctAdditionalNamespaces(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  parent: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  langs:
+  - csharp
+  - vb
+  name: GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType[])
+  nameWithType: TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType[])
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[])
+  type: Method
+  source:
+    id: GetDistinctAdditionalNamespaces
+    path: ''
+    startLine: 5280
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.Editor
+  syntax:
+    content: public static string[] GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType[] usableTypes)
+    parameters:
+    - id: usableTypes
+      type: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetDistinctAdditionalNamespaces(usableTypes As TimelinePlayableWizard.UsableType()) As String()
+  overload: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces*
+  nameWithType.vb: TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces(XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType())
+  name.vb: GetDistinctAdditionalNamespaces(TimelinePlayableWizard.UsableType())
+references:
+- uid: XiheFramework.Utility.Playables.Editor
+  commentId: N:XiheFramework.Utility.Playables.Editor
+  name: XiheFramework.Utility.Playables.Editor
+  nameWithType: XiheFramework.Utility.Playables.Editor
+  fullName: XiheFramework.Utility.Playables.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.GUIContent
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent
+- uid: Global.Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.#ctor
+  name: UsableType
+  nameWithType: TimelinePlayableWizard.UsableType.UsableType
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.UsableType
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo
+  name: CompareTo
+  nameWithType: TimelinePlayableWizard.UsableType.CompareTo
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.CompareTo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray
+  name: GetUsableTypeArray
+  nameWithType: TimelinePlayableWizard.UsableType.GetUsableTypeArray
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetUsableTypeArray
+- uid: Global.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: Type[]
+  nameWithType.vb: Type()
+  fullName.vb: Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: Global.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+  isExternal: true
+  name: TimelinePlayableWizard.UsableType[]
+  nameWithType: TimelinePlayableWizard.UsableType[]
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType[]
+  nameWithType.vb: TimelinePlayableWizard.UsableType()
+  fullName.vb: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType()
+  name.vb: TimelinePlayableWizard.UsableType()
+  spec.csharp:
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+    name: TimelinePlayableWizard.UsableType
+    nameWithType: TimelinePlayableWizard.UsableType
+    fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+    name: TimelinePlayableWizard.UsableType
+    nameWithType: TimelinePlayableWizard.UsableType
+    fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes
+  name: AmalgamateUsableTypes
+  nameWithType: TimelinePlayableWizard.UsableType.AmalgamateUsableTypes
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.AmalgamateUsableTypes
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray
+  name: GetNamewithSortingArray
+  nameWithType: TimelinePlayableWizard.UsableType.GetNamewithSortingArray
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetNamewithSortingArray
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray
+  name: GetGUIContentWithSortingArray
+  nameWithType: TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetGUIContentWithSortingArray
+- uid: Global.GUIContent[]
+  isExternal: true
+  name: GUIContent[]
+  nameWithType: GUIContent[]
+  fullName: GUIContent[]
+  nameWithType.vb: GUIContent()
+  fullName.vb: GUIContent()
+  name.vb: GUIContent()
+  spec.csharp:
+  - uid: Global.GUIContent
+    name: GUIContent
+    nameWithType: GUIContent
+    fullName: GUIContent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GUIContent
+    name: GUIContent
+    nameWithType: GUIContent
+    fullName: GUIContent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces*
+  commentId: Overload:XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces
+  name: GetDistinctAdditionalNamespaces
+  nameWithType: TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces
+  fullName: XiheFramework.Utility.Playables.Editor.TimelinePlayableWizard.UsableType.GetDistinctAdditionalNamespaces

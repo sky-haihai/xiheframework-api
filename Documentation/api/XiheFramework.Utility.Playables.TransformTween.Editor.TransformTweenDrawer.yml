@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  commentId: T:XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  id: TransformTweenDrawer
+  parent: XiheFramework.Utility.Playables.TransformTween.Editor
+  children:
+  - XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  - XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  langs:
+  - csharp
+  - vb
+  name: TransformTweenDrawer
+  nameWithType: TransformTweenDrawer
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  type: Class
+  source:
+    id: TransformTweenDrawer
+    path: ''
+    startLine: 6867
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween.Editor
+  syntax:
+    content: 'public class TransformTweenDrawer : PropertyDrawer'
+    content.vb: >-
+      Public Class TransformTweenDrawer
+          Inherits PropertyDrawer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  commentId: M:XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  id: GetPropertyHeight(SerializedProperty,GUIContent)
+  parent: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: TransformTweenDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: GetPropertyHeight
+    path: ''
+    startLine: 6883
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween.Editor
+  syntax:
+    content: public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+    parameters:
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetPropertyHeight(property As SerializedProperty, label As GUIContent) As Single
+  overload: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  commentId: M:XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  id: OnGUI(Rect,SerializedProperty,GUIContent)
+  parent: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: TransformTweenDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 6888
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.TransformTween.Editor
+  syntax:
+    content: public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    parameters:
+    - id: position
+      type: Global.Rect
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    content.vb: Public Overrides Sub OnGUI(position As Rect, property As SerializedProperty, label As GUIContent)
+  overload: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor
+  commentId: N:XiheFramework.Utility.Playables.TransformTween.Editor
+  name: XiheFramework.Utility.Playables.TransformTween.Editor
+  nameWithType: XiheFramework.Utility.Playables.TransformTween.Editor
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight*
+  commentId: Overload:XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight
+  name: GetPropertyHeight
+  nameWithType: TransformTweenDrawer.GetPropertyHeight
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.GetPropertyHeight
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: Global.GUIContent
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI*
+  commentId: Overload:XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI
+  name: OnGUI
+  nameWithType: TransformTweenDrawer.OnGUI
+  fullName: XiheFramework.Utility.Playables.TransformTween.Editor.TransformTweenDrawer.OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

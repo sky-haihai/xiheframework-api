@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  id: ImageSwitcherClip
+  parent: XiheFramework.Utility.Playables.ImageSwitcher
+  children:
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable(PlayableGraph,GameObject)
+  - XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.template
+  langs:
+  - csharp
+  - vb
+  name: ImageSwitcherClip
+  nameWithType: ImageSwitcherClip
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  type: Class
+  source:
+    id: ImageSwitcherClip
+    path: ''
+    startLine: 5631
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: 'public class ImageSwitcherClip : PlayableAsset'
+    content.vb: >-
+      Public Class ImageSwitcherClip
+          Inherits PlayableAsset
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITimelineClipAsset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.template
+  commentId: F:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.template
+  id: template
+  parent: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  langs:
+  - csharp
+  - vb
+  name: template
+  nameWithType: ImageSwitcherClip.template
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.template
+  type: Field
+  source:
+    id: template
+    path: ''
+    startLine: 5633
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: public ImageSwitcherBehaviour template
+    return:
+      type: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+    content.vb: Public template As ImageSwitcherBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps
+  commentId: P:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps
+  id: clipCaps
+  parent: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  langs:
+  - csharp
+  - vb
+  name: clipCaps
+  nameWithType: ImageSwitcherClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps
+  type: Property
+  source:
+    id: clipCaps
+    path: ''
+    startLine: 5635
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: public ClipCaps clipCaps { get; }
+    parameters: []
+    return:
+      type: Global.ClipCaps
+    content.vb: Public ReadOnly Property clipCaps As ClipCaps
+  overload: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable(PlayableGraph,GameObject)
+  commentId: M:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable(PlayableGraph,GameObject)
+  id: CreatePlayable(PlayableGraph,GameObject)
+  parent: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip
+  langs:
+  - csharp
+  - vb
+  name: CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: ImageSwitcherClip.CreatePlayable(PlayableGraph, GameObject)
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable(PlayableGraph, GameObject)
+  type: Method
+  source:
+    id: CreatePlayable
+    path: ''
+    startLine: 5637
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.Playables.ImageSwitcher
+  syntax:
+    content: public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
+    parameters:
+    - id: graph
+      type: Global.PlayableGraph
+    - id: owner
+      type: Global.GameObject
+    return:
+      type: Global.Playable
+    content.vb: Public Overrides Function CreatePlayable(graph As PlayableGraph, owner As GameObject) As Playable
+  overload: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: XiheFramework.Utility.Playables.ImageSwitcher
+  commentId: N:XiheFramework.Utility.Playables.ImageSwitcher
+  name: XiheFramework.Utility.Playables.ImageSwitcher
+  nameWithType: XiheFramework.Utility.Playables.ImageSwitcher
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ITimelineClipAsset
+  isExternal: true
+  name: ITimelineClipAsset
+  nameWithType: ITimelineClipAsset
+  fullName: ITimelineClipAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+  commentId: T:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+  parent: XiheFramework.Utility.Playables.ImageSwitcher
+  name: ImageSwitcherBehaviour
+  nameWithType: ImageSwitcherBehaviour
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherBehaviour
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps*
+  commentId: Overload:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps
+  name: clipCaps
+  nameWithType: ImageSwitcherClip.clipCaps
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.clipCaps
+- uid: Global.ClipCaps
+  isExternal: true
+  name: ClipCaps
+  nameWithType: ClipCaps
+  fullName: ClipCaps
+- uid: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable*
+  commentId: Overload:XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable
+  name: CreatePlayable
+  nameWithType: ImageSwitcherClip.CreatePlayable
+  fullName: XiheFramework.Utility.Playables.ImageSwitcher.ImageSwitcherClip.CreatePlayable
+- uid: Global.PlayableGraph
+  isExternal: true
+  name: PlayableGraph
+  nameWithType: PlayableGraph
+  fullName: PlayableGraph
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Playable
+  isExternal: true
+  name: Playable
+  nameWithType: Playable
+  fullName: Playable

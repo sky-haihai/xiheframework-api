@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Services.FsmSvc
+  commentId: T:XiheFramework.Services.FsmSvc
+  id: FsmSvc
+  parent: XiheFramework.Services
+  children:
+  - XiheFramework.Services.FsmSvc.ChangeState(System.String,System.String)
+  - XiheFramework.Services.FsmSvc.GetState(System.String)
+  - XiheFramework.Services.FsmSvc.RegisterCallbacks(System.String,System.String,Action,Action,Action,System.Boolean)
+  - XiheFramework.Services.FsmSvc.SetDefaultState(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: FsmSvc
+  nameWithType: FsmSvc
+  fullName: XiheFramework.Services.FsmSvc
+  type: Class
+  source:
+    id: FsmSvc
+    path: ''
+    startLine: 1816
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static class FsmSvc
+    content.vb: Public Module FsmSvc
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: XiheFramework.Services.FsmSvc.GetState(System.String)
+  commentId: M:XiheFramework.Services.FsmSvc.GetState(System.String)
+  id: GetState(System.String)
+  parent: XiheFramework.Services.FsmSvc
+  langs:
+  - csharp
+  - vb
+  name: GetState(String)
+  nameWithType: FsmSvc.GetState(String)
+  fullName: XiheFramework.Services.FsmSvc.GetState(System.String)
+  type: Method
+  source:
+    id: GetState
+    path: ''
+    startLine: 1817
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static string GetState(string fsmName)
+    parameters:
+    - id: fsmName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetState(fsmName As String) As String
+  overload: XiheFramework.Services.FsmSvc.GetState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.FsmSvc.RegisterCallbacks(System.String,System.String,Action,Action,Action,System.Boolean)
+  commentId: M:XiheFramework.Services.FsmSvc.RegisterCallbacks(System.String,System.String,Action,Action,Action,System.Boolean)
+  id: RegisterCallbacks(System.String,System.String,Action,Action,Action,System.Boolean)
+  parent: XiheFramework.Services.FsmSvc
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallbacks(String, String, Action, Action, Action, Boolean)
+  nameWithType: FsmSvc.RegisterCallbacks(String, String, Action, Action, Action, Boolean)
+  fullName: XiheFramework.Services.FsmSvc.RegisterCallbacks(System.String, System.String, Action, Action, Action, System.Boolean)
+  type: Method
+  source:
+    id: RegisterCallbacks
+    path: ''
+    startLine: 1821
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static void RegisterCallbacks(string fsmName, string stateName, Action onStartCallback, Action onUpdateCallback, Action onExitCallback, bool defaultState)
+    parameters:
+    - id: fsmName
+      type: System.String
+    - id: stateName
+      type: System.String
+    - id: onStartCallback
+      type: Global.Action
+    - id: onUpdateCallback
+      type: Global.Action
+    - id: onExitCallback
+      type: Global.Action
+    - id: defaultState
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterCallbacks(fsmName As String, stateName As String, onStartCallback As Action, onUpdateCallback As Action, onExitCallback As Action, defaultState As Boolean)
+  overload: XiheFramework.Services.FsmSvc.RegisterCallbacks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.FsmSvc.SetDefaultState(System.String,System.String)
+  commentId: M:XiheFramework.Services.FsmSvc.SetDefaultState(System.String,System.String)
+  id: SetDefaultState(System.String,System.String)
+  parent: XiheFramework.Services.FsmSvc
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultState(String, String)
+  nameWithType: FsmSvc.SetDefaultState(String, String)
+  fullName: XiheFramework.Services.FsmSvc.SetDefaultState(System.String, System.String)
+  type: Method
+  source:
+    id: SetDefaultState
+    path: ''
+    startLine: 1828
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static void SetDefaultState(string fsmName, string stateName)
+    parameters:
+    - id: fsmName
+      type: System.String
+    - id: stateName
+      type: System.String
+    content.vb: Public Shared Sub SetDefaultState(fsmName As String, stateName As String)
+  overload: XiheFramework.Services.FsmSvc.SetDefaultState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: XiheFramework.Services.FsmSvc.ChangeState(System.String,System.String)
+  commentId: M:XiheFramework.Services.FsmSvc.ChangeState(System.String,System.String)
+  id: ChangeState(System.String,System.String)
+  parent: XiheFramework.Services.FsmSvc
+  langs:
+  - csharp
+  - vb
+  name: ChangeState(String, String)
+  nameWithType: FsmSvc.ChangeState(String, String)
+  fullName: XiheFramework.Services.FsmSvc.ChangeState(System.String, System.String)
+  type: Method
+  source:
+    id: ChangeState
+    path: ''
+    startLine: 1832
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Services
+  syntax:
+    content: public static void ChangeState(string fsmName, string stateName)
+    parameters:
+    - id: fsmName
+      type: System.String
+    - id: stateName
+      type: System.String
+    content.vb: Public Shared Sub ChangeState(fsmName As String, stateName As String)
+  overload: XiheFramework.Services.FsmSvc.ChangeState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: XiheFramework.Services
+  commentId: N:XiheFramework.Services
+  name: XiheFramework.Services
+  nameWithType: XiheFramework.Services
+  fullName: XiheFramework.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Services.FsmSvc.GetState*
+  commentId: Overload:XiheFramework.Services.FsmSvc.GetState
+  name: GetState
+  nameWithType: FsmSvc.GetState
+  fullName: XiheFramework.Services.FsmSvc.GetState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: XiheFramework.Services.FsmSvc.RegisterCallbacks*
+  commentId: Overload:XiheFramework.Services.FsmSvc.RegisterCallbacks
+  name: RegisterCallbacks
+  nameWithType: FsmSvc.RegisterCallbacks
+  fullName: XiheFramework.Services.FsmSvc.RegisterCallbacks
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: XiheFramework.Services.FsmSvc.SetDefaultState*
+  commentId: Overload:XiheFramework.Services.FsmSvc.SetDefaultState
+  name: SetDefaultState
+  nameWithType: FsmSvc.SetDefaultState
+  fullName: XiheFramework.Services.FsmSvc.SetDefaultState
+- uid: XiheFramework.Services.FsmSvc.ChangeState*
+  commentId: Overload:XiheFramework.Services.FsmSvc.ChangeState
+  name: ChangeState
+  nameWithType: FsmSvc.ChangeState
+  fullName: XiheFramework.Services.FsmSvc.ChangeState

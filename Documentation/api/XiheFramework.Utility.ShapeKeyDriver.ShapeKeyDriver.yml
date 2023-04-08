@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  commentId: T:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  id: ShapeKeyDriver
+  parent: XiheFramework.Utility.ShapeKeyDriver
+  children:
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.axis
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.blendShapeIndex
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.maxRotation
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.minRotation
+  - XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.targetBone
+  langs:
+  - csharp
+  - vb
+  name: ShapeKeyDriver
+  nameWithType: ShapeKeyDriver
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  type: Class
+  source:
+    id: ShapeKeyDriver
+    path: ''
+    startLine: 7170
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: 'public class ShapeKeyDriver : MonoBehaviour'
+    content.vb: >-
+      Public Class ShapeKeyDriver
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.blendShapeIndex
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.blendShapeIndex
+  id: blendShapeIndex
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  langs:
+  - csharp
+  - vb
+  name: blendShapeIndex
+  nameWithType: ShapeKeyDriver.blendShapeIndex
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.blendShapeIndex
+  type: Field
+  source:
+    id: blendShapeIndex
+    path: ''
+    startLine: 7178
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: public int blendShapeIndex
+    return:
+      type: System.Int32
+    content.vb: Public blendShapeIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.targetBone
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.targetBone
+  id: targetBone
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  langs:
+  - csharp
+  - vb
+  name: targetBone
+  nameWithType: ShapeKeyDriver.targetBone
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.targetBone
+  type: Field
+  source:
+    id: targetBone
+    path: ''
+    startLine: 7179
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: public Transform targetBone
+    return:
+      type: Global.Transform
+    content.vb: Public targetBone As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.axis
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.axis
+  id: axis
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  langs:
+  - csharp
+  - vb
+  name: axis
+  nameWithType: ShapeKeyDriver.axis
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.axis
+  type: Field
+  source:
+    id: axis
+    path: ''
+    startLine: 7180
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: public ShapeKeyDriver.Axis axis
+    return:
+      type: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+    content.vb: Public axis As ShapeKeyDriver.Axis
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.minRotation
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.minRotation
+  id: minRotation
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  langs:
+  - csharp
+  - vb
+  name: minRotation
+  nameWithType: ShapeKeyDriver.minRotation
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.minRotation
+  type: Field
+  source:
+    id: minRotation
+    path: ''
+    startLine: 7181
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: public float minRotation
+    return:
+      type: System.Single
+    content.vb: Public minRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.maxRotation
+  commentId: F:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.maxRotation
+  id: maxRotation
+  parent: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver
+  langs:
+  - csharp
+  - vb
+  name: maxRotation
+  nameWithType: ShapeKeyDriver.maxRotation
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.maxRotation
+  type: Field
+  source:
+    id: maxRotation
+    path: ''
+    startLine: 7182
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Utility.ShapeKeyDriver
+  syntax:
+    content: public float maxRotation
+    return:
+      type: System.Single
+    content.vb: Public maxRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Utility.ShapeKeyDriver
+  commentId: N:XiheFramework.Utility.ShapeKeyDriver
+  name: XiheFramework.Utility.ShapeKeyDriver
+  nameWithType: XiheFramework.Utility.ShapeKeyDriver
+  fullName: XiheFramework.Utility.ShapeKeyDriver
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  commentId: T:XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+  parent: XiheFramework.Utility.ShapeKeyDriver
+  name: ShapeKeyDriver.Axis
+  nameWithType: ShapeKeyDriver.Axis
+  fullName: XiheFramework.Utility.ShapeKeyDriver.ShapeKeyDriver.Axis
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

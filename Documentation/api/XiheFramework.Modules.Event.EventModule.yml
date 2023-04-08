@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Event.EventModule
+  commentId: T:XiheFramework.Modules.Event.EventModule
+  id: EventModule
+  parent: XiheFramework.Modules.Event
+  children:
+  - XiheFramework.Modules.Event.EventModule.Count
+  - XiheFramework.Modules.Event.EventModule.Invoke(System.String,System.Object,System.Object)
+  - XiheFramework.Modules.Event.EventModule.Subscribe(System.String,EventHandler{System.Object})
+  - XiheFramework.Modules.Event.EventModule.Unsubscribe(System.String,EventHandler{System.Object})
+  langs:
+  - csharp
+  - vb
+  name: EventModule
+  nameWithType: EventModule
+  fullName: XiheFramework.Modules.Event.EventModule
+  type: Class
+  source:
+    id: EventModule
+    path: ''
+    startLine: 674
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Event
+  syntax:
+    content: 'public class EventModule : GameModule'
+    content.vb: >-
+      Public Class EventModule
+          Inherits GameModule
+  inheritance:
+  - System.Object
+  - XiheFramework.Modules.Base.GameModule
+  inheritedMembers:
+  - XiheFramework.Modules.Base.GameModule.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: XiheFramework.Modules.Event.EventModule.Subscribe(System.String,EventHandler{System.Object})
+  commentId: M:XiheFramework.Modules.Event.EventModule.Subscribe(System.String,EventHandler{System.Object})
+  id: Subscribe(System.String,EventHandler{System.Object})
+  parent: XiheFramework.Modules.Event.EventModule
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(String, EventHandler<Object>)
+  nameWithType: EventModule.Subscribe(String, EventHandler<Object>)
+  fullName: XiheFramework.Modules.Event.EventModule.Subscribe(System.String, EventHandler<System.Object>)
+  type: Method
+  source:
+    id: Subscribe
+    path: ''
+    startLine: 699
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Event
+  summary: "\nSubscribe to event name with a handler\n"
+  example: []
+  syntax:
+    content: public void Subscribe(string eventName, EventHandler<object> handler)
+    parameters:
+    - id: eventName
+      type: System.String
+      description: ''
+    - id: handler
+      type: Global.EventHandler{System.Object}
+      description: ''
+    content.vb: Public Sub Subscribe(eventName As String, handler As EventHandler(Of Object))
+  overload: XiheFramework.Modules.Event.EventModule.Subscribe*
+  nameWithType.vb: EventModule.Subscribe(String, EventHandler(Of Object))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Modules.Event.EventModule.Subscribe(System.String, EventHandler(Of System.Object))
+  name.vb: Subscribe(String, EventHandler(Of Object))
+- uid: XiheFramework.Modules.Event.EventModule.Unsubscribe(System.String,EventHandler{System.Object})
+  commentId: M:XiheFramework.Modules.Event.EventModule.Unsubscribe(System.String,EventHandler{System.Object})
+  id: Unsubscribe(System.String,EventHandler{System.Object})
+  parent: XiheFramework.Modules.Event.EventModule
+  langs:
+  - csharp
+  - vb
+  name: Unsubscribe(String, EventHandler<Object>)
+  nameWithType: EventModule.Unsubscribe(String, EventHandler<Object>)
+  fullName: XiheFramework.Modules.Event.EventModule.Unsubscribe(System.String, EventHandler<System.Object>)
+  type: Method
+  source:
+    id: Unsubscribe
+    path: ''
+    startLine: 703
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Event
+  syntax:
+    content: public void Unsubscribe(string eventName, EventHandler<object> handler)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: handler
+      type: Global.EventHandler{System.Object}
+    content.vb: Public Sub Unsubscribe(eventName As String, handler As EventHandler(Of Object))
+  overload: XiheFramework.Modules.Event.EventModule.Unsubscribe*
+  nameWithType.vb: EventModule.Unsubscribe(String, EventHandler(Of Object))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: XiheFramework.Modules.Event.EventModule.Unsubscribe(System.String, EventHandler(Of System.Object))
+  name.vb: Unsubscribe(String, EventHandler(Of Object))
+- uid: XiheFramework.Modules.Event.EventModule.Invoke(System.String,System.Object,System.Object)
+  commentId: M:XiheFramework.Modules.Event.EventModule.Invoke(System.String,System.Object,System.Object)
+  id: Invoke(System.String,System.Object,System.Object)
+  parent: XiheFramework.Modules.Event.EventModule
+  langs:
+  - csharp
+  - vb
+  name: Invoke(String, Object, Object)
+  nameWithType: EventModule.Invoke(String, Object, Object)
+  fullName: XiheFramework.Modules.Event.EventModule.Invoke(System.String, System.Object, System.Object)
+  type: Method
+  source:
+    id: Invoke
+    path: ''
+    startLine: 712
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Event
+  syntax:
+    content: public void Invoke(string eventName, object sender = null, object eventArg = null)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: sender
+      type: System.Object
+    - id: eventArg
+      type: System.Object
+    content.vb: Public Sub Invoke(eventName As String, sender As Object = Nothing, eventArg As Object = Nothing)
+  overload: XiheFramework.Modules.Event.EventModule.Invoke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: XiheFramework.Modules.Event.EventModule.Count
+  commentId: M:XiheFramework.Modules.Event.EventModule.Count
+  id: Count
+  parent: XiheFramework.Modules.Event.EventModule
+  langs:
+  - csharp
+  - vb
+  name: Count()
+  nameWithType: EventModule.Count()
+  fullName: XiheFramework.Modules.Event.EventModule.Count()
+  type: Method
+  source:
+    id: Count
+    path: ''
+    startLine: 726
+  assemblies:
+  - cs.temp.dll
+  namespace: XiheFramework.Modules.Event
+  syntax:
+    content: public int Count()
+    return:
+      type: System.Int32
+    content.vb: Public Function Count As Integer
+  overload: XiheFramework.Modules.Event.EventModule.Count*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: XiheFramework.Modules.Event
+  commentId: N:XiheFramework.Modules.Event
+  name: XiheFramework.Modules.Event
+  nameWithType: XiheFramework.Modules.Event
+  fullName: XiheFramework.Modules.Event
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: XiheFramework.Modules.Base.GameModule
+  commentId: T:XiheFramework.Modules.Base.GameModule
+  parent: XiheFramework.Modules.Base
+  name: GameModule
+  nameWithType: GameModule
+  fullName: XiheFramework.Modules.Base.GameModule
+- uid: XiheFramework.Modules.Base.GameModule.Awake
+  commentId: M:XiheFramework.Modules.Base.GameModule.Awake
+  parent: XiheFramework.Modules.Base.GameModule
+  name: Awake()
+  nameWithType: GameModule.Awake()
+  fullName: XiheFramework.Modules.Base.GameModule.Awake()
+  spec.csharp:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: XiheFramework.Modules.Base.GameModule.Awake
+    name: Awake
+    nameWithType: GameModule.Awake
+    fullName: XiheFramework.Modules.Base.GameModule.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: XiheFramework.Modules.Base
+  commentId: N:XiheFramework.Modules.Base
+  name: XiheFramework.Modules.Base
+  nameWithType: XiheFramework.Modules.Base
+  fullName: XiheFramework.Modules.Base
+- uid: XiheFramework.Modules.Event.EventModule.Subscribe*
+  commentId: Overload:XiheFramework.Modules.Event.EventModule.Subscribe
+  name: Subscribe
+  nameWithType: EventModule.Subscribe
+  fullName: XiheFramework.Modules.Event.EventModule.Subscribe
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.EventHandler{System.Object}
+  commentId: '!:Global.EventHandler{System.Object}'
+  definition: Global.EventHandler`1
+  name: EventHandler<Object>
+  nameWithType: EventHandler<Object>
+  fullName: EventHandler<System.Object>
+  nameWithType.vb: EventHandler(Of Object)
+  fullName.vb: EventHandler(Of System.Object)
+  name.vb: EventHandler(Of Object)
+  spec.csharp:
+  - uid: Global.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.EventHandler`1
+  isExternal: true
+  name: EventHandler<>
+  nameWithType: EventHandler<>
+  fullName: EventHandler<>
+  nameWithType.vb: EventHandler(Of )
+  fullName.vb: EventHandler(Of )
+  name.vb: EventHandler(Of )
+  spec.csharp:
+  - uid: Global.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: XiheFramework.Modules.Event.EventModule.Unsubscribe*
+  commentId: Overload:XiheFramework.Modules.Event.EventModule.Unsubscribe
+  name: Unsubscribe
+  nameWithType: EventModule.Unsubscribe
+  fullName: XiheFramework.Modules.Event.EventModule.Unsubscribe
+- uid: XiheFramework.Modules.Event.EventModule.Invoke*
+  commentId: Overload:XiheFramework.Modules.Event.EventModule.Invoke
+  name: Invoke
+  nameWithType: EventModule.Invoke
+  fullName: XiheFramework.Modules.Event.EventModule.Invoke
+- uid: XiheFramework.Modules.Event.EventModule.Count*
+  commentId: Overload:XiheFramework.Modules.Event.EventModule.Count
+  name: Count
+  nameWithType: EventModule.Count
+  fullName: XiheFramework.Modules.Event.EventModule.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

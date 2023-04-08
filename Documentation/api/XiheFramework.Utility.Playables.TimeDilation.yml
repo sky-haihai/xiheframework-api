@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Utility.Playables.TimeDilation
+  commentId: N:XiheFramework.Utility.Playables.TimeDilation
+  id: XiheFramework.Utility.Playables.TimeDilation
+  children:
+  - XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  - XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip
+  - XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour
+  - XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Utility.Playables.TimeDilation
+  nameWithType: XiheFramework.Utility.Playables.TimeDilation
+  fullName: XiheFramework.Utility.Playables.TimeDilation
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+  parent: XiheFramework.Utility.Playables.TimeDilation
+  name: TimeDilationBehaviour
+  nameWithType: TimeDilationBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeDilation.TimeDilationBehaviour
+- uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip
+  commentId: T:XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip
+  name: TimeDilationClip
+  nameWithType: TimeDilationClip
+  fullName: XiheFramework.Utility.Playables.TimeDilation.TimeDilationClip
+- uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour
+  commentId: T:XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour
+  name: TimeDilationMixerBehaviour
+  nameWithType: TimeDilationMixerBehaviour
+  fullName: XiheFramework.Utility.Playables.TimeDilation.TimeDilationMixerBehaviour
+- uid: XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack
+  commentId: T:XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack
+  name: TimeDilationTrack
+  nameWithType: TimeDilationTrack
+  fullName: XiheFramework.Utility.Playables.TimeDilation.TimeDilationTrack
+- uid: XiheFramework.Utility.Playables.TimeDilation
+  commentId: N:XiheFramework.Utility.Playables.TimeDilation
+  name: XiheFramework.Utility.Playables.TimeDilation
+  nameWithType: XiheFramework.Utility.Playables.TimeDilation
+  fullName: XiheFramework.Utility.Playables.TimeDilation

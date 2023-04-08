@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: XiheFramework.Modules.Entity
+  commentId: N:XiheFramework.Modules.Entity
+  id: XiheFramework.Modules.Entity
+  children:
+  - XiheFramework.Modules.Entity.Entity
+  - XiheFramework.Modules.Entity.EntityModule
+  langs:
+  - csharp
+  - vb
+  name: XiheFramework.Modules.Entity
+  nameWithType: XiheFramework.Modules.Entity
+  fullName: XiheFramework.Modules.Entity
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: XiheFramework.Modules.Entity.Entity
+  commentId: T:XiheFramework.Modules.Entity.Entity
+  parent: XiheFramework.Modules.Entity
+  name: Entity
+  nameWithType: Entity
+  fullName: XiheFramework.Modules.Entity.Entity
+- uid: XiheFramework.Modules.Entity.EntityModule
+  commentId: T:XiheFramework.Modules.Entity.EntityModule
+  parent: XiheFramework.Modules.Entity
+  name: EntityModule
+  nameWithType: EntityModule
+  fullName: XiheFramework.Modules.Entity.EntityModule
+- uid: XiheFramework.Modules.Entity
+  commentId: N:XiheFramework.Modules.Entity
+  name: XiheFramework.Modules.Entity
+  nameWithType: XiheFramework.Modules.Entity
+  fullName: XiheFramework.Modules.Entity
