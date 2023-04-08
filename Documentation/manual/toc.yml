@@ -1,4 +1,4 @@
-- name: Get Started
-  href: GetStarted.md
+- name: Getting Started
+  href: GettingStarted.md
 - name: Custom GameModule
   href: CustomModule.md

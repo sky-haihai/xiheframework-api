@@ -42,13 +42,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\XiheFramework\Utility\Playables\LightControl\Editor\LightControlDrawer.cs" />
-     <Compile Include="Assets\XiheFramework\Utility\Playables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
      <Compile Include="Assets\XiheFramework\Utility\Playables\Editor\TimelinePlayableWizard.cs" />
-     <Compile Include="Assets\XiheFramework\Utility\Playables\TimeDilation\Editor\TimeDilationDrawer.cs" />
-     <Compile Include="Assets\XiheFramework\Utility\GameObjectArray\Editor\ArrayModifierEditor.cs" />
      <Compile Include="Assets\XiheFramework\Utility\Playables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
      <Compile Include="Assets\XiheFramework\Utility\Playables\TransformTween\Editor\TransformTweenDrawer.cs" />
      <Compile Include="Assets\XiheFramework\Modules\FSM\Editor\FsmEditorWindow.cs" />
+     <Compile Include="Assets\XiheFramework\Utility\GameObjectArray\Editor\ArrayModifierEditor.cs" />
+     <Compile Include="Assets\XiheFramework\Utility\Playables\TimeDilation\Editor\TimeDilationDrawer.cs" />
+     <Compile Include="Assets\XiheFramework\Utility\Playables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
      <Compile Include="Assets\XiheFramework\Modules\Blackboard\Editor\BlackBoardEditorWindow.cs" />
      <Folder Include="Assets\XiheFramework\Utility\Playables\LightControl\Editor" />
      <Folder Include="Assets\XiheFramework\Modules\FSM\Editor" />

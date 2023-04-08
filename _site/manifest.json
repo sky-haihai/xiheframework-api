@@ -2136,11 +2136,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/GetStarted.md",
+      "source_relative_path": "manual/GettingStarted.md",
       "output": {
         ".html": {
-          "relative_path": "manual/GetStarted.html",
-          "hash": "Qsv8FVgoBNQOIQADlXuNEt5zvF0yovBvDHVHfTlDOw0="
+          "relative_path": "manual/GettingStarted.html",
+          "hash": "lasOCWj0ax2un6nTJ+Ha8j3r2GYWgGy2afnW7nh256E="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "j579p2UzjoH6hTVD5CFWn86rELrh1iN3Go/l74jDTIg="
+          "hash": "jbHq0rM7JjyuGPhr1eHgkK2wD0SsMhWdd77ZgwnTOUU="
         }
       },
       "is_incremental": false,
@@ -2197,7 +2197,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "oATmn2NuSiqLEPzA4g5cTvmyy2RdHkVWlC6TzixrBmg="
+          "hash": "t43lUxDIlM/IoK200Jz/Z8ulAIdRgsXwu4nlZ22xyRo="
         }
       },
       "is_incremental": false,
@@ -2207,23 +2207,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 173,
-          "skipped_file_count": 173
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
