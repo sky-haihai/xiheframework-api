@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "F:/skyha/Documents/Github/xiheframework-document/Documentation",
+  "source_base_path": "F:/skyha/Documents/Unity Projects/temp/xiheframework-document/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -2116,7 +2116,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2l9wLz3yl3BPT47eOtX8sqD0h4TXRAuz+SEvN++Z/I4="
+          "hash": "XNDA8ZLY/vxSboYVsfYbel6X020l1daOYXKUFvZDoqU="
         }
       },
       "is_incremental": false,
@@ -2128,7 +2128,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CustomModule.html",
-          "hash": "cIQR5Wyg4Qfg5bI5k7xN6oab57OVRfGJmq9wYToKFj4="
+          "hash": "1WpWwkvGi8WX/j/6hLdfhXQilFnHUoxQWlz0vSowiHo="
         }
       },
       "is_incremental": false,
@@ -2140,7 +2140,31 @@
       "output": {
         ".html": {
           "relative_path": "manual/GettingStarted.html",
-          "hash": "lasOCWj0ax2un6nTJ+Ha8j3r2GYWgGy2afnW7nh256E="
+          "hash": "jsArbBSWW2wFPdLT6rTzYWB0YNPneEMGUZgW6GHFnAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/UseBlackboardModule.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/UseBlackboardModule.html",
+          "hash": "PC3Jb1grJxEqI69xGSiM0eGHK40BPzC7jRnQNCs4vdQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/UseEventModule.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/UseEventModule.html",
+          "hash": "zrupZaahIedzJ7jvR3gA0uFUyDlAB/vqt3ZYrfCAhEo="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2176,18 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "jbHq0rM7JjyuGPhr1eHgkK2wD0SsMhWdd77ZgwnTOUU="
+          "hash": "lRUN/u1WqF5pS/WO9l6OF1T9/brop/OR/ya4aOeoffA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/blackboarddebugwindow.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/blackboarddebugwindow.png"
         }
       },
       "is_incremental": false,
@@ -2218,7 +2253,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

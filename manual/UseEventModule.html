@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Create a Custom GameModule | Example Unity documentation </title>
+    <title>Use Blackboard Module | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Create a Custom GameModule | Example Unity documentation ">
+    <meta name="title" content="Use Blackboard Module | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,67 +77,40 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="create-a-custom-gamemodule">Create a Custom GameModule</h1>
+<h1 id="use-blackboard-module">Use Blackboard Module</h1>
 
-<h2 id="create-a-c-class">Create a C# class</h2>
-<ol>
-<li>import <strong>XiheFramework.Modules.Base</strong></li>
-<li>inherit from GameModule</li>
-<li>override functions from GameModule (Note: <code>Setup()</code> is optional)</li>
-</ol>
-<pre><code>using UnityEngine;
-using XiheFramework.Modules.Base;
-
-public class ExampleGameModule : GameModule {
-
-    public void HelloWorld() {
-        Debug.Log(&quot;HelloWorld!&quot;);
-    }
-
-    internal override void Setup() {
-        //TODO: Setup data, Setup() is called after all modules are ready
-    }
-
-    internal override void OnUpdate() {
-        //TODO: treated as a regular Unity Update() function
-    }
-
-    internal override void OnFixedUpdate() { }
-
-    internal override void OnLateUpdate() { }
-
-    internal override void ShutDown(ShutDownType shutDownType) {
-        //TODO: any logic before the framework is being shutdown or restarted
-    }
-}
-</code></pre><h2 id="place-it-in-the-framework-prefab">Place It in the Framework Prefab</h2>
-<p><img src="../resources/setupcustommodule.png" alt="setup custom module"></p>
-<h1 id="use-the-custom-gamemodule">Use the Custom GameModule</h1>
-<h2 id="option-1-create-custom-game-static-class">Option 1: Create Custom <code>Game</code> Static Class</h2>
-<div class="NOTE"><h5>Note</h5><p>All <code>Game</code> classes must be put inside <code>XiheFramework</code> namespace.</p>
-</div>
-<pre><code>using XiheFramework.Modules.Base;
-
-namespace XiheFramework {
-    public static partial class Game {
-        public static ExampleGameModule Example =&gt; GameManager.GetModule&lt;ExampleGameModule&gt;();
-    }
-}
-</code></pre><pre><code>using UnityEngine;
-using XiheFramework;
-
-public class UsingExampleModule : MonoBehaviour {
-    private void Start() {
-        Game.Example.HelloWorld();
-    }
-}
-</code></pre><h2 id="option-2-get-game-module-slower">Option 2: Get Game Module (Slower)</h2>
+<h2 id="subscribeunsub-to-event-names-at-runtime">Subscribe/Unsub to Event Names at Runtime</h2>
+<p>In this script, we first register a EventHandler <code>OnPlayerDamaged</code> to the event name <code>Player.OnDamaged</code>.</p>
+<p>In the EventHandler <code>OnPlayerDamaged</code>, we first unboxing the two parameters <code>sender</code> and <code>e</code> to string and float values, and then use these two values in the Log message. In this case, <code>Debug.Log</code> prints out how much damage is dealt to the player and the damage source.</p>
+<p>Finally, we unsbuscribe the EventHandler <code>OnPlayerDamaged</code> from the event name <code>Player.OnDamaged</code> when the GameObject is being destroyed. </p>
 <pre><code>using UnityEngine;
 using XiheFramework;
 
-public class UsingExampleModule : MonoBehaviour {
-    private void Start() {
-        Game.GetModule&lt;ExampleGameModule&gt;().HelloWorld();
+public class UseEvent : MonoBehaviour {
+    void Start() {
+        Game.Event.Subscribe(&quot;Player.OnDamaged&quot;, OnPlayerDamaged);
+    }
+
+    private void OnPlayerDamaged(object sender, object e) {
+        var sourceName = (string)sender;
+        var dmg = (float)e;
+        Debug.Log($&quot;Player Damaged for {dmg} by {sourceName}&quot;);
+    }
+
+    private void OnDestroy() {
+        Game.Event.Unsubscribe(&quot;Player.OnDamaged&quot;, OnPlayerDamaged);
+    }
+}
+</code></pre><h2 id="invoke-events-from-anywhere">Invoke Events from Anywhere</h2>
+<pre><code>using UnityEngine;
+using XiheFramework;
+
+public class InvokeEvent : MonoBehaviour {
+
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Game.Event.Invoke(&quot;Player.OnDamaged&quot;, &quot;MyEnemy&quot;, 1f);
+        }
     }
 }
 </code></pre></article>

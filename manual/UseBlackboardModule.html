@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Create a Custom GameModule | Example Unity documentation </title>
+    <title>Use Blackboard Module | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Create a Custom GameModule | Example Unity documentation ">
+    <meta name="title" content="Use Blackboard Module | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,70 +77,37 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="create-a-custom-gamemodule">Create a Custom GameModule</h1>
+<h1 id="use-blackboard-module">Use Blackboard Module</h1>
 
-<h2 id="create-a-c-class">Create a C# class</h2>
-<ol>
-<li>import <strong>XiheFramework.Modules.Base</strong></li>
-<li>inherit from GameModule</li>
-<li>override functions from GameModule (Note: <code>Setup()</code> is optional)</li>
-</ol>
+<h2 id="getting-and-setting-data-at-runtime">Getting and Setting Data at Runtime</h2>
+<p>In this script, the <code>Player.HP</code> data enry is set to 100f as a float number in the beginning. And after the first frame, every time the player presses any key on the keyboard, the <code>Player.HP</code> data entry is first checked for its existance, reduced by 1f, and set back with a new value. If the data entry <code>Player.HP</code> does not exist, set it to 0f.</p>
 <pre><code>using UnityEngine;
-using XiheFramework.Modules.Base;
+using XiheFramework;
 
-public class ExampleGameModule : GameModule {
-
-    public void HelloWorld() {
-        Debug.Log(&quot;HelloWorld!&quot;);
+public class UseBlackboardModule : MonoBehaviour {
+    void Start() {
+        Game.Blackboard.SetData(&quot;Player.HP&quot;, 100f);
     }
 
-    internal override void Setup() {
-        //TODO: Setup data, Setup() is called after all modules are ready
-    }
-
-    internal override void OnUpdate() {
-        //TODO: treated as a regular Unity Update() function
-    }
-
-    internal override void OnFixedUpdate() { }
-
-    internal override void OnLateUpdate() { }
-
-    internal override void ShutDown(ShutDownType shutDownType) {
-        //TODO: any logic before the framework is being shutdown or restarted
+    void Update() {
+        if (Input.anyKeyDown) {
+            if (Game.Blackboard.ContainsKey(&quot;Player.HP&quot;)) {
+                var currentHp = Game.Blackboard.GetData&lt;float&gt;(&quot;Player.HP&quot;);
+                currentHp -= 1f;
+                Game.Blackboard.SetData(&quot;Player.HP&quot;, currentHp);
+            }
+            else {
+                Game.Blackboard.SetData(&quot;Player.HP&quot;, 0f);
+            }
+        }
     }
 }
-</code></pre><h2 id="place-it-in-the-framework-prefab">Place It in the Framework Prefab</h2>
-<p><img src="../resources/setupcustommodule.png" alt="setup custom module"></p>
-<h1 id="use-the-custom-gamemodule">Use the Custom GameModule</h1>
-<h2 id="option-1-create-custom-game-static-class">Option 1: Create Custom <code>Game</code> Static Class</h2>
-<div class="NOTE"><h5>Note</h5><p>All <code>Game</code> classes must be put inside <code>XiheFramework</code> namespace.</p>
+</code></pre><h2 id="debug-window">Debug Window</h2>
+<p>Open debug window from <code>TopBar/Xihe/Blackboard Debug Window</code></p>
+<div class="NOTE"><h5>Note</h5><p>Runtime Data can only be viewed in <strong>Play Mode</strong></p>
 </div>
-<pre><code>using XiheFramework.Modules.Base;
-
-namespace XiheFramework {
-    public static partial class Game {
-        public static ExampleGameModule Example =&gt; GameManager.GetModule&lt;ExampleGameModule&gt;();
-    }
-}
-</code></pre><pre><code>using UnityEngine;
-using XiheFramework;
-
-public class UsingExampleModule : MonoBehaviour {
-    private void Start() {
-        Game.Example.HelloWorld();
-    }
-}
-</code></pre><h2 id="option-2-get-game-module-slower">Option 2: Get Game Module (Slower)</h2>
-<pre><code>using UnityEngine;
-using XiheFramework;
-
-public class UsingExampleModule : MonoBehaviour {
-    private void Start() {
-        Game.GetModule&lt;ExampleGameModule&gt;().HelloWorld();
-    }
-}
-</code></pre></article>
+<p><img src="../resources/blackboarddebugwindow.png" alt="blackboard debug window"></p>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
